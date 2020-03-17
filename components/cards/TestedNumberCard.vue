@@ -25,12 +25,14 @@ export default {
   data() {
     // 検査実施日別状況
     const inspectionsGraph = [
-      Data.inspections_summary.data['都内'],
-      Data.inspections_summary.data['その他']
+      Data.inspections_summary.data['嚴重特殊傳染性肺炎通報'],
+      Data.inspections_summary.data['居家檢疫送驗'],
+      Data.inspections_summary.data['疑似新冠病毒感染送驗']
     ]
     const inspectionsItems = [
-      this.$t('都内発生（疑い例・接触者調査）'),
-      this.$t('その他（チャーター便・クルーズ船）')
+      this.$t('嚴重特殊傳染性肺炎通報'),
+      this.$t('居家檢疫送驗'),
+      this.$t('疑似新冠病毒感染送驗')
     ]
     const inspectionsLabels = Data.inspections_summary.labels
 
