@@ -70,7 +70,7 @@ export default Vue.extend({
   },
   head(): MetaInfo {
     return {
-      title: this.$t('都内の最新感染動向') as string
+      title: this.$t('都内の最新感染動向 2') as string
     }
   }
 })
