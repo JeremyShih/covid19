@@ -30,37 +30,36 @@ import Vue from 'vue'
 import { MetaInfo } from 'vue-meta'
 import PageHeader from '@/components/PageHeader.vue'
 import WhatsNew from '@/components/WhatsNew.vue'
-import StaticInfo from '@/components/StaticInfo.vue'
+// import StaticInfo from '@/components/StaticInfo.vue'
 import Data from '@/data/data.json'
 import News from '@/data/news.json'
-import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
+// import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
 import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
-import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
-import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
-import MetroCard from '@/components/cards/MetroCard.vue'
-import AgencyCard from '@/components/cards/AgencyCard.vue'
+// import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvisoryReportsNumberCard.vue'
+// import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
+// import MetroCard from '@/components/cards/MetroCard.vue'
+// import AgencyCard from '@/components/cards/AgencyCard.vue'
 
 export default Vue.extend({
   components: {
     PageHeader,
     WhatsNew,
-    StaticInfo,
-    ConfirmedCasesDetailsCard,
+    // StaticInfo,
+    // ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
     ConfirmedCasesAttributesCard,
-    TestedNumberCard,
-    TelephoneAdvisoryReportsNumberCard,
-    ConsultationDeskReportsNumberCard,
-    MetroCard,
-    AgencyCard
+    TestedNumberCard
+    // MetroCard,
+    // AgencyCard
   },
   data() {
     const data = {
       Data,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
+        // Page title
         title: this.$t('都内の最新感染動向 Pichu Version'),
         date: Data.lastUpdate
       },
@@ -70,7 +69,8 @@ export default Vue.extend({
   },
   head(): MetaInfo {
     return {
-      title: this.$t('都内の最新感染動向 2') as string
+      // Tab title
+      title: this.$t('都内の最新感染動向') as string
     }
   }
 })

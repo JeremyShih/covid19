@@ -45,28 +45,21 @@
       <v-footer class="SideNavigation-Footer">
         <div class="SideNavigation-SocialLinkContainer">
           <a
-            href="https://line.me/R/ti/p/%40822sysfc"
-            target="_blank"
-            rel="noopener"
-          >
-            <img src="/line.png" alt="LINE" />
-          </a>
-          <a
-            href="https://twitter.com/tokyo_bousai"
+            href="https://twitter.com/pichuchen"
             target="_blank"
             rel="noopener"
           >
             <img src="/twitter.png" alt="Twitter" />
           </a>
           <a
-            href="https://www.facebook.com/tochokoho"
+            href="https://www.facebook.com/pichu.chen"
             target="_blank"
             rel="noopener"
           >
             <img src="/facebook.png" alt="Facebook" />
           </a>
           <a
-            href="https://github.com/tokyo-metropolitan-gov/covid19"
+            href="https://github.com/pichuchen/covid19"
             target="_blank"
             rel="noopener"
           >
@@ -129,45 +122,45 @@ export default Vue.extend({
           link: this.localePath('/flow'),
           divider: true
         },
-        {
-          icon: 'parent',
-          title: this.$t('お子様をお持ちの皆様へ'),
-          link: this.localePath('/parent')
-        },
-        {
-          icon: 'mdi-account-multiple',
-          title: this.$t('都民の皆様へ'),
-          link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html'
-        },
-        {
-          icon: 'mdi-domain',
-          title: this.$t('企業の皆様・はたらく皆様へ'),
-          link: this.localePath('/worker'),
-          divider: true
-        },
+        // {
+        //   icon: 'parent',
+        //   title: this.$t('お子様をお持ちの皆様へ'),
+        //   link: this.localePath('/parent')
+        // },
+        // {
+        //   icon: 'mdi-account-multiple',
+        //   title: this.$t('都民の皆様へ'),
+        //   link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html'
+        // },
+        // {
+        //   icon: 'mdi-domain',
+        //   title: this.$t('企業の皆様・はたらく皆様へ'),
+        //   link: this.localePath('/worker'),
+        //   divider: true
+        // },
         {
           title: this.$t('東京都新型コロナウイルス感染症対策本部報'),
           link:
             'https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/index.html'
         },
-        {
-          title: this.$t('東京都主催等 中止又は延期するイベント等'),
-          link:
-            'https://www.seisakukikaku.metro.tokyo.lg.jp/information/event00.html'
-        },
-        {
-          title: this.$t('知事からのメッセージ'),
-          link:
-            'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html'
-        },
+        // {
+        //   title: this.$t('東京都主催等 中止又は延期するイベント等'),
+        //   link:
+        //     'https://www.seisakukikaku.metro.tokyo.lg.jp/information/event00.html'
+        // },
+        // {
+        //   title: this.$t('知事からのメッセージ'),
+        //   link:
+        //     'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html'
+        // },
         {
           title: this.$t('当サイトについて'),
           link: this.localePath('/about')
-        },
-        {
-          title: this.$t('東京都公式ホームページ'),
-          link: 'https://www.metro.tokyo.lg.jp/',
-          divider: true
+          // },
+          // {
+          //   title: this.$t('東京都公式ホームページ'),
+          //   link: 'https://www.metro.tokyo.lg.jp/',
+          //   divider: true
         }
       ]
     }
