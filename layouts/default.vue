@@ -97,7 +97,7 @@ export default Vue.extend({
           hid: 'description',
           name: 'description',
           content: this.$tc(
-            '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
+            '這個網站是整理 COVID-19 （新冠肺炎、武漢肺炎）相關的資料用的、目前是由 Pichu 開設。'
           )
         },
         {
