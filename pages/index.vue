@@ -8,8 +8,10 @@
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
       class="mb-4"
-      :url="localePath('/flow')"
-      :text="$t('自分や家族の症状に不安や心配があればまずは電話相談をどうぞ')"
+      :url="
+        $t('https://www.cdc.gov.tw/Disease/SubIndex/N6XvFa1YP9CXYdB0kNSA9A')
+      "
+      :text="$t('疾管署專區')"
       :btn-text="$t('相談の手順を見る')"
     />
     <v-row class="DataBlock">
@@ -60,7 +62,7 @@ export default Vue.extend({
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
         // Page title
-        title: this.$t('都内の最新感染動向 Pichu Version'),
+        title: this.$t('台灣目前感染趨勢'),
         date: Data.lastUpdate
       },
       newsItems: News.newsItems
@@ -70,7 +72,7 @@ export default Vue.extend({
   head(): MetaInfo {
     return {
       // Tab title
-      title: this.$t('都内の最新感染動向') as string
+      title: this.$t('台灣目前感染趨勢') as string
     }
   }
 })
