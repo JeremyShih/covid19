@@ -113,15 +113,16 @@ export default Vue.extend({
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('都内の最新感染動向'),
-          link: this.localePath('/')
-        },
-        {
-          icon: 'covid',
-          title: this.$t('新型コロナウイルス感染症が心配なときに'),
-          link: this.localePath('/flow'),
+          title: this.$t('最新感染趨勢'),
+          link: this.localePath('/'),
           divider: true
         },
+        // {
+        //  icon: 'covid',
+        //  title: this.$t('新型コロナウイルス感染症が心配なときに'),
+        //  link: this.localePath('/flow'),
+        //  divider: true
+        // },
         // {
         //   icon: 'parent',
         //   title: this.$t('お子様をお持ちの皆様へ'),
@@ -138,6 +139,18 @@ export default Vue.extend({
         //   link: this.localePath('/worker'),
         //   divider: true
         // },
+        {
+          icon: 'mdi-domain',
+          title: '疾管局網站',
+          link: 'https://www.cdc.gov.tw/',
+          divider: true
+        },
+        {
+          icon: 'mdi-domain',
+          title: 'PTT nCoV2019 版',
+          link: 'https://www.ptt.cc/bbs/nCoV2019/index.html',
+          divider: true
+        },
         {
           title: this.$t('東京都新型コロナウイルス感染症対策本部報'),
           link:
