@@ -148,7 +148,17 @@ export default Vue.extend({
         {
           icon: 'mdi-domain',
           title: 'PTT nCoV2019 版',
-          link: 'https://www.ptt.cc/bbs/nCoV2019/index.html',
+          link: 'https://www.ptt.cc/bbs/nCoV2019/index.html'
+        },
+        {
+          icon: 'mdi-domain',
+          title: '武漢肺炎台灣病例即時戰情儀表版',
+          link: 'https://arcg.is/0uTyiP'
+        },
+        {
+          icon: 'mdi-domain',
+          title: '武漢肺炎全球病例即時戰情儀表版',
+          link: 'https://reurl.cc/qDEm3g',
           divider: true
         },
         {
