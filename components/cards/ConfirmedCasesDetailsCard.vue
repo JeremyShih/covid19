@@ -17,7 +17,7 @@
 import Data from '@/data/data.json'
 import formatConfirmedCases from '@/utils/formatConfirmedCases'
 import SvgCard from '@/components/SvgCard.vue'
-import ConfirmedCasesTable from '@/components/ConfirmedCasesTable.vue'
+import ConfirmedCasesTable from '@/components/ConfirmedCasesTableWithoutSymptom.vue'
 
 export default {
   components: {
