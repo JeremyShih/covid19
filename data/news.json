@@ -1,14 +1,19 @@
 {
     "newsItems": [
         {
-            "date": "3\/12\/2020",
-            "url": "https:\/\/www.bousai.metro.tokyo.lg.jp\/taisaku\/saigai\/1007261\/1007473.html",
-            "text": "東京都緊急対応策（第三弾）の発表"
+            "date": "2020-03-18T14:59:00+08:00",
+            "url": "https:\/\/www.cdc.gov.tw\/Bulletin\/Detail\/LxV1VKIb689M9Sb1q8XOcQ?typeId=9",
+            "text": "高科技智慧防疫，檢疫追蹤精準有力"
         },
         {
-            "date": "3\/12\/2020",
-            "url": "https:\/\/www.bousai.metro.tokyo.lg.jp\/taisaku\/saigai\/1007261\/1007472.html",
-            "text": "都内医療機関、福祉施設等へのマスクの配布について"
+            "date": "2020-03-18T14:58:00+08:00",
+            "url": "https:\/\/www.cdc.gov.tw\/Bulletin\/Detail\/hk8cSOmVtfGVwJOvBguWwQ?typeId=9",
+            "text": "國內累計確診個案達100例，解除隔離維持22人"
+        },
+        {
+            "date": "2020-03-18T12:11:00+08:00",
+            "url": "https:\/\/www.cdc.gov.tw\/Bulletin\/Detail\/ecDVKwehMqvo2f2kKJ8Cnw?typeId=9",
+            "text": "3月3日至14日自歐洲入境並有症狀者，將一律回溯採檢"
         }
     ]
 }
