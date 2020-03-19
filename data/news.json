@@ -1,19 +1,54 @@
 {
     "newsItems": [
         {
+            "date": "2020-03-19T14:04:00+08:00",
+            "text": "國內累計108人確診，26人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/vcmwTQgymqoIKGU86YFjhg?typeId=9"
+        },
+        {
+            "date": "2020-03-19T14:03:00+08:00",
+            "text": "新增8例確診，其中7例境外、1例本土",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/HVfuiT_KjBpd-vpgMoYDyw?typeId=9"
+        },
+        {
+            "date": "2020-03-18T15:00:00+08:00",
+            "text": "新增23例確診，其中21例境外移入、2例本土",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/Rq9JGMz92FFWfCJUVr_-sw?typeId=9"
+        },
+        {
             "date": "2020-03-18T14:59:00+08:00",
-            "url": "https:\/\/www.cdc.gov.tw\/Bulletin\/Detail\/LxV1VKIb689M9Sb1q8XOcQ?typeId=9",
-            "text": "高科技智慧防疫，檢疫追蹤精準有力"
+            "text": "美國、加拿大、澳洲及紐西蘭4國(皆含轉機)旅遊疫情升至第三級警告，非必要勿前往",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/sdcFPDcnCazH-HBwvpuiBA?typeId=9"
         },
         {
             "date": "2020-03-18T14:58:00+08:00",
-            "url": "https:\/\/www.cdc.gov.tw\/Bulletin\/Detail\/hk8cSOmVtfGVwJOvBguWwQ?typeId=9",
-            "text": "國內累計確診個案達100例，解除隔離維持22人"
+            "text": "高科技智慧防疫，檢疫追蹤精準有力",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/LxV1VKIb689M9Sb1q8XOcQ?typeId=9"
+        },
+        {
+            "date": "2020-03-18T14:55:00+08:00",
+            "text": "國內累計確診個案達100例，解除隔離維持22人",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/hk8cSOmVtfGVwJOvBguWwQ?typeId=9"
+        },
+        {
+            "date": "2020-03-18T14:54:00+08:00",
+            "text": "民眾若收到口罩實名制2.0 電子郵件通知，請儘速至健保快易通 App更正資訊",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/LZmfwoEIzY1dx4HyjK1OBw?typeId=9"
         },
         {
             "date": "2020-03-18T12:11:00+08:00",
-            "url": "https:\/\/www.cdc.gov.tw\/Bulletin\/Detail\/ecDVKwehMqvo2f2kKJ8Cnw?typeId=9",
-            "text": "3月3日至14日自歐洲入境並有症狀者，將一律回溯採檢"
+            "text": "3月5日至14日自歐洲入境民眾請儘速通報鄉鎮公所；另針對所有非本國籍人士限制入境，所有入境者入境後都需進行居家檢疫14天",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/mwGBh07PQ_2FeJvl9xhfZw?typeId=9"
+        },
+        {
+            "date": "2020-03-17T15:07:00+08:00",
+            "text": "3月3日至14日自歐洲入境並有症狀者，將一律回溯採檢",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/ecDVKwehMqvo2f2kKJ8Cnw?typeId=9"
+        },
+        {
+            "date": "2020-03-17T15:06:00+08:00",
+            "text": "亞洲、東歐共20國及美國3州旅遊疫情升至第三級警告，非必要勿前往",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/xV4LAkpWhR9DYeEASDEmNQ?typeId=9"
         }
     ]
 }
