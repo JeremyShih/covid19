@@ -1,54 +1,52 @@
 <template>
-  <div class="SideNavigation">
-    <header class="SideNavigation-HeadingContainer sp-flex">
+  <div ref="Side" class="SideNavigation" tabindex="-1">
+    <header class="SideNavigation-Header">
       <v-icon
-        class="SideNavigation-HeadingIcon pc-none"
+        class="SideNavigation-OpenIcon"
         :aria-label="$t('サイドメニュー項目を開く')"
-        @click="openNavi"
+        @click="$emit('openNavi', $event)"
       >
         mdi-menu
       </v-icon>
-      <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
-        <h1 class="SideNavigation-Heading">
+      <h1 class="SideNavigation-Heading">
+        <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
           <div class="SideNavigation-Logo">
             <img src="/logo.svg" :alt="$t('台灣版')" />
           </div>
-          {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('資料整理站') }} |
-          {{ $t('皮丘版') }}
-        </h1>
-      </nuxt-link>
+          <div class="SideNavigation-HeaderLogoLinkText">
+            {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('資料整理站') }} |
+            {{ $t('皮丘版') }}
+          </div>
+        </nuxt-link>
+      </h1>
     </header>
-    <v-divider class="SideNavigation-HeadingDivider" />
-    <div class="sp-none" :class="{ open: isNaviOpen }">
+    <div :class="['SideNavigation-Body', { '-opened': isNaviOpen }]">
       <v-icon
-        class="SideNavigation-ListContainerIcon pc-none"
+        class="SideNavigation-CloseIcon"
         :aria-label="$t('サイドメニュー項目を閉じる')"
-        @click="closeNavi"
+        @click="$emit('closeNavi', $event)"
       >
         mdi-close
       </v-icon>
-      <nav>
-        <v-list :flat="true">
-          <v-container
-            v-for="(item, i) in items"
-            :key="i"
-            class="SideNavigation-ListItemContainer"
-            @click="closeNavi"
-          >
-            <ListItem :link="item.link" :icon="item.icon" :title="item.title" />
-            <v-divider v-show="item.divider" class="SideNavigation-Divider" />
-          </v-container>
-        </v-list>
-        <div class="SideNavigation-LanguageMenu">
-          <LanguageSelector />
-        </div>
+
+      <nav class="SideNavigation-Menu">
+        <MenuList :items="items" @click="$emit('closeNavi', $event)" />
       </nav>
-      <v-footer class="SideNavigation-Footer">
-        <div class="SideNavigation-SocialLinkContainer">
+
+      <div class="SideNavigation-Language">
+        <label class="SideNavigation-LanguageLabel" for="LanguageSelector">
+          {{ $t('多言語対応選択メニュー') }}
+        </label>
+        <LanguageSelector />
+      </div>
+
+      <footer class="SideNavigation-Footer">
+        <div class="SideNavigation-Social">
           <a
             href="https://twitter.com/pichuchen"
             target="_blank"
             rel="noopener"
+            class="SideNavigation-SocialLink"
           >
             <img src="/twitter.png" alt="Twitter" />
           </a>
@@ -56,6 +54,7 @@
             href="https://www.facebook.com/pichu.chen"
             target="_blank"
             rel="noopener"
+            class="SideNavigation-SocialLink"
           >
             <img src="/facebook.png" alt="Facebook" />
           </a>
@@ -63,6 +62,7 @@
             href="https://github.com/pichuchen/covid19"
             target="_blank"
             rel="noopener"
+            class="SideNavigation-SocialLink"
           >
             <img src="/github.png" alt="GitHub" />
           </a>
@@ -70,9 +70,10 @@
         <small class="SideNavigation-Copyright">
           {{ $t('このサイトの内容物は') }}
           <a
-            rel="license"
-            target="_blank"
             :href="$t('https://creativecommons.org/licenses/by/4.0/deed.ja')"
+            target="_blank"
+            rel="license"
+            class="SideNavigation-LicenseLink"
           >
             {{ $t('クリエイティブ・コモンズ 表示 4.0 ライセンス') }}
           </a>
@@ -80,7 +81,7 @@
           <br />
           2020 Pichu Chen
         </small>
-      </v-footer>
+      </footer>
     </div>
   </div>
 </template>
@@ -88,8 +89,8 @@
 <script lang="ts">
 import Vue from 'vue'
 import { TranslateResult } from 'vue-i18n'
-import ListItem from '@/components/ListItem.vue'
 import LanguageSelector from '@/components/LanguageSelector.vue'
+import MenuList from '@/components/MenuList.vue'
 
 type Item = {
   icon?: string
@@ -100,8 +101,8 @@ type Item = {
 
 export default Vue.extend({
   components: {
-    ListItem,
-    LanguageSelector
+    LanguageSelector,
+    MenuList
   },
   props: {
     isNaviOpen: {
@@ -189,12 +190,18 @@ export default Vue.extend({
       ]
     }
   },
+  watch: {
+    $route: 'handleChageRoute'
+  },
   methods: {
-    openNavi(): void {
-      this.$emit('openNavi')
-    },
-    closeNavi(): void {
-      this.$emit('closeNavi')
+    handleChageRoute() {
+      // nuxt-link で遷移するとフォーカスが残り続けるので $route を監視して SideNavigation にフォーカスする
+      return this.$nextTick().then(() => {
+        const $Side = this.$refs.Side as HTMLEmbedElement | undefined
+        if ($Side) {
+          $Side.focus()
+        }
+      })
     }
   }
 })
@@ -206,115 +213,170 @@ export default Vue.extend({
   height: 100%;
   background: $white;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
-  &-HeadingContainer {
-    padding: 1.25em 0 1.25em 1.25em;
-    align-items: center;
-    @include lessThan($small) {
-      padding: 7px 10px;
-    }
+  &:focus {
+    outline: none;
   }
-  &-HeadingIcon {
-    margin-right: 10px;
-  }
-  &-HeadingLink {
-    @include lessThan($small) {
-      display: flex;
-      align-items: center;
-    }
-    text-decoration: none;
-  }
-  &-ListContainerIcon {
-    width: 21px;
-    margin: 24px 16px 0;
-  }
-  &-ListItemContainer {
-    padding: 2px 20px;
-  }
-  &-Logo {
-    margin: 5px 16px 15px 0;
-    width: 110px;
-    @include lessThan($small) {
-      margin: 0 16px 0 0;
-    }
-  }
-  &-Heading {
-    margin-top: 8px;
-    font-size: 13px;
-    color: #707070;
-    padding: 0.5em 0;
-    text-decoration: none;
-    @include lessThan($small) {
-      display: flex;
-      align-items: center;
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-  &-HeadingDivider {
-    margin: 0px 20px 4px;
-    @include lessThan($small) {
-      display: none;
-    }
-  }
-  &-Divider {
-    margin: 12px 0;
-  }
-  &-LanguageMenu {
-    padding: 0 20px;
-    background: #fff;
-  }
-  &-Footer {
-    padding: 20px;
-    background-color: $white;
-  }
-  &-SocialLinkContainer {
+}
+
+.SideNavigation-Header {
+  padding: 40px 20px 25px;
+  @include lessThan($small) {
     display: flex;
-    & a:not(:last-of-type) {
-      margin-right: 10px;
-    }
-    & img {
-      width: 30px;
-    }
+    padding: 14px 0 13px 20px;
   }
-  &-Copyright {
-    display: block;
-    margin-top: 10px;
-    font-size: 8px;
-    line-height: 1.2;
-    color: $gray-1;
+}
+
+.SideNavigation-Heading {
+  font-size: 13px;
+  color: $gray-3;
+}
+
+.SideNavigation-HeadingLink {
+  display: flex;
+  width: 100%;
+  color: $gray-3;
+  &:link,
+  &:hover,
+  &:focus,
+  &:visited,
+  &:active {
+    color: inherit;
+    text-decoration: none;
+  }
+  &:hover,
+  &:focus {
     font-weight: bold;
   }
-}
-.open {
+  &:focus {
+    outline: 1px dotted $gray-3;
+  }
+
   @include lessThan($small) {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    display: block !important;
-    width: 100%;
-    z-index: z-index-of(opened-side-navigation);
-    background-color: $white;
-    height: 100%;
-    overflow-y: scroll;
+    align-items: center;
+  }
+  @include largerThan($small) {
+    flex-direction: column;
   }
 }
-@include lessThan($tiny) {
-  .sp-logo {
-    width: 100px;
+
+.SideNavigation-HeaderLogo {
+  @include lessThan($tiny) {
+    width: 90px;
   }
 }
-@include largerThan($small) {
-  .pc-none {
+
+.SideNavigation-HeaderLogoLinkText {
+  @include lessThan($small) {
+    flex-grow: auto;
+    margin-left: 16px;
+  }
+  @include lessThan($tiny) {
+    margin-left: 10px;
+  }
+  @include largerThan($small) {
+    margin-top: 15px;
+  }
+}
+
+.SideNavigation-OpenIcon {
+  margin-right: 20px;
+  @include lessThan($tiny) {
+    margin-right: 10px;
+  }
+  @include largerThan($small) {
     display: none;
   }
 }
-@include lessThan($small) {
-  .sp-flex {
-    display: flex;
-  }
-  .sp-none {
+
+.SideNavigation-CloseIcon {
+  width: 21px;
+  margin-top: 20px;
+  @include largerThan($small) {
     display: none;
+  }
+}
+
+.SideNavigation-Body {
+  padding: 0 20px 20px;
+  @include lessThan($small) {
+    display: none;
+    &.-opened {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      display: block !important;
+      width: 100%;
+      z-index: z-index-of(opened-side-navigation);
+      background-color: $white;
+      height: 100%;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+}
+
+.SideNavigation-Menu {
+  padding-top: 20px;
+}
+
+.SideNavigation-Language {
+  padding-top: 20px;
+}
+
+.SideNavigation-LanguageLabel {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.85rem;
+}
+
+.SideNavigation-Footer {
+  padding-top: 20px;
+  background-color: $white;
+}
+
+.SideNavigation-Social {
+  display: flex;
+}
+
+.SideNavigation-SocialLink {
+  border: 1px dotted transparent;
+  border-radius: 30px;
+  color: $gray-3;
+  &:link,
+  &:hover,
+  &:focus,
+  &:visited,
+  &:active {
+    color: inherit;
+    text-decoration: none;
+  }
+  &:focus {
+    border-color: $gray-3;
+    outline: none;
+  }
+
+  & + & {
+    margin-left: 10px;
+  }
+
+  img {
+    width: 30px;
+  }
+}
+
+.SideNavigation-Copyright {
+  display: block;
+  margin-top: 10px;
+  color: $gray-1;
+  font-size: 10px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.SideNavigation-LicenseLink {
+  &:focus {
+    outline: 1px dotted $gray-3;
   }
 }
 </style>
