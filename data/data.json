@@ -45,93 +45,1083 @@
         "data": [
             {
                 "id": "1",
-                "リリース日": "2020-01-21T08:00:00.000Z",
-                "移入日": "2020-01-20T08:00:00.000Z",
-                "居住地": "高雄市",
-                "年代": "55代",
+                "リリース日": "2020-01-21",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
                 "性別": "女性",
-                "退院": "〇"
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/6oHuoqzW9e_onW0AaMEemg?typeid=9"
             },
             {
                 "id": "2",
-                "リリース日": "2020-01-24T08:00:00.000Z",
-                "移入日": "2020-01-21T08:00:00.000Z",
-                "居住地": "中國武漢",
+                "リリース日": "2020-01-24",
+                "移入日": "",
+                "居住地": "",
                 "年代": "50代",
                 "性別": "女性",
-                "退院": ""
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/ozDpnZZxwa-kBKTXbdS0Kw?typeid=9"
             },
             {
                 "id": "3",
-                "リリース日": "2020-01-24T08:00:00.000Z",
-                "移入日": "2020-01-21T08:00:00.000Z",
-                "居住地": "高雄市",
+                "リリース日": "2020-01-24",
+                "移入日": "",
+                "居住地": "",
                 "年代": "50代",
                 "性別": "男性",
-                "退院": ""
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/ozDpnZZxwa-kBKTXbdS0Kw?typeid=9"
             },
             {
                 "id": "4",
-                "リリース日": "2020-01-26T08:00:00.000Z",
-                "移入日": "2020-01-25T08:00:00.000Z",
-                "居住地": "高雄市",
+                "リリース日": "2020-01-26",
+                "移入日": "",
+                "居住地": "",
                 "年代": "50代",
                 "性別": "女性",
-                "退院": "〇"
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/1lqFGlxtUhCpE_quNLIfLg?typeid=9"
             },
             {
                 "id": "5",
-                "リリース日": "2020-01-27T08:00:00.000Z",
-                "移入日": "2020-01-20T08:00:00.000Z",
-                "居住地": "彰化縣",
-                "年代": "52代",
+                "リリース日": "2020-01-27",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
                 "性別": "女性",
-                "退院": "〇"
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/gOZvd4ZaGpSDVoVRC2Qesg?typeid=9"
             },
             {
                 "id": "6",
-                "リリース日": "2020-01-28T08:00:00.000Z",
-                "移入日": "2020-01-22T08:00:00.000Z",
-                "居住地": "中國武漢",
+                "リリース日": "2020-01-28",
+                "移入日": "",
+                "居住地": "",
                 "年代": "70代",
                 "性別": "女性",
-                "退院": ""
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/-lN6bM-ZCU-nWv1gUIXxOg?typeid=9"
             },
             {
                 "id": "7",
-                "リリース日": "2020-01-28T08:00:00.000Z",
-                "移入日": "2020-01-22T08:00:00.000Z",
-                "居住地": "中國武漢",
+                "リリース日": "2020-01-28",
+                "移入日": "",
+                "居住地": "",
                 "年代": "70代",
                 "性別": "女性",
-                "退院": "〇"
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/-lN6bM-ZCU-nWv1gUIXxOg?typeid=9"
             },
             {
                 "id": "8",
-                "リリース日": "2020-01-28T08:00:00.000Z",
+                "リリース日": "2020-01-28",
                 "移入日": "",
-                "居住地": "彰化縣",
-                "年代": "59代",
+                "居住地": "",
+                "年代": "50代",
                 "性別": "男性",
-                "退院": "〇"
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/1T3s2mxcCjqlE0MczXRD8w?typeid=9"
             },
             {
                 "id": "9",
-                "リリース日": "2020-01-30T08:00:00.000Z",
+                "リリース日": "2020-01-30",
                 "移入日": "",
-                "居住地": "南投縣",
+                "居住地": "",
                 "年代": "40代",
                 "性別": "女性",
-                "退院": "〇"
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/la2OXqyRoqsTXVpJihy8-w?typeid=9"
             },
             {
                 "id": "10",
-                "リリース日": "2020-01-31T08:00:00.000Z",
-                "移入日": "2020-01-12T08:00:00.000",
-                "居住地": "南投縣",
+                "リリース日": "2020-01-31",
+                "移入日": "",
+                "居住地": "",
                 "年代": "40代",
                 "性別": "男性",
-                "退院": "〇"
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/3SZSGeanFbncm7dfLi7qbw?typeid=9"
+            },
+            {
+                "id": "11",
+                "リリース日": "2020-02-04",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "男性",
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=UkMLn272PYqss-tXBbIFoQ"
+            },
+            {
+                "id": "12",
+                "リリース日": "2020-02-06",
+                "移入日": "",
+                "居住地": "",
+                "年代": "40代",
+                "性別": "男性",
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/NXDgwOfx8WDoXHrXHPIzAw?typeid=9"
+            },
+            {
+                "id": "13",
+                "リリース日": "2020-02-06",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "女性",
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/NXDgwOfx8WDoXHrXHPIzAw?typeid=9"
+            },
+            {
+                "id": "14",
+                "リリース日": "2020-02-06",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/IvbkRyP8-l32MqhrMakCBw?typeid=9"
+            },
+            {
+                "id": "15",
+                "リリース日": "2020-02-06",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/IvbkRyP8-l32MqhrMakCBw?typeid=9"
+            },
+            {
+                "id": "16",
+                "リリース日": "2020-02-06",
+                "移入日": "",
+                "居住地": "",
+                "年代": "40代",
+                "性別": "女性",
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/IvbkRyP8-l32MqhrMakCBw?typeid=9"
+            },
+            {
+                "id": "17",
+                "リリース日": "2020-02-08",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "男性",
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=CngpYj-4R7LFxtHUDUK5Vw"
+            },
+            {
+                "id": "18",
+                "リリース日": "2020-02-09",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "男性",
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=iMZg3IYhKMeo-87fTw8hpQ"
+            },
+            {
+                "id": "19",
+                "リリース日": "2020-02-16",
+                "移入日": "",
+                "居住地": "",
+                "年代": "60代",
+                "性別": "男性",
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=C7SfkryzIXWf0eF_1O03hw"
+            },
+            {
+                "id": "20",
+                "リリース日": "2020-02-16",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=C7SfkryzIXWf0eF_1O03hw"
+            },
+            {
+                "id": "21",
+                "リリース日": "2020-02-17",
+                "移入日": "",
+                "居住地": "",
+                "年代": "80代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=vyO8cx1_zgIhsCx-PbxWYQ"
+            },
+            {
+                "id": "22",
+                "リリース日": "2020-02-17",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=vyO8cx1_zgIhsCx-PbxWYQ"
+            },
+            {
+                "id": "23",
+                "リリース日": "2020-02-19",
+                "移入日": "",
+                "居住地": "",
+                "年代": "60代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=6LXsHJghGNNhrN7VI85ufg"
+            },
+            {
+                "id": "24",
+                "リリース日": "2020-02-19",
+                "移入日": "",
+                "居住地": "",
+                "年代": "60代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=h_32ZnPEoIfJBC7g215u_g"
+            },
+            {
+                "id": "25",
+                "リリース日": "2020-02-21",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=-aJ2VX6yo1lkj-fCLzPB5Q"
+            },
+            {
+                "id": "26",
+                "リリース日": "2020-02-21",
+                "移入日": "",
+                "居住地": "",
+                "年代": "40代",
+                "性別": "女性",
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=-aJ2VX6yo1lkj-fCLzPB5Q"
+            },
+            {
+                "id": "27",
+                "リリース日": "2020-02-23",
+                "移入日": "",
+                "居住地": "",
+                "年代": "80代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=C7-MYdzbvh6pjXkcto556A"
+            },
+            {
+                "id": "28",
+                "リリース日": "2020-02-23",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=C7-MYdzbvh6pjXkcto556A"
+            },
+            {
+                "id": "29",
+                "リリース日": "2020-02-24",
+                "移入日": "",
+                "居住地": "",
+                "年代": "40代",
+                "性別": "男性",
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=Dazcp9fZ_JhjgekDONkWlQ"
+            },
+            {
+                "id": "30",
+                "リリース日": "2020-02-24",
+                "移入日": "",
+                "居住地": "",
+                "年代": "70代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=Dazcp9fZ_JhjgekDONkWlQ"
+            },
+            {
+                "id": "31",
+                "リリース日": "2020-02-25",
+                "移入日": "",
+                "居住地": "",
+                "年代": "11代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=xPmqMlA7AKP_vGPJw-SoAg"
+            },
+            {
+                "id": "32",
+                "リリース日": "2020-02-26",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=ra20bYUzTRZoZGSg9LbpeA"
+            },
+            {
+                "id": "33",
+                "リリース日": "2020-02-28",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "男性",
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=HBpziqvnQZesFtrAyQFeJg"
+            },
+            {
+                "id": "34",
+                "リリース日": "2020-02-28",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=HBpziqvnQZesFtrAyQFeJg"
+            },
+            {
+                "id": "35",
+                "リリース日": "2020-02-29",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "女性",
+                "退院": "〇",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=mbmNaswS86akZ2X7Vt_-Aw"
+            },
+            {
+                "id": "36",
+                "リリース日": "2020-02-29",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=mbmNaswS86akZ2X7Vt_-Aw"
+            },
+            {
+                "id": "37",
+                "リリース日": "2020-02-29",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=mbmNaswS86akZ2X7Vt_-Aw"
+            },
+            {
+                "id": "38",
+                "リリース日": "2020-02-29",
+                "移入日": "",
+                "居住地": "",
+                "年代": "40代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=mbmNaswS86akZ2X7Vt_-Aw"
+            },
+            {
+                "id": "39",
+                "リリース日": "2020-02-29",
+                "移入日": "",
+                "居住地": "",
+                "年代": "60代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=mbmNaswS86akZ2X7Vt_-Aw"
+            },
+            {
+                "id": "40",
+                "リリース日": "2020-03-01",
+                "移入日": "",
+                "居住地": "",
+                "年代": "70代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Bulletin/Detail/9Kx1xyKUEh-NcuIk3Z8Hbg?typeid=9"
+            },
+            {
+                "id": "41",
+                "リリース日": "2020-03-02",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=tkjsjYmV2rQ4ShCeyqSKnQ"
+            },
+            {
+                "id": "42",
+                "リリース日": "2020-03-03",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=a-ewxn71IsQWfADVSibJmw"
+            },
+            {
+                "id": "43",
+                "リリース日": "2020-03-05",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=_TJnzas1MHMZOPDZOatnqA"
+            },
+            {
+                "id": "44",
+                "リリース日": "2020-03-05",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=_TJnzas1MHMZOPDZOatnqA"
+            },
+            {
+                "id": "45",
+                "リリース日": "2020-03-06",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=ZwEjaT_pqg0m1Kv1WMVkNw"
+            },
+            {
+                "id": "46",
+                "リリース日": "2020-03-10",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=sjqWsFFV6c_0J1ZzBdnS8w"
+            },
+            {
+                "id": "47",
+                "リリース日": "2020-03-10",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=sjqWsFFV6c_0J1ZzBdnS8w"
+            },
+            {
+                "id": "48",
+                "リリース日": "2020-03-11",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=MeTVqeKgsV3AD3yryapjKw"
+            },
+            {
+                "id": "49",
+                "リリース日": "2020-03-12",
+                "移入日": "",
+                "居住地": "",
+                "年代": "40代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=n0u2hUBnSGOSLoVDvmAtWw"
+            },
+            {
+                "id": "50",
+                "リリース日": "2020-03-13",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=Xvlcjb4aKw53obvFVjfmaw"
+            },
+            {
+                "id": "51",
+                "リリース日": "2020-03-14",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=ocIM2NK3JwFs95Y1rO18aQ"
+            },
+            {
+                "id": "52",
+                "リリース日": "2020-03-14",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=ocIM2NK3JwFs95Y1rO18aQ"
+            },
+            {
+                "id": "53",
+                "リリース日": "2020-03-14",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=ocIM2NK3JwFs95Y1rO18aQ"
+            },
+            {
+                "id": "54",
+                "リリース日": "2020-03-15",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=Rjp1UapyQtm1gl7ovA5ciw"
+            },
+            {
+                "id": "55",
+                "リリース日": "2020-03-15",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52017-1.html"
+            },
+            {
+                "id": "56",
+                "リリース日": "2020-03-15",
+                "移入日": "",
+                "居住地": "",
+                "年代": "40代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52017-1.html"
+            },
+            {
+                "id": "57",
+                "リリース日": "2020-03-15",
+                "移入日": "",
+                "居住地": "",
+                "年代": "70代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52017-1.html"
+            },
+            {
+                "id": "58",
+                "リリース日": "2020-03-15",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52017-1.html"
+            },
+            {
+                "id": "59",
+                "リリース日": "2020-03-15",
+                "移入日": "",
+                "居住地": "",
+                "年代": "10代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52017-1.html"
+            },
+            {
+                "id": "60",
+                "リリース日": "2020-03-16",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=80vbTeVUgDPovzBrdbMLhg"
+            },
+            {
+                "id": "61",
+                "リリース日": "2020-03-16",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=80vbTeVUgDPovzBrdbMLhg"
+            },
+            {
+                "id": "62",
+                "リリース日": "2020-03-16",
+                "移入日": "",
+                "居住地": "",
+                "年代": "60代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=80vbTeVUgDPovzBrdbMLhg"
+            },
+            {
+                "id": "63",
+                "リリース日": "2020-03-16",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=80vbTeVUgDPovzBrdbMLhg"
+            },
+            {
+                "id": "64",
+                "リリース日": "2020-03-16",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=80vbTeVUgDPovzBrdbMLhg"
+            },
+            {
+                "id": "65",
+                "リリース日": "2020-03-16",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=80vbTeVUgDPovzBrdbMLhg"
+            },
+            {
+                "id": "66",
+                "リリース日": "2020-03-16",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=80vbTeVUgDPovzBrdbMLhg"
+            },
+            {
+                "id": "67",
+                "リリース日": "2020-03-16",
+                "移入日": "",
+                "居住地": "",
+                "年代": "60代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.cdc.gov.tw/Category/ListContent/EmXemht4IT-IRAPrAnyG9A?uaid=80vbTeVUgDPovzBrdbMLhg"
+            },
+            {
+                "id": "68",
+                "リリース日": "2020-03-17",
+                "移入日": "",
+                "居住地": "",
+                "年代": "代",
+                "性別": "性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52244-1.html"
+            },
+            {
+                "id": "69",
+                "リリース日": "2020-03-17",
+                "移入日": "",
+                "居住地": "",
+                "年代": "代",
+                "性別": "性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52244-1.html"
+            },
+            {
+                "id": "70",
+                "リリース日": "2020-03-17",
+                "移入日": "",
+                "居住地": "",
+                "年代": "代",
+                "性別": "性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52244-1.html"
+            },
+            {
+                "id": "71",
+                "リリース日": "2020-03-17",
+                "移入日": "",
+                "居住地": "",
+                "年代": "60代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52244-1.html"
+            },
+            {
+                "id": "72",
+                "リリース日": "2020-03-17",
+                "移入日": "",
+                "居住地": "",
+                "年代": "70代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52244-1.html"
+            },
+            {
+                "id": "73",
+                "リリース日": "2020-03-17",
+                "移入日": "",
+                "居住地": "",
+                "年代": "代",
+                "性別": "性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52244-1.html"
+            },
+            {
+                "id": "74",
+                "リリース日": "2020-03-17",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52244-1.html"
+            },
+            {
+                "id": "75",
+                "リリース日": "2020-03-17",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52244-1.html"
+            },
+            {
+                "id": "76",
+                "リリース日": "2020-03-17",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52244-1.html"
+            },
+            {
+                "id": "77",
+                "リリース日": "2020-03-17",
+                "移入日": "",
+                "居住地": "",
+                "年代": "60代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52244-1.html"
+            },
+            {
+                "id": "78",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "79",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "40代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "80",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "81",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "82",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "83",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "40代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "84",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "85",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "86",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "87",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "88",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "89",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "90",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "91",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "92",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "93",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "94",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "30代",
+                "性別": "男性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "95",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "女性",
+                "退院": "",
+                "link": "http://at.cdc.tw/t0512C"
+            },
+            {
+                "id": "96",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "女性",
+                "退院": "",
+                "link": "http://at.cdc.tw/t0512C"
+            },
+            {
+                "id": "97",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "男性",
+                "退院": "",
+                "link": "http://at.cdc.tw/t0512C"
+            },
+            {
+                "id": "98",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "99",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "100",
+                "リリース日": "2020-03-18",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "女性",
+                "退院": "",
+                "link": "https://www.mohw.gov.tw/cp-4634-52271-1.html"
+            },
+            {
+                "id": "101",
+                "リリース日": "2020-03-19",
+                "移入日": "",
+                "居住地": "",
+                "年代": "70代",
+                "性別": "男性",
+                "退院": "",
+                "link": "http://at.cdc.tw/fJ3aS3"
+            },
+            {
+                "id": "102",
+                "リリース日": "2020-03-19",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "女性",
+                "退院": "",
+                "link": "http://at.cdc.tw/fJ3aS3"
+            },
+            {
+                "id": "103",
+                "リリース日": "2020-03-19",
+                "移入日": "",
+                "居住地": "",
+                "年代": "10代",
+                "性別": "男性",
+                "退院": "",
+                "link": "http://at.cdc.tw/fJ3aS3"
+            },
+            {
+                "id": "104",
+                "リリース日": "2020-03-19",
+                "移入日": "",
+                "居住地": "",
+                "年代": "40代",
+                "性別": "女性",
+                "退院": "",
+                "link": "http://at.cdc.tw/fJ3aS3"
+            },
+            {
+                "id": "105",
+                "リリース日": "2020-03-19",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "男性",
+                "退院": "",
+                "link": "http://at.cdc.tw/fJ3aS3"
+            },
+            {
+                "id": "106",
+                "リリース日": "2020-03-19",
+                "移入日": "",
+                "居住地": "",
+                "年代": "20代",
+                "性別": "男性",
+                "退院": "",
+                "link": "http://at.cdc.tw/fJ3aS3"
+            },
+            {
+                "id": "107",
+                "リリース日": "2020-03-19",
+                "移入日": "",
+                "居住地": "",
+                "年代": "50代",
+                "性別": "男性",
+                "退院": "",
+                "link": "http://at.cdc.tw/fJ3aS3"
+            },
+            {
+                "id": "108",
+                "リリース日": "2020-03-19",
+                "移入日": "",
+                "居住地": "",
+                "年代": "40代",
+                "性別": "男性",
+                "退院": "",
+                "link": "http://at.cdc.tw/fJ3aS3"
             }
         ]
     },
