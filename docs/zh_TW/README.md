@@ -6,6 +6,12 @@
 
 ### [日本語](./docs/ja/README.md) | [English](./docs/en/README.md) | [Español](./docs/es/README.md) | [한국어](./docs/ko/README.md) | 繁體中文 | [简体中文](./docs/zh_CN/README.md) | [Tiếng Việt](./docs/vi/README.md) | [ภาษาไทย](./docs/th/README.md) | [Français](./docs/fr/README.md)
 
+## 這個網站
+
+這個網站主要是從東京都新型冠狀肺炎對策網站分支出來的台灣版網站，工作語言以中文以及英文為主。
+原則上我個人鼓勵自己動手建立自己的版本，但是也很歡迎發送 PR 到這邊來改這個版本，或者是到 g0v 的 slack 上面討論可以新增什麼資料。
+
+目前已經有其他同類型的資料整理站或是平台了，因此這個站主要定位的功能會在於可用性（對不同平台、語系、IPv6、載入速度）。資料更新的部分採用手動更新的方式以降低對 API 提供者的負擔。
 
 ## 如何貢獻
 如果您能對 Issues 中做出各式各樣的修正協助，我們將不勝感激。
