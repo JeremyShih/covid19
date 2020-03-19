@@ -1,20 +1,20 @@
-<!-- Issue 番号がない PR は受け付けません。 -->
+<!-- 請盡量附上 Issue 編號 -->
 <!-- We don't accept PRs which has no Issue ID. -->
 
-## 👏 解決する issue / Resolved Issues
+## 👏 解決的 Issue / Resolved Issues
 - close #0
 - close #0
 
-## 📝 関連する issue / Related Issues
+## 📝 關聯的 Issue / Related Issues
 - #0
 - #0
 
-## ⛏ 変更内容 / Details of Changes
-<!-- 変更を端的に箇条書きで -->
+## ⛏ 變更内容 / Details of Changes
+<!-- 請簡要的寫下變更內容 -->
 <!-- List down your changes concisely -->
 - xxxxxx
 - xxx
 
-## 📸 スクリーンショット / Screenshots
-<!-- スタイルなどの変更の場合はスクリーンショットがあるとレビューしやすいです -->
+## 📸 螢幕截圖 / Screenshots
+<!-- 有截圖的畫面修改會比較好審查 -->
 <!-- Changes in styles would be easier to review with screenshots! -->
