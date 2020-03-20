@@ -56,7 +56,11 @@ export default {
         row['年代'] = this.$t('10歳未満')
       } else {
         const age = row['年代'].substring(0, 2)
-        row['年代'] = this.$t('{age}代', { age })
+        if (age !== '') {
+          row['年代'] = this.$t('{age}代', { age })
+        } else {
+          row['年代'] = ''
+        }
       }
     }
 
