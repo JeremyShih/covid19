@@ -21,7 +21,7 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://jolly-lovelace-dbad84.netlify.com/'
+        content: 'https://stopcovid19.pichuchen.tw/'
       },
       {
         hid: 'twitter:card',

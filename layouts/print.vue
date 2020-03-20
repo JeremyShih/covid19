@@ -32,7 +32,7 @@
                 {{ $t('※最新の情報はWebページをご覧ください') }}
               </p>
               <p class="PrintMeta-Link">
-                https://jolly-lovelace-dbad84.netlify.com/
+                https://stopcovid19.pichuchen.tw/
               </p>
             </v-card>
           </v-card>
@@ -80,7 +80,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://jolly-lovelace-dbad84.netlify.com${this.$route.path}`
+          href: `https://stopcovid19.pichuchen.tw${this.$route.path}`
         }
       ]
     }

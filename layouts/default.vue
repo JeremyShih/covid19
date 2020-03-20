@@ -87,7 +87,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://jolly-lovelace-dbad84.netlify.com/${this.$route.path}`
+          href: `https://stopcovid19.pichuchen.tw/${this.$route.path}`
         }
       ],
       meta: [
@@ -118,7 +118,7 @@ export default Vue.extend({
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://jolly-lovelace-dbad84.netlify.com${this.$route.path}`
+          content: `https://stopcovid19.pichuchen.tw${this.$route.path}`
         },
         {
           hid: 'og:locale',

@@ -2,7 +2,7 @@
 
 ![](https://github.com/PichuChen/covid19/workflows/pichu%20master%20deploy/badge.svg)
 
-[![台灣非官方 COVID-19 資料整理站 | 皮丘版](https://jolly-lovelace-dbad84.netlify.com/ogp.png)](https://jolly-lovelace-dbad84.netlify.com/)
+[![台灣非官方 COVID-19 資料整理站 | 皮丘版](https://stopcovid19.pichuchen.tw/ogp.png)](https://stopcovid19.pichuchen.tw/)
 
 ### [日本語](./docs/ja/README.md) | [English](./docs/en/README.md) | [Español](./docs/es/README.md) | [한국어](./docs/ko/README.md) | 繁體中文 | [简体中文](./docs/zh_CN/README.md) | [Tiếng Việt](./docs/vi/README.md) | [ภาษาไทย](./docs/th/README.md) | [Français](./docs/fr/README.md)
 
@@ -85,7 +85,7 @@ $ docker-compose run --rm app yarn install
 
 ### Deploy 到 Staging 環境以及正式環境的方法
 
-當 `pichu-master` 分支被更新時，HTML 檔案將會在 `pichu-master-pages` 分支中被 build 起來，然後正式版兼開發版網站 https://jolly-lovelace-dbad84.netlify.com/ 會被更新。
+當 `pichu-master` 分支被更新時，HTML 檔案將會在 `pichu-master-pages` 分支中被 build 起來，然後正式版兼開發版網站 https://stopcovid19.pichuchen.tw/ 會被更新。
 
 ### 分支規則
 
@@ -98,12 +98,12 @@ Hotfix: hotfix/#{ISSUE_ID}-{branch_title_name}
 #### 基本分支
 | 目的 | 分支 | 預覽用 URL | 備註 |
 | ---- | -------- | ---- | ---- |
-| 開發=正式 | pichu-master | https://jolly-lovelace-dbad84.netlify.com/ | 基本上請推送 Pull Request 到這裡 |
+| 開發=正式 | pichu-master | https://stopcovid19.pichuchen.tw/ | 基本上請推送 Pull Request 到這裡 |
 
 #### 系統所使用的分支
 | 目的 | 分支 | 預覽用 URL | 備註 |
 | ---- | -------- | ---- | ---- |
-| 正式網站 HTML | pichu-master-pages | https://jolly-lovelace-dbad84.netlify.com/ | 生成靜態網站 HTML 的位置 |
+| 正式網站 HTML | pichu-master-pages | https://stopcovid19.pichuchen.tw/ | 生成靜態網站 HTML 的位置 |
 | OGP 工作用 | deploy / new_ogp | 無 | OGP 更新用 |
 
 #### 其他分支
