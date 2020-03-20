@@ -47,6 +47,7 @@ export default {
     }
     // 陽性患者の属性 中身の翻訳
     for (const row of patientsTable.datasets) {
+      row['公表日'] = this.$t(row['公表日'])
       row['居住地'] = this.$t(row['居住地'])
       row['性別'] = this.$t(row['性別'])
       row['退院'] = this.$t(row['退院'])
