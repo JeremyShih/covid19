@@ -4,15 +4,22 @@ export default {
     useCookie: true,
     cookieKey: 'i18n_redirected'
   },
-  defaultLocale: 'ja',
+  defaultLocale: 'zh-tw',
   vueI18n: {
-    fallbackLocale: 'ja',
+    fallbackLocale: 'zh-tw',
     formatFallbackMessages: true
   },
   // vueI18nLoader: true,
   lazy: true,
   langDir: 'assets/locales/',
   locales: [
+    {
+      code: 'zh-tw',
+      name: '中文 (台灣)',
+      iso: 'zh-TW',
+      file: 'zh_TW.json',
+      description: 'Chinese (Taiwan)'
+    },
     {
       code: 'ja',
       name: '日本語',
@@ -33,13 +40,6 @@ export default {
       iso: 'zh-CN',
       file: 'zh_CN.json',
       description: 'Simplified Chinese'
-    },
-    {
-      code: 'zh-tw',
-      name: '繁體中文',
-      iso: 'zh-TW',
-      file: 'zh_TW.json',
-      description: 'Traditional Chinese'
     },
     {
       code: 'ko',
