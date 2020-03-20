@@ -2,6 +2,7 @@
   <data-view :title="title" :title-id="titleId" :date="date">
     <template v-slot:button>
       <ul class="Graph-Desc">
+        <!--
         <li>
           {{ $t('（注）医療機関が保険適用で行った検査は含まれていない') }}
         </li>
@@ -15,7 +16,7 @@
             )
           }}
         </li>
-      </ul>
+      --></ul>
       <data-selector v-model="dataKind" :target-id="chartId" />
     </template>
     <bar
