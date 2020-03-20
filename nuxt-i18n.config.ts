@@ -58,6 +58,20 @@ export default {
     //   description: 'Portuguese'
     // },
     {
+      code: 'vi',
+      name: 'Tiếng Việt',
+      iso: 'vi-VI',
+      file: 'vi.json',
+      description: 'Vietnamese'
+    },
+    {
+      code: 'th',
+      name: 'ไทย',
+      iso: 'th-TH',
+      file: 'th.json',
+      description: 'Thai'
+    },
+    {
       code: 'ja-basic',
       name: 'やさしい にほんご',
       iso: 'ja-JP',
