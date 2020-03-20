@@ -140,9 +140,13 @@ func main() {
 			ReleaseDate:   item.DateForConfirm,
 			RelationPlace: item.RelationPlace,
 			Imported:      item.Imported,
-			Age:           item.Age + "代",
-			Gender:        item.Gender + "性",
 			Link:          item.Url,
+		}
+		if item.Age != "" {
+			newItem.Age = item.Age + "代"
+		}
+		if item.Gender != "" {
+			newItem.Gender = item.Gender + "性"
 		}
 		if item.DateForDeath != "" || item.DateForDischarge != "" {
 			newItem.IsExit = "〇"
