@@ -2105,18 +2105,18 @@
             }
         ]
     },
-    "lastUpdate": "2020\/03\/20 11:10",
+    "lastUpdate": "2020/03/20 16:50",
     "main_summary": {
         "attr": "検査実施人数",
         "value": 21376,
         "children": [
             {
                 "attr": "陽性患者数",
-                "value": 108,
+                "value": 135,
                 "children": [
                     {
                         "attr": "入院中",
-                        "value": 81,
+                        "value": 105,
                         "children": [
                             {
                                 "attr": "軽症・中等症",
@@ -2130,11 +2130,11 @@
                     },
                     {
                         "attr": "解除隔離",
-                        "value": 26
+                        "value": 28
                     },
                     {
                         "attr": "死亡",
-                        "value": 1
+                        "value": 2
                     }
                 ]
             }
