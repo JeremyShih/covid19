@@ -145,6 +145,12 @@ export default Vue.extend({
         // },
         {
           icon: 'mdi-domain',
+          title: '疾管局 COVID19 影片列表 (華語)',
+          link:
+            'https://www.youtube.com/playlist?list=PLSHckwvN6OpL9lmcr4zszaR8ju64rlYTM'
+        },
+        {
+          icon: 'mdi-domain',
           title: '疾管局網站',
           link: 'https://www.cdc.gov.tw/',
           divider: true
