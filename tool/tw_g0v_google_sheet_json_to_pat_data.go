@@ -9,9 +9,9 @@ import (
 
 // script:
 // curl 'https://raw.githubusercontent.com/kelvin2go/covid19-tw/master/latest.json' > downloads/patients_raw.json
-// go run tw_cdc_rss_to_news.go > ../data/news.json
+// go run tw_cdc_rss_to_news.go
 // url: https://raw.githubusercontent.com/kelvin2go/covid19-tw/master/latest.json
-// url: https://sheets.googleapis.com/v4/spreadsheets/1I9EXxe-pWLhcLosakg5TPt98ERY6tdpJn1KngIGY7oY/values/%E7%A2%BA%E8%A8%BA%E7%97%85%E4%BE%8B!A1:I?majorDimension=ROWS&key={key}
+// url: https://sheets.googleapis.com/v4/spreadsheets/1I9EXxe-pWLhcLosakg5TPt98ERY6tdpJn1KngIGY7oY/values/%E7%A2%BA%E8%A8%BA%E7%97%85%E4%BE%8B!A1:L?majorDimension=ROWS&key={key}
 
 // https://siongui.github.io/2015/02/27/go-parse-rss2/
 
@@ -19,6 +19,8 @@ type SourceFormat struct {
 	Url              string
 	CaseId           string
 	Gender           string
+	RelationPlace    string
+	Imported         string
 	Age              string
 	DateForHospital  string
 	DateForConfirm   string
@@ -28,14 +30,16 @@ type SourceFormat struct {
 }
 
 type DestinateFormat struct {
-	Id          string `json:"id"`
-	ReleaseDate string `json:"リリース日"`
-	MoveInDate  string `json:"移入日"`
-	Place       string `json:"居住地"`
-	Age         string `json:"年代"`
-	Gender      string `json:"性別"`
-	IsExit      string `json:"退院"`
-	Link        string `json:"link"`
+	Id            string `json:"id"`
+	ReleaseDate   string `json:"リリース日"`
+	MoveInDate    string `json:"移入日"`
+	Place         string `json:"居住地"`
+	RelationPlace string `json:"相關地點"`
+	Imported      string `json:"境外或本土"`
+	Age           string `json:"年代"`
+	Gender        string `json:"性別"`
+	IsExit        string `json:"退院"`
+	Link          string `json:"link"`
 }
 
 // {
@@ -106,6 +110,8 @@ func main() {
 			Url:             it2[keyToRowNumber["CDC 新聞稿 URL"]].(string),
 			CaseId:          it2[keyToRowNumber["案例編號"]].(string),
 			Gender:          it2[keyToRowNumber["性別"]].(string),
+			RelationPlace:   it2[keyToRowNumber["相關地點"]].(string),
+			Imported:        it2[keyToRowNumber["境外或是本土"]].(string),
 			Age:             it2[keyToRowNumber["年齡層\n(~多歲)"]].(string),
 			DateForHospital: it2[keyToRowNumber["就醫日"]].(string),
 			DateForConfirm:  it2[keyToRowNumber["確診日"]].(string),
@@ -130,11 +136,13 @@ func main() {
 	dstList := []DestinateFormat{}
 	for _, item := range srcList {
 		newItem := DestinateFormat{
-			Id:          item.CaseId,
-			ReleaseDate: item.DateForConfirm,
-			Age:         item.Age + "代",
-			Gender:      item.Gender + "性",
-			Link:        item.Url,
+			Id:            item.CaseId,
+			ReleaseDate:   item.DateForConfirm,
+			RelationPlace: item.RelationPlace,
+			Imported:      item.Imported,
+			Age:           item.Age + "代",
+			Gender:        item.Gender + "性",
+			Link:          item.Url,
 		}
 		if item.DateForDeath != "" || item.DateForDischarge != "" {
 			newItem.IsExit = "〇"
