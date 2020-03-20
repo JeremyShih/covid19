@@ -161,6 +161,12 @@ export default Vue.extend({
           link: 'https://www.ptt.cc/bbs/nCoV2019/index.html'
         },
         {
+          icon: 'mdi-account-multiple',
+          title: '各國邊境管控',
+          link:
+            'https://blog.code4.hk/covid19-border-controls/?path=/story/countrytabs--data-loading-country-tabs'
+        },
+        {
           icon: 'mdi-domain',
           title: '武漢肺炎台灣病例即時戰情儀表版',
           link: 'https://arcg.is/0uTyiP'
