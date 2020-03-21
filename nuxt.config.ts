@@ -134,9 +134,9 @@ const config: Configuration = {
           whitelistPatterns: [/(col|row)/]
         })
       ]
-    },
+    }
     // https://ja.nuxtjs.org/api/configuration-build/#hardsource
-    hardSource: process.env.NODE_ENV === 'development'
+    // hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
     name: '台灣版 非官方 COVID-19 資料整理站 | 皮丘版',
@@ -170,7 +170,9 @@ const config: Configuration = {
         '/cards/number-of-reports-to-covid19-telephone-advisory-center',
         '/cards/number-of-reports-to-covid19-consultation-desk',
         '/cards/predicted-number-of-toei-subway-passengers',
-        '/cards/agency'
+        '/cards/agency',
+        '/cards/shinjuku-visitors',
+        '/cards/chiyoda-visitors'
       ]
 
       const routes: string[] = []

@@ -54,7 +54,17 @@ $ yarn dev
 $ docker-compose up --build
 ```
 
+<<<<<<< HEAD
 ### 被 `Cannot find module ****` 卡住時
+=======
+**Vagrant を使う場合**
+```bash
+# serve with hot reload at localhost:3000
+$ vagrant up
+```
+
+### `Cannot find module ****` と怒られた時
+>>>>>>> tokyo-development
 
 **使用 yarn 的做法**
 ```

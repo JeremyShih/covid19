@@ -25,6 +25,7 @@
   // mobile view
   @include lessThan($small) {
     height: 40px;
+
     a {
       display: block;
     }

@@ -34,7 +34,10 @@
 
       <nav class="SideNavigation-Menu">
         <MenuList :items="items" @click="$emit('closeNavi', $event)" />
-        <div class="SideNavigation-Language">
+        <div
+          v-if="this.$i18n.locales.length > 1"
+          class="SideNavigation-Language"
+        >
           <label class="SideNavigation-LanguageLabel" for="LanguageSelector">
             {{ $t('多言語対応選択メニュー') }}
           </label>
@@ -50,7 +53,10 @@
             rel="noopener"
             class="SideNavigation-SocialLink"
           >
-            <img src="/twitter.png" alt="Twitter" />
+            <picture>
+              <source srcset="/twitter.webp" type="image/webp" />
+              <img src="/twitter.png" alt="Twitter" />
+            </picture>
           </a>
           <a
             href="https://www.facebook.com/pichu.chen"
@@ -58,7 +64,10 @@
             rel="noopener"
             class="SideNavigation-SocialLink"
           >
-            <img src="/facebook.png" alt="Facebook" />
+            <picture>
+              <source srcset="/facebook.webp" type="image/webp" />
+              <img src="/facebook.png" alt="Facebook" />
+            </picture>
           </a>
           <a
             href="https://github.com/pichuchen/covid19"
@@ -66,7 +75,10 @@
             rel="noopener"
             class="SideNavigation-SocialLink"
           >
-            <img src="/github.png" alt="GitHub" />
+            <picture>
+              <source srcset="/github.webp" type="image/webp" />
+              <img src="/github.png" alt="GitHub" />
+            </picture>
           </a>
         </div>
         <small class="SideNavigation-Copyright">
@@ -226,9 +238,10 @@ export default Vue.extend({
   position: relative;
   height: 100%;
   background: $white;
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.15);
+
   &:focus {
-    outline: none;
+    outline: 1px dotted $gray-3;
   }
 }
 
@@ -305,13 +318,16 @@ export default Vue.extend({
     color: inherit;
     text-decoration: none;
   }
+
   &:hover,
   &:focus {
     font-weight: bold;
   }
+
   &:focus {
-    outline: 1px dotted $gray-3;
+    outline: dotted $gray-3 1px;
   }
+
   @include largerThan($small) {
     display: block;
     padding: 15px 0;
@@ -329,6 +345,7 @@ export default Vue.extend({
   @include lessThan($small) {
     margin: 0 0 0 10px;
   }
+
   @include lessThan($tiny) {
     margin: 0;
   }
@@ -385,16 +402,19 @@ export default Vue.extend({
   border: 1px dotted transparent;
   border-radius: 30px;
   color: $gray-3;
+
   &:link,
   &:hover,
-  &:focus,
   &:visited,
   &:active {
     color: inherit;
     text-decoration: none;
   }
+
   &:focus {
-    border-color: $gray-3;
+    color: inherit;
+    text-decoration: none;
+    border: 1px dotted $gray-3;
     outline: none;
   }
 
