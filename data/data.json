@@ -2429,10 +2429,10 @@
             }
         ]
     },
-    "lastUpdate": "2020/03/20 16:50",
+    "lastUpdate": "2020/03/21 12:59",
     "main_summary": {
         "attr": "検査実施人数",
-        "value": 21376,
+        "value": 22743,
         "children": [
             {
                 "attr": "陽性患者数",
