@@ -115,7 +115,12 @@ func main() {
 			Age:             it2[keyToRowNumber["年齡層\n(~多歲)"]].(string),
 			DateForHospital: it2[keyToRowNumber["就醫日"]].(string),
 			DateForConfirm:  it2[keyToRowNumber["確診日"]].(string),
-			Note:            it2[keyToRowNumber["其他公布說明"]].(string),
+		}
+
+		if len(it2) > keyToRowNumber["其他公布說明"] {
+			if v, ok := it2[keyToRowNumber["其他公布說明"]].(string); ok {
+				newItem.Note = v
+			}
 		}
 
 		if len(it2) > keyToRowNumber["死亡日"] {
