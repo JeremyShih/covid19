@@ -15,11 +15,9 @@
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
       class="mb-4"
-      :url="
-        $t('https://www.cdc.gov.tw/Disease/SubIndex/N6XvFa1YP9CXYdB0kNSA9A')
-      "
-      :text="$t('疾管署專區')"
-      :btn-text="$t('相談の手順を見る')"
+      :url="$t('tel:1922')"
+      :text="$t('自分や家族の症状に不安や心配があればまずは電話相談をどうぞ')"
+      :btn-text="$t('Call: 1922')"
     />
     <v-row class="DataBlock">
       <confirmed-cases-details-card />
@@ -43,7 +41,7 @@ import Vue from 'vue'
 import { MetaInfo } from 'vue-meta'
 import PageHeader from '@/components/PageHeader.vue'
 import WhatsNew from '@/components/WhatsNew.vue'
-// import StaticInfo from '@/components/StaticInfo.vue'
+import StaticInfo from '@/components/StaticInfo.vue'
 import Data from '@/data/data.json'
 import News from '@/data/news.json'
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
@@ -60,7 +58,7 @@ export default Vue.extend({
   components: {
     PageHeader,
     WhatsNew,
-    // StaticInfo,
+    StaticInfo,
     ConfirmedCasesDetailsCard,
     // TestedCasesDetailsCard,
     ConfirmedCasesNumberCard,
