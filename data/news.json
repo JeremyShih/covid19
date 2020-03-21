@@ -1,6 +1,26 @@
 {
     "newsItems": [
         {
+            "date": "2020-03-21T14:27:00+08:00",
+            "text": "3月8日至18日自美國、東亞入境有症狀者  將居家檢疫並安排採檢",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/gSgBEtPiwI_FmTOl4JAyRw?typeId=9"
+        },
+        {
+            "date": "2020-03-21T14:26:00+08:00",
+            "text": "國內累計153名病例，28人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/EvhdZFah8qvs2-ejVBlZoQ?typeId=9"
+        },
+        {
+            "date": "2020-03-21T14:25:00+08:00",
+            "text": "新增18境外移入個案，多為旅遊或就學",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/G3xvJe7OXc88j4Vv_YQ62w?typeId=9"
+        },
+        {
+            "date": "2020-03-20T17:55:00+08:00",
+            "text": "國內流感疫情處低水平，呼籲民眾持續保持良好衛生習慣",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/DeBsnl5zP62cz8BR45kZag?typeId=9"
+        },
+        {
             "date": "2020-03-20T16:17:00+08:00",
             "text": "一入境就防疫！21日起機場免稅店可買口罩，成人3片50元",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/_1hVJCbMAV_JQ4CkiCZolQ?typeId=9"
@@ -29,26 +49,6 @@
             "date": "2020-03-19T14:03:00+08:00",
             "text": "新增8例確診，其中7例境外、1例本土",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/HVfuiT_KjBpd-vpgMoYDyw?typeId=9"
-        },
-        {
-            "date": "2020-03-18T15:00:00+08:00",
-            "text": "新增23例確診，其中21例境外移入、2例本土",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/Rq9JGMz92FFWfCJUVr_-sw?typeId=9"
-        },
-        {
-            "date": "2020-03-18T14:59:00+08:00",
-            "text": "美國、加拿大、澳洲及紐西蘭4國(皆含轉機)旅遊疫情升至第三級警告，非必要勿前往",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/sdcFPDcnCazH-HBwvpuiBA?typeId=9"
-        },
-        {
-            "date": "2020-03-18T14:58:00+08:00",
-            "text": "高科技智慧防疫，檢疫追蹤精準有力",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/LxV1VKIb689M9Sb1q8XOcQ?typeId=9"
-        },
-        {
-            "date": "2020-03-18T14:55:00+08:00",
-            "text": "國內累計確診個案達100例，解除隔離維持22人",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/hk8cSOmVtfGVwJOvBguWwQ?typeId=9"
         }
     ]
 }
