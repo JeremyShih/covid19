@@ -7,9 +7,10 @@ import (
 	"os"
 )
 
+// data Source: https://docs.google.com/spreadsheets/d/1I9EXxe-pWLhcLosakg5TPt98ERY6tdpJn1KngIGY7oY/edit#gid=0
 // script:
 // curl 'https://raw.githubusercontent.com/kelvin2go/covid19-tw/master/latest.json' > downloads/patients_raw.json
-// go run tw_cdc_rss_to_news.go
+// go run tw_g0v_google_sheet_json_to_pat_data.go > downloads/tmp.json
 // url: https://raw.githubusercontent.com/kelvin2go/covid19-tw/master/latest.json
 // url: https://sheets.googleapis.com/v4/spreadsheets/1I9EXxe-pWLhcLosakg5TPt98ERY6tdpJn1KngIGY7oY/values/%E7%A2%BA%E8%A8%BA%E7%97%85%E4%BE%8B!A1:L?majorDimension=ROWS&key={key}
 
