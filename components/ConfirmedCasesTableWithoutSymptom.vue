@@ -304,7 +304,7 @@ $default-boxdiff: 35px;
     &.deceased,
     &.recovered {
       margin-left: px2vw($bdw, $vw);
-      width: calc(100% / 4 - #{px2vw($bdw, $vw)});
+      width: calc(100% / 3 - #{px2vw($bdw, $vw)});
     }
   }
 }
