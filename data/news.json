@@ -1,6 +1,21 @@
 {
     "newsItems": [
         {
+            "date": "2020-03-22T15:10:00+08:00",
+            "text": "3月24日至4月7日，我國全面禁止旅客登機來台轉機",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/LbQTPXUJx1SBy_DDRSnTMw?typeId=9"
+        },
+        {
+            "date": "2020-03-22T15:09:00+08:00",
+            "text": "國內累計169名確診，28人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/2k_ei8gspKRHSR8bP95Kgg?typeId=9"
+        },
+        {
+            "date": "2020-03-22T15:09:00+08:00",
+            "text": "新增16例確診，其中13例境外移入、3例本土",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/k3KJUq6PPrbipm2E0T22aw?typeId=9"
+        },
+        {
             "date": "2020-03-21T14:27:00+08:00",
             "text": "3月8日至18日自美國、東亞入境有症狀者  將居家檢疫並安排採檢",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/gSgBEtPiwI_FmTOl4JAyRw?typeId=9"
@@ -34,21 +49,6 @@
             "date": "2020-03-20T16:07:00+08:00",
             "text": "國內累計135人確診，解除隔離28人",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/-TRyEsi8DHGkQNMKQQHVrg?typeId=9"
-        },
-        {
-            "date": "2020-03-20T16:05:00+08:00",
-            "text": "新增27例確診，24例境外3例本土",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/49zxkRam4OIFJZNI7x-Kmw?typeId=9"
-        },
-        {
-            "date": "2020-03-19T14:04:00+08:00",
-            "text": "國內累計108人確診，26人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/vcmwTQgymqoIKGU86YFjhg?typeId=9"
-        },
-        {
-            "date": "2020-03-19T14:03:00+08:00",
-            "text": "新增8例確診，其中7例境外、1例本土",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/HVfuiT_KjBpd-vpgMoYDyw?typeId=9"
         }
     ]
 }
