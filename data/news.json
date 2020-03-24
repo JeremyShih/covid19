@@ -1,6 +1,21 @@
 {
     "newsItems": [
         {
+            "date": "2020-03-24T14:10:00+08:00",
+            "text": "防疫補償金可在2年內申請　可多利用網路申辦",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/W7hWqmb7d3fUvMtE4DGKRQ?typeId=9"
+        },
+        {
+            "date": "2020-03-24T14:10:00+08:00",
+            "text": "國內累計215人確診，29人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/_Y7EYHlQ5VHTJqMN3xCejg?typeId=9"
+        },
+        {
+            "date": "2020-03-24T14:10:00+08:00",
+            "text": "新增20例境外移入  多為旅外就學或工作",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/sgBfnbr5aydb9hp6vhVDew?typeId=9"
+        },
+        {
             "date": "2020-03-23T14:12:00+08:00",
             "text": "口罩2.0流程不變，3月25日起第二輪預購",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/gl4uS2kVK3RMgHPviZYYrg?typeId=9"
@@ -34,21 +49,6 @@
             "date": "2020-03-22T15:09:00+08:00",
             "text": "新增16例確診，其中13例境外移入、3例本土",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/k3KJUq6PPrbipm2E0T22aw?typeId=9"
-        },
-        {
-            "date": "2020-03-21T14:27:00+08:00",
-            "text": "3月8日至18日自美國、東亞入境有症狀者  將居家檢疫並安排採檢",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/gSgBEtPiwI_FmTOl4JAyRw?typeId=9"
-        },
-        {
-            "date": "2020-03-21T14:26:00+08:00",
-            "text": "國內累計153名病例，28人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/EvhdZFah8qvs2-ejVBlZoQ?typeId=9"
-        },
-        {
-            "date": "2020-03-21T14:25:00+08:00",
-            "text": "新增18境外移入個案，多為旅遊或就學",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/G3xvJe7OXc88j4Vv_YQ62w?typeId=9"
         }
     ]
 }
