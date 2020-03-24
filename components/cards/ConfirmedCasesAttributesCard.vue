@@ -8,7 +8,7 @@
       :date="Data.patients.date"
       :info="sumInfoOfPatients"
       :url="
-        'https://zh.wikipedia.org/wiki/2019%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E7%97%85%E8%87%BA%E7%81%A3%E7%96%AB%E6%83%85'
+        'https://docs.google.com/spreadsheets/d/1I9EXxe-pWLhcLosakg5TPt98ERY6tdpJn1KngIGY7oY/edit#gid=1441264486'
       "
     />
   </v-col>
