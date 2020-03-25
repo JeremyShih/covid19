@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "2020-03-24T19:21:00+08:00",
+            "text": "新增1例境外移入之接觸者確診病例，指揮中心密切追蹤接觸者",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/j8E80q96I2UvgCFZyL7L-w?typeId=9"
+        },
+        {
+            "date": "2020-03-24T16:50:00+08:00",
+            "text": "潛伏結核感染檢驗與治療，即刻行動！",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/JRlIY1eN_Wb2IPT4OTF8ag?typeId=9"
+        },
+        {
             "date": "2020-03-24T14:10:00+08:00",
             "text": "防疫補償金可在2年內申請　可多利用網路申辦",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/W7hWqmb7d3fUvMtE4DGKRQ?typeId=9"
@@ -39,16 +49,6 @@
             "date": "2020-03-22T15:10:00+08:00",
             "text": "3月24日至4月7日，我國全面禁止旅客登機來台轉機",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/LbQTPXUJx1SBy_DDRSnTMw?typeId=9"
-        },
-        {
-            "date": "2020-03-22T15:09:00+08:00",
-            "text": "國內累計169名確診，28人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/2k_ei8gspKRHSR8bP95Kgg?typeId=9"
-        },
-        {
-            "date": "2020-03-22T15:09:00+08:00",
-            "text": "新增16例確診，其中13例境外移入、3例本土",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/k3KJUq6PPrbipm2E0T22aw?typeId=9"
         }
     ]
 }
