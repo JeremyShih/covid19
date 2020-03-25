@@ -33,32 +33,24 @@ export default {
     Data.patients.data.map(x => {
       const dateString = x['リリース日'].substr(-5, 5).replace('-', '/')
 
-      patientsData.境外 = {
-        [dateString]: 0,
-        ...patientsData.境外
-      }
-      patientsData.本土 = {
-        [dateString]: 0,
-        ...patientsData.本土
-      }
-
-      patientsData[x.境外或本土] = {
-        ...patientsData[x.境外或本土],
-        [dateString]: patientsData[x.境外或本土][dateString] + 1
-      }
-
-      if (!patientsLabels.includes(dateString)) {
+      if (typeof patientsData['境外'][dateString] === 'undefined') {
+        // init array for first time of this date.
+        patientsData['境外'][dateString] = 0
+        patientsData['本土'][dateString] = 0
         patientsLabels.push(dateString)
       }
+
+      patientsData[x.境外或本土][dateString] =
+        patientsData[x.境外或本土][dateString] + 1
     })
     const patientsItems = [this.$t('境外'), this.$t('本土')]
     const patientsDataLabels = [this.$t('境外'), this.$t('本土')]
-    patientsLabels.reverse()
+
     const data = {
       Data,
       patientsGraph: [
-        Object.values(patientsData.境外).reverse(),
-        Object.values(patientsData.本土).reverse()
+        Object.values(patientsData.境外),
+        Object.values(patientsData.本土)
       ],
       patientsItems,
       patientsLabels,
