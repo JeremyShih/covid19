@@ -3685,18 +3685,18 @@
             }
         ]
     },
-    "lastUpdate": "2020/03/25 10:38",
+    "lastUpdate": "2020/03/25 20:31",
     "main_summary": {
         "attr": "検査実施人数",
         "value": 26660,
         "children": [
             {
                 "attr": "陽性患者数",
-                "value": 216,
+                "value": 235,
                 "children": [
                     {
                         "attr": "入院中",
-                        "value": 185,
+                        "value": 204,
                         "children": [
                             {
                                 "attr": "軽症・中等症",
