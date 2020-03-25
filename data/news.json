@@ -1,6 +1,21 @@
 {
     "newsItems": [
         {
+            "date": "2020-03-25T13:16:00+08:00",
+            "text": "避免群聚感染，建議停辦室內100人以上、室外500人以上集會活動",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/OGvZ8a1qdqdNo5mUgeaOqw?typeId=9"
+        },
+        {
+            "date": "2020-03-25T13:15:00+08:00",
+            "text": "集中檢疫14天期滿，第2批武漢包機回台361人今返家",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/FuTb-0_SqqDXOb6jLgpxRQ?typeId=9"
+        },
+        {
+            "date": "2020-03-25T13:14:00+08:00",
+            "text": "新增19例境外移入，均從國外工作、就學、旅遊返國",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/K_PYDjL4vD_ca3rZcA5aew?typeId=9"
+        },
+        {
             "date": "2020-03-24T19:21:00+08:00",
             "text": "新增1例境外移入之接觸者確診病例，指揮中心密切追蹤接觸者",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/j8E80q96I2UvgCFZyL7L-w?typeId=9"
@@ -34,21 +49,6 @@
             "date": "2020-03-23T13:41:00+08:00",
             "text": "網傳「臺灣強制性休假兩星期」是假訊息！切勿散播轉傳",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/Mwc0Yu01tXOzeXQhKLZnzA?typeId=9"
-        },
-        {
-            "date": "2020-03-23T13:40:00+08:00",
-            "text": "國內累計195人確診，29人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/4NHsvDMdF9yKEpoXmBKhCg?typeId=9"
-        },
-        {
-            "date": "2020-03-23T13:36:00+08:00",
-            "text": "新增26例確診，包括25例境外及1例本土",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/Sjh_N7ScGXj-8wyaH2SMmw?typeId=9"
-        },
-        {
-            "date": "2020-03-22T15:10:00+08:00",
-            "text": "3月24日至4月7日，我國全面禁止旅客登機來台轉機",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/LbQTPXUJx1SBy_DDRSnTMw?typeId=9"
         }
     ]
 }
