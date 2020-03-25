@@ -89,7 +89,7 @@ $ docker-compose run --rm app yarn install
 
 ### 分支規則
 
-只允許推送 Pull Request 到 `development` 、 `dev-i18n` 跟 `dev-hotfix` 。  
+只允許推送 Pull Request 到 `development`  跟 `dev-hotfix` 。
 在推送 Pull Request 時，請依照以下命名規則為您的分支命名
 
 新增功能: feature/#{ISSUE_ID}-#{branch_title_name}  

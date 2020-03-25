@@ -1,22 +1,7 @@
 <template>
   <data-view :title="title" :title-id="titleId" :date="date">
     <template v-slot:button>
-      <ul class="Graph-Desc">
-        <!--
-        <li>
-          {{ $t('（注）医療機関が保険適用で行った検査は含まれていない') }}
-        </li>
-        <li>
-          {{ $t('（注）同一の対象者について複数の検体を検査する場合あり') }}
-        </li>
-        <li>
-          {{
-            $t(
-              '（注）速報値として公開するものであり、後日確定データとして修正される場合あり'
-            )
-          }}
-        </li>
-      --></ul>
+      <ul :class="$style.GraphDesc" />
       <data-selector
         v-model="dataKind"
         :target-id="chartId"
@@ -38,11 +23,14 @@
       :hide-default-footer="true"
       :height="240"
       :fixed-header="true"
+      :disable-sort="true"
       :mobile-breakpoint="0"
       class="cardTable"
       item-key="name"
     />
-
+    <p :class="$style.DataViewDesc">
+      <slot name="additionalNotes" />
+    </p>
     <template v-slot:infoPanel>
       <data-view-basic-info-panel
         :l-text="displayInfo.lText"
@@ -94,7 +82,7 @@ type Computed = {
     }[]
   }
   tableHeaders: {
-    text: string
+    text: TranslateResult
     value: string
   }[]
   tableData: {
@@ -242,6 +230,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     tableHeaders() {
       return [
         { text: '', value: 'text' },
+        { text: this.$t('日付'), value: 'text' },
         ...this.items.map((text, value) => {
           return { text, value: String(value) }
         })
@@ -355,8 +344,18 @@ const options: ThisTypedComponentOptionsWithRecordProps<
                     'Nov',
                     'Dec'
                   ]
-                  const month = monthStringArry.indexOf(label.split(' ')[0]) + 1
-                  return month + '月'
+                  const mm = monthStringArry.indexOf(label.split(' ')[0]) + 1
+                  const year = new Date().getFullYear()
+                  const mdate = new Date(year + '-' + mm + '-1')
+                  let localString
+                  if (this.$root.$i18n.locale === 'ja-basic') {
+                    localString = 'ja'
+                  } else {
+                    localString = this.$root.$i18n.locale
+                  }
+                  return mdate.toLocaleString(localString, {
+                    month: 'short'
+                  })
                 }
               },
               type: 'time',
@@ -428,13 +427,25 @@ const options: ThisTypedComponentOptionsWithRecordProps<
 export default Vue.extend(options)
 </script>
 
-<style lang="scss" scoped>
-.Graph-Desc {
-  width: 100%;
-  margin: 0;
-  padding-left: 0;
-  list-style: none;
-  font-size: 12px;
-  color: $gray-3;
+<style module lang="scss">
+.Graph {
+  &Desc {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+    font-size: 12px;
+    color: $gray-3;
+    list-style: none;
+  }
+}
+.DataView {
+  &Desc {
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+    font-size: 12px;
+    line-height: 15px;
+    color: $gray-3;
+  }
 }
 </style>

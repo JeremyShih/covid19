@@ -10,8 +10,14 @@
       :labels="inspectionsLabels"
       :unit="$t('件.tested')"
       :data-labels="inspectionsDataLabels"
-    />
-    <!-- 件.tested = 検査数 -->
+    >
+      <!-- 件.tested = 検査数 -->
+      <template v-if="$i18n.locale !== 'ja-basic'" v-slot:additionalNotes>
+        {{ $t('※1: 疑い例・接触者調査') }}
+        <br />
+        {{ $t('※2: チャーター便・クルーズ船') }}
+      </template>
+    </time-stacked-bar-chart>
   </v-col>
 </template>
 

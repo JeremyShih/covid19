@@ -209,6 +209,10 @@ export default Vue.extend({
   }
 }
 
+.naviContainer {
+  background-color: $white;
+}
+
 @include lessThan($small) {
   .naviContainer {
     position: sticky;

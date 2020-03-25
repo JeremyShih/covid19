@@ -32,6 +32,7 @@
       :hide-default-footer="true"
       :height="240"
       :fixed-header="true"
+      :disable-sort="true"
       :mobile-breakpoint="0"
       class="cardTable"
       item-key="name"
@@ -61,6 +62,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { TranslateResult } from 'vue-i18n'
 import { ThisTypedComponentOptionsWithRecordProps } from 'vue/types/options'
 import dayjs from 'dayjs'
 import 'dayjs/locale/en'
@@ -96,7 +98,7 @@ type Computed = {
   labels: string[]
   standardValue: number
   tableHeaders: {
-    text: string
+    text: TranslateResult
     value: string
   }[]
   tableData: {
@@ -216,14 +218,15 @@ const options: ThisTypedComponentOptionsWithRecordProps<
         }, {} as any)
     },
     labels() {
-      return Object.keys(this.targetData).map((weekNum: any) => {
+      return Object.keys(this.targetData).map((weekNum: string) => {
+        // 日付範囲は月曜日から金曜日（平日のみ）
         const start = dayjs(this.startDate)
-          .week(weekNum)
-          .startOf('week')
+          .week(parseInt(weekNum, 10))
+          .day(1)
           .format('M/D')
         const end = dayjs(this.startDate)
-          .week(weekNum)
-          .endOf('week')
+          .week(parseInt(weekNum, 10))
+          .day(5)
           .format('M/D')
         return `${start}~${end}`
       })
@@ -268,7 +271,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     },
     tableHeaders() {
       return [
-        { text: '', value: 'header' },
+        { text: this.$t('日付'), value: 'header' },
         { text: this.title, value: 'visitor' }
       ]
     },

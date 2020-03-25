@@ -3393,7 +3393,7 @@
     },
     "inspection_status_summary": {
         "date": "2020\/03\/19 11:00",
-        "attr": "検査実施人数（累計）",
+        "attr": "陽性者数",
         "value": 1848,
         "children": [
             {
