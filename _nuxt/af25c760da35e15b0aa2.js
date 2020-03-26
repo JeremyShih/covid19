@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{318:function(n){n.exports=JSON.parse('{"台灣目前感染趨勢":"台灣目前感染趨勢"}')}}]);
