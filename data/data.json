@@ -3616,18 +3616,19 @@
             }
         ]
     },
-    "lastUpdate": "2020/03/26 14:33",
+    "lastUpdate": "2020/03/26 16:04",
     "main_summary": {
         "attr": "検査実施人数",
         "value": 27532,
+        "datasource": "http://at.cdc.tw/9T5J1W",
         "children": [
             {
                 "attr": "陽性患者数",
-                "value": 235,
+                "value": 252,
                 "children": [
                     {
                         "attr": "入院中",
-                        "value": 204,
+                        "value": 221,
                         "children": [
                             {
                                 "attr": "軽症・中等症",
