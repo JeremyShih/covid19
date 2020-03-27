@@ -1,6 +1,21 @@
 {
     "newsItems": [
         {
+            "date": "2020-03-27T13:41:00+08:00",
+            "text": "依法配合居家檢疫隔離14天，共同守護國人健康",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/EBjjqqNd478Dxd8ClzeqXg?typeId=9"
+        },
+        {
+            "date": "2020-03-27T13:39:00+08:00",
+            "text": "國內累計267人確診，30人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/4rejZ-mBRnJ3lh5MS1bNeg?typeId=9"
+        },
+        {
+            "date": "2020-03-27T13:38:00+08:00",
+            "text": "新增15例境外移入，多在美、英兩國就學或工作",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/p9gto1YGlMhZYA2VdccKXw?typeId=9"
+        },
+        {
             "date": "2020-03-26T13:15:00+08:00",
             "text": "國內累計252人確診，解除隔離維持29人",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/VcQ6HiMxdqTGoROrJU0CMw?typeId=9"
@@ -34,21 +49,6 @@
             "date": "2020-03-24T16:50:00+08:00",
             "text": "潛伏結核感染檢驗與治療，即刻行動！",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/JRlIY1eN_Wb2IPT4OTF8ag?typeId=9"
-        },
-        {
-            "date": "2020-03-24T14:10:00+08:00",
-            "text": "防疫補償金可在2年內申請　可多利用網路申辦",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/W7hWqmb7d3fUvMtE4DGKRQ?typeId=9"
-        },
-        {
-            "date": "2020-03-24T14:10:00+08:00",
-            "text": "國內累計215人確診，29人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/_Y7EYHlQ5VHTJqMN3xCejg?typeId=9"
-        },
-        {
-            "date": "2020-03-24T14:10:00+08:00",
-            "text": "新增20例境外移入  多為旅外就學或工作",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/sgBfnbr5aydb9hp6vhVDew?typeId=9"
         }
     ]
 }
