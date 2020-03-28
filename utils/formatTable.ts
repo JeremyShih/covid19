@@ -1,6 +1,7 @@
 import dayjs from 'dayjs'
 
 const headers = [
+  { text: '案例編號', value: '案例編號' },
   { text: '公表日', value: '公表日' },
   { text: '相關地點', value: '相關地點' },
   { text: '境外或是本土', value: '境外或本土' },
@@ -10,6 +11,7 @@ const headers = [
 ]
 
 type DataType = {
+  案例編號: string
   リリース日: string
   居住地: string | null
   相關地點: string | null
@@ -21,6 +23,7 @@ type DataType = {
 }
 
 type TableDataType = {
+  案例編號: DataType['案例編號']
   公表日: string
   居住地: DataType['居住地']
   相關地點: DataType['相關地點']
@@ -47,6 +50,7 @@ export default (data: DataType[]) => {
   }
   data.forEach(d => {
     const TableRow: TableDataType = {
+      案例編號: d.id ?? '',
       公表日: dayjs(d['リリース日']).format('MM/DD') ?? '不明',
       居住地: d['居住地'] ?? '不明',
       相關地點: d['相關地點'] ?? '',
