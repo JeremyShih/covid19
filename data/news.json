@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "2020-03-28T13:30:00+08:00",
+            "text": "國內累計283人確診，解除隔離30人",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/xe44c6m-04pXePB390lhdw?typeId=9"
+        },
+        {
+            "date": "2020-03-28T13:29:00+08:00",
+            "text": "新增16例確診，14例境外移入、2例本土",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/HpNJ8bNWb0Qg8WNTSuMfWw?typeId=9"
+        },
+        {
             "date": "2020-03-27T19:24:00+08:00",
             "text": "來台外籍旅客透過媒體發表不實陳述，恐影響我國國際形象及防疫工作執行，故不予防疫補償金",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/liY4_YXfkx1ODDn-KlIE-Q?typeId=9"
@@ -39,16 +49,6 @@
             "date": "2020-03-25T13:15:00+08:00",
             "text": "集中檢疫14天期滿，第2批武漢包機回台361人今返家",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/FuTb-0_SqqDXOb6jLgpxRQ?typeId=9"
-        },
-        {
-            "date": "2020-03-25T13:14:00+08:00",
-            "text": "新增19例境外移入，均從國外工作、就學、旅遊返國",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/K_PYDjL4vD_ca3rZcA5aew?typeId=9"
-        },
-        {
-            "date": "2020-03-24T19:21:00+08:00",
-            "text": "新增1例境外移入之接觸者確診病例，指揮中心密切追蹤接觸者",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/j8E80q96I2UvgCFZyL7L-w?typeId=9"
         }
     ]
 }
