@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "2020-03-27T19:24:00+08:00",
+            "text": "來台外籍旅客透過媒體發表不實陳述，恐影響我國國際形象及防疫工作執行，故不予防疫補償金",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/liY4_YXfkx1ODDn-KlIE-Q?typeId=9"
+        },
+        {
             "date": "2020-03-27T13:41:00+08:00",
             "text": "依法配合居家檢疫隔離14天，共同守護國人健康",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/EBjjqqNd478Dxd8ClzeqXg?typeId=9"
@@ -44,11 +49,6 @@
             "date": "2020-03-24T19:21:00+08:00",
             "text": "新增1例境外移入之接觸者確診病例，指揮中心密切追蹤接觸者",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/j8E80q96I2UvgCFZyL7L-w?typeId=9"
-        },
-        {
-            "date": "2020-03-24T16:50:00+08:00",
-            "text": "潛伏結核感染檢驗與治療，即刻行動！",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/JRlIY1eN_Wb2IPT4OTF8ag?typeId=9"
         }
     ]
 }
