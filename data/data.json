@@ -4168,19 +4168,19 @@
             }
         ]
     },
-    "lastUpdate": "2020/03/26 16:04",
+    "lastUpdate": "2020/03/29 14:40",
     "main_summary": {
         "attr": "検査実施人数",
-        "value": 29389,
+        "value": 29915,
         "datasource": "http://at.cdc.tw/9T5J1W",
         "children": [
             {
                 "attr": "陽性患者数",
-                "value": 267,
+                "value": 298,
                 "children": [
                     {
                         "attr": "入院中",
-                        "value": 235,
+                        "value": 257,
                         "children": [
                             {
                                 "attr": "軽症・中等症",
@@ -4194,7 +4194,7 @@
                     },
                     {
                         "attr": "解除隔離",
-                        "value": 30
+                        "value": 39
                     },
                     {
                         "attr": "死亡",
