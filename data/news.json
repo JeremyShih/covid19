@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "2020-03-29T14:00:00+08:00",
+            "text": "國內累計298人確診，39人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/K1O-IhiJF1LcLYDi-vIhLg?typeId=9"
+        },
+        {
+            "date": "2020-03-29T14:00:00+08:00",
+            "text": "新增15例確診，14例境外移入、1例本土",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/zfX8R4_THZO6a32ziCcaeg?typeId=9"
+        },
+        {
             "date": "2020-03-28T13:30:00+08:00",
             "text": "國內累計283人確診，解除隔離30人",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/xe44c6m-04pXePB390lhdw?typeId=9"
@@ -39,16 +49,6 @@
             "date": "2020-03-26T13:14:00+08:00",
             "text": "新增17例確診，15例境外移入、2例本土",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/rS8uHMB-fN4HrEUQcST4UA?typeId=9"
-        },
-        {
-            "date": "2020-03-25T13:16:00+08:00",
-            "text": "避免群聚感染，建議停辦室內100人以上、室外500人以上集會活動",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/OGvZ8a1qdqdNo5mUgeaOqw?typeId=9"
-        },
-        {
-            "date": "2020-03-25T13:15:00+08:00",
-            "text": "集中檢疫14天期滿，第2批武漢包機回台361人今返家",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/FuTb-0_SqqDXOb6jLgpxRQ?typeId=9"
         }
     ]
 }
