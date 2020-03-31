@@ -8,7 +8,7 @@ go run tw_g0v_google_sheet_json_to_pat_data.go > ../data/patients.json
 if [[ `git status --porcelain ../data/patients.json ../data/data.json` ]]; then
     # Changes
     echo 'g0v parients data update Updated.'
-    git add '../data/news.json' '../data/data.json';
+    git add '../data/patients.json' '../data/data.json';
     git commit -S -m "Update patients.json in ${TS}";
     # git push;
 
