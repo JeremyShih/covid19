@@ -4264,10 +4264,10 @@
             }
         ]
     },
-    "lastUpdate": "2020/03/30 15:08",
+    "lastUpdate": "2020/03/31 12:29",
     "main_summary": {
         "attr": "検査実施人数",
-        "value": 30777,
+        "value": 31800,
         "datasource": "http://at.cdc.tw/9T5J1W",
         "children": [
             {
