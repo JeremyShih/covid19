@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-01T14:23:00+08:00",
+            "text": "降低風險！指揮中心公布「社交距離注意事項」",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/YAHlbhKR2h1sRW11yBchhA?typeId=9"
+        },
+        {
+            "date": "2020-04-01T14:20:00+08:00",
+            "text": "為防疫需要，指揮中心將依法發布確診個案資料",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/wmQ8u4_IqgSV1gS4OTasnQ?typeId=9"
+        },
+        {
             "date": "2020-04-01T14:18:00+08:00",
             "text": "為加強COVID-19(武漢肺炎)監測，指揮中心修訂嚴重特殊傳染性肺炎病例定義，並擴大社區監測採檢對象",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/hlaLHKBP91j9VUy0kc2f_A?typeId=9"
@@ -39,16 +49,6 @@
             "date": "2020-03-30T13:51:00+08:00",
             "text": "滯留武漢153人返台，接受集中檢疫14天",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/RfGKWtlsRJhvTCjFB1qSdw?typeId=9"
-        },
-        {
-            "date": "2020-03-30T13:49:00+08:00",
-            "text": "新增8例確診，7例境外移入1例本土",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/bAP9WuMki6vetPkpFO8-Tg?typeId=9"
-        },
-        {
-            "date": "2020-03-29T14:00:00+08:00",
-            "text": "國內累計298人確診，39人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/K1O-IhiJF1LcLYDi-vIhLg?typeId=9"
         }
     ]
 }
