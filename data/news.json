@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-01T17:30:00+08:00",
+            "text": "自4月1日起，居家檢疫者禁搭國內航線班機或船舶。另，禁止旅客來台轉機政策延長至4月30日，並視疫情滾動檢討",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/5nbmoOmi2HCQnT7DFcdw6Q?typeId=9"
+        },
+        {
             "date": "2020-04-01T14:23:00+08:00",
             "text": "降低風險！指揮中心公布「社交距離注意事項」",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/YAHlbhKR2h1sRW11yBchhA?typeId=9"
@@ -44,11 +49,6 @@
             "date": "2020-03-31T13:38:00+08:00",
             "text": "新增16例確診，14例境外移入2例本土",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/1Il2UKxUx7lU99Q_qfxcSQ?typeId=9"
-        },
-        {
-            "date": "2020-03-30T13:51:00+08:00",
-            "text": "滯留武漢153人返台，接受集中檢疫14天",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/RfGKWtlsRJhvTCjFB1qSdw?typeId=9"
         }
     ]
 }
