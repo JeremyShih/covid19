@@ -1,6 +1,31 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-01T14:18:00+08:00",
+            "text": "為加強COVID-19(武漢肺炎)監測，指揮中心修訂嚴重特殊傳染性肺炎病例定義，並擴大社區監測採檢對象",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/hlaLHKBP91j9VUy0kc2f_A?typeId=9"
+        },
+        {
+            "date": "2020-04-01T14:17:00+08:00",
+            "text": "居家隔離、檢疫者務必守法，違者加重裁罰",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/U-LF86uDS470CSFM943JwQ?typeId=9"
+        },
+        {
+            "date": "2020-04-01T14:16:00+08:00",
+            "text": "邀請旅宿業「安心防疫」，每房每日補助1,000元",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/IzzG4-Vk7uELSUlGAnUWww?typeId=9"
+        },
+        {
+            "date": "2020-04-01T14:15:00+08:00",
+            "text": "國內累計329人確診，45人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/YbjeDFqGNHmbZnufTJ5e-Q?typeId=9"
+        },
+        {
+            "date": "2020-04-01T14:14:00+08:00",
+            "text": "新增7例境外移入，均自美、英返國",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/RxNC9o2VRHwPizLWmY7Sxg?typeId=9"
+        },
+        {
             "date": "2020-03-31T13:40:00+08:00",
             "text": "國內累計322人確診，39人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/pxE3IaYxdePNzbb6vHQLnw?typeId=9"
@@ -24,31 +49,6 @@
             "date": "2020-03-29T14:00:00+08:00",
             "text": "國內累計298人確診，39人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/K1O-IhiJF1LcLYDi-vIhLg?typeId=9"
-        },
-        {
-            "date": "2020-03-29T14:00:00+08:00",
-            "text": "新增15例確診，14例境外移入、1例本土",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/zfX8R4_THZO6a32ziCcaeg?typeId=9"
-        },
-        {
-            "date": "2020-03-28T13:30:00+08:00",
-            "text": "國內累計283人確診，解除隔離30人",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/xe44c6m-04pXePB390lhdw?typeId=9"
-        },
-        {
-            "date": "2020-03-28T13:29:00+08:00",
-            "text": "新增16例確診，14例境外移入、2例本土",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/HpNJ8bNWb0Qg8WNTSuMfWw?typeId=9"
-        },
-        {
-            "date": "2020-03-27T19:24:00+08:00",
-            "text": "來台外籍旅客透過媒體發表不實陳述，恐影響我國國際形象及防疫工作執行，故不予防疫補償金",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/liY4_YXfkx1ODDn-KlIE-Q?typeId=9"
-        },
-        {
-            "date": "2020-03-27T13:41:00+08:00",
-            "text": "依法配合居家檢疫隔離14天，共同守護國人健康",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/EBjjqqNd478Dxd8ClzeqXg?typeId=9"
         }
     ]
 }
