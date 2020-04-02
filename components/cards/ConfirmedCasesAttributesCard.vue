@@ -5,7 +5,7 @@
       :title-id="'attributes-of-confirmed-cases'"
       :chart-data="patientsTable"
       :chart-option="{}"
-      :date="Data.patients.date"
+      :date="Patients.date"
       :info="sumInfoOfPatients"
       :url="
         'https://docs.google.com/spreadsheets/d/1I9EXxe-pWLhcLosakg5TPt98ERY6tdpJn1KngIGY7oY/edit#gid=1441264486'
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Data from '@/data/data.json'
+import Patients from '@/data/patients.json'
 import formatTable from '@/utils/formatTable'
 import DataTable from '@/components/DataTable.vue'
 
@@ -25,12 +25,12 @@ export default {
   },
   data() {
     // 感染者数
-    const patientsTable = formatTable(Data.patients.data)
+    const patientsTable = formatTable(Patients.data)
 
     const sumInfoOfPatients = {
-      lText: '' + Data.patients.data.length,
+      lText: '' + Patients.data.length,
       sText: this.$t('{date}の累計', {
-        date: Data.patients.date
+        date: Patients.date
       }),
       unit: this.$t('人')
     }
@@ -61,7 +61,7 @@ export default {
     }
 
     const data = {
-      Data,
+      Patients,
       patientsTable,
       sumInfoOfPatients
     }

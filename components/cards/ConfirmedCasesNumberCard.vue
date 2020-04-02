@@ -5,7 +5,7 @@
       :title-id="'number-of-confirmed-cases'"
       :chart-id="'time-bar-chart-patients'"
       :chart-data="patientsGraph"
-      :date="Data.patients.date"
+      :date="Patients.date"
       :items="patientsItems"
       :labels="patientsLabels"
       :unit="$t('人')"
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import Data from '@/data/data.json'
+import Patients from '@/data/patients.json'
 import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
 
 export default {
@@ -30,7 +30,7 @@ export default {
     }
     const patientsLabels = []
 
-    Data.patients.data.map(x => {
+    Patients.data.map(x => {
       const dateString = x['リリース日'].substr(-5, 5).replace('-', '/')
 
       if (typeof patientsData['境外'][dateString] === 'undefined') {
@@ -47,7 +47,7 @@ export default {
     const patientsDataLabels = [this.$t('境外'), this.$t('本土')]
 
     const data = {
-      Data,
+      Patients,
       patientsGraph: [
         Object.values(patientsData.境外),
         Object.values(patientsData.本土)

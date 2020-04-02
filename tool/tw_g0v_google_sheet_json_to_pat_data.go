@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"time"
 )
 
 // data Source: https://docs.google.com/spreadsheets/d/1I9EXxe-pWLhcLosakg5TPt98ERY6tdpJn1KngIGY7oY/edit#gid=0
@@ -171,6 +172,7 @@ func main() {
 	// }
 
 	out := map[string]interface{}{}
+	out["date"] = time.Now()
 	out["data"] = dstList
 
 	outBytes, _ := json.MarshalIndent(out, "", "    ")

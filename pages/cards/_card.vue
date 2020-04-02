@@ -47,6 +47,7 @@
 
 <script>
 import Data from '@/data/data.json'
+import Patients from '@/data/patients.json'
 import MetroData from '@/data/metro.json'
 import agencyData from '@/data/agency.json'
 import ShinjukuData from '@/data/13104_daily_visitors.json'
@@ -92,11 +93,11 @@ export default {
         break
       case 'number-of-confirmed-cases':
         title = this.$t('陽性患者数')
-        updatedAt = Data.patients.date
+        updatedAt = Patients.date
         break
       case 'attributes-of-confirmed-cases':
         title = this.$t('陽性患者の属性')
-        updatedAt = Data.patients.date
+        updatedAt = Patients.date
         break
       case 'number-of-tested':
         title = this.$t('検査実施件数')
