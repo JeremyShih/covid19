@@ -172,7 +172,7 @@ func main() {
 	// }
 
 	out := map[string]interface{}{}
-	out["date"] = time.Now()
+	out["date"] = time.Now().Format("2006/01/02 15:04")
 	out["data"] = dstList
 
 	outBytes, _ := json.MarshalIndent(out, "", "    ")
