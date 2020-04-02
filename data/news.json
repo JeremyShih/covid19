@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-02T16:50:00+08:00",
+            "text": "自4月3日起，過去14天內有症狀之入境旅客應配合至指定地點進行居家檢疫",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/zCJEj-MSIcHkwWowwj4lXw?typeId=9"
+        },
+        {
             "date": "2020-04-02T14:04:00+08:00",
             "text": "「陳時中指揮官說端午節前別出門」是假訊息！ 勿散布以免觸法遭罰",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/WuzkovZgelZ2ElLpJsH3bA?typeId=9"
@@ -44,11 +49,6 @@
             "date": "2020-04-01T14:16:00+08:00",
             "text": "邀請旅宿業「安心防疫」，每房每日補助1,000元",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/IzzG4-Vk7uELSUlGAnUWww?typeId=9"
-        },
-        {
-            "date": "2020-04-01T14:15:00+08:00",
-            "text": "國內累計329人確診，45人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/YbjeDFqGNHmbZnufTJ5e-Q?typeId=9"
         }
     ]
 }
