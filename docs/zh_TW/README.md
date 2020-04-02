@@ -4,7 +4,7 @@
 
 [![台灣非官方 COVID-19 資料整理站 | 皮丘版](https://stopcovid19.pichuchen.tw/ogp.png)](https://stopcovid19.pichuchen.tw/)
 
-### [日本語](./docs/ja/README.md) | [English](./docs/en/README.md) | [Español](./docs/es/README.md) | [한국어](./docs/ko/README.md) | 繁體中文 | [简体中文](./docs/zh_CN/README.md) | [Tiếng Việt](./docs/vi/README.md) | [ภาษาไทย](./docs/th/README.md) | [Français](./docs/fr/README.md)
+### [日本語](./../../README.md) | [English](./../en/README.md) | [Español](./../es/README.md) | [한국어](./../ko/README.md) | 繁體中文 | [简体中文](./../zh_CN/README.md) | [Tiếng Việt](./../vi/README.md) | [ภาษาไทย](./../th/README.md) | [Français](./../fr/README.md) | [Português](./../pt_BR/README.md)
 
 ## 這個網站
 
@@ -48,10 +48,25 @@ $ yarn install
 $ yarn dev
 ```
 
+**取消可用性檢查（vue-axe）的方法**
+
+- 如果本機開發伺服器負擔重時，以下方法可在關閉可用性檢查的狀況下進行啟動。
+
+```bash
+# serve with hot reload at localhost:3000
+$ yarn dev-no-axe
+```
+
 **使用 docker compose 的做法**
 ```bash
 # serve with hot reload at localhost:3000
 $ docker-compose up --build
+```
+
+**使用 Vagrant 的做法**
+```bash
+# serve with hot reload at localhost:3000
+$ vagrant up
 ```
 
 ### 被 `Cannot find module ****` 卡住時

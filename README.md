@@ -48,6 +48,16 @@ $ yarn install
 $ yarn dev
 ```
 
+**取消可用性檢查（vue-axe）的方法**
+
+- 如果本機開發伺服器負擔重時，以下方法可在關閉可用性檢查的狀況下進行啟動。
+
+```bash
+# serve with hot reload at localhost:3000
+$ yarn dev-no-axe
+```
+
+
 **使用 docker compose 的做法**
 ```bash
 # serve with hot reload at localhost:3000

@@ -52,7 +52,7 @@ export default (data: DataType[]) => {
     const TableRow: TableDataType = {
       案例編號: d.id ?? '',
       公表日: dayjs(d['リリース日']).format('MM/DD') ?? '不明',
-      居住地: d['居住地'] ?? '不明',
+      居住地: d['居住地'] ?? '調査中',
       相關地點: d['相關地點'] ?? '',
       境外或本土: d['境外或本土'] ?? '',
       年代: d['年代'] ?? '不明',
@@ -61,6 +61,8 @@ export default (data: DataType[]) => {
     }
     tableDate.datasets.push(TableRow)
   })
-  tableDate.datasets.sort((a, b) => (a === b ? 0 : a < b ? 1 : -1))
+  tableDate.datasets.sort((a, b) =>
+    a.公表日 === b.公表日 ? 0 : a.公表日 < b.公表日 ? 1 : -1
+  )
   return tableDate
 }

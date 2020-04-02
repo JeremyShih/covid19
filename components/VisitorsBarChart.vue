@@ -17,7 +17,11 @@
         <li>{{ $t('※2) 土・日・祝日を除く7:30~8:30の1週間平均値') }}</li>
       </ol>
     </template>
+    <h4 :id="`${titleId}-graph`" class="visually-hidden">
+      {{ $t(`{title}のグラフ`, { title }) }}
+    </h4>
     <bar
+      :ref="'barChart'"
       :style="{ display: canvas ? 'block' : 'none' }"
       :chart-id="chartId"
       :chart-data="displayData"
@@ -37,19 +41,12 @@
       class="cardTable"
       item-key="name"
     />
-    <template v-slot:footer-description>
-      <p>
-        {{ $t('※本データは2020年3月31日までの掲載となります') }}
-      </p>
-      <p>
-        {{ $t('出典') }}：
-        <a
-          href="https://ds.yahoo.co.jp/datapolicy/"
-          target="_blank"
-          rel="noopenner"
-          >{{ $t('ヤフー・データソリューション') }}</a
-        >
-      </p>
+    <template v-slot:footer>
+      <source-link
+        :url="url"
+        :link-string="linkString"
+        :header="sourceLinkHeader"
+      />
     </template>
   </data-view>
 </template>
@@ -70,7 +67,8 @@ import weekOfYear from 'dayjs/plugin/weekOfYear'
 import updateLocale from 'dayjs/plugin/updateLocale'
 import minMax from 'dayjs/plugin/minMax'
 import DataView from '@/components/DataView.vue'
-import { single as color } from '@/utils/colors'
+import { getGraphSeriesStyle } from '@/utils/colors'
+import SourceLink from '@/components/SourceLink.vue'
 
 dayjs.extend(updateLocale)
 dayjs.extend(weekOfYear)
@@ -113,6 +111,8 @@ type Computed = {
     datasets: {
       data: number[]
       backgroundColor: string
+      borderColor: string
+      borderWidth: number
     }[]
   }
   displayOptions: {
@@ -141,6 +141,9 @@ type Props = {
   date: string
   standardDate: string
   startDate: string
+  url: string
+  linkString: string
+  sourceLinkHeader: string
 }
 
 const options: ThisTypedComponentOptionsWithRecordProps<
@@ -153,7 +156,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
   created() {
     this.canvas = process.browser
   },
-  components: { DataView },
+  components: { DataView, SourceLink },
   props: {
     title: {
       type: String,
@@ -188,6 +191,18 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     startDate: {
       type: String,
       required: true,
+      default: ''
+    },
+    url: {
+      type: String,
+      default: ''
+    },
+    linkString: {
+      type: String,
+      default: ''
+    },
+    sourceLinkHeader: {
+      type: String,
       default: ''
     }
   },
@@ -259,12 +274,15 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       const percentages = this.targetValues.map(
         (val: number) => ((val - this.standardValue) / this.standardValue) * 100
       )
+      const style = getGraphSeriesStyle(1)[0]
       return {
         labels: this.labels,
         datasets: [
           {
             data: percentages,
-            backgroundColor: color
+            backgroundColor: style.fillColor,
+            borderColor: style.strokeColor,
+            borderWidth: 1
           }
         ]
       }
@@ -335,6 +353,17 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       return this.$t('期間: {duration}', {
         duration: this.$t(label)
       }) as string
+    }
+  },
+  mounted() {
+    const barChart = this.$refs.barChart as Vue
+    const barElement = barChart.$el
+    const canvas = barElement.querySelector('canvas')
+    const labelledbyId = `${this.titleId}-graph`
+
+    if (canvas) {
+      canvas.setAttribute('role', 'img')
+      canvas.setAttribute('aria-labelledby', labelledbyId)
     }
   }
 }

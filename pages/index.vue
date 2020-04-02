@@ -8,7 +8,7 @@
         <span>{{ $t('最終更新') }} </span>
         <time :datetime="updatedAt">{{ Data.lastUpdate }}</time>
       </div>
-      <div v-if="!['zh-tw'].includes($i18n.locale)" class="Annotation">
+      <div v-show="!['zh-tw'].includes($i18n.locale)" class="Annotation">
         <span>{{ $t('注釈') }} </span>
       </div>
     </div>
@@ -30,9 +30,8 @@
       <consultation-desk-reports-number-card />
       <metro-card />
       <agency-card />
-      <shinjuku-visitors-card />
-      <chiyoda-visitors-card />
     </v-row>
+    <v-divider />
   </div>
 </template>
 
@@ -49,6 +48,7 @@ import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsC
 import ConfirmedCasesNumberCard from '@/components/cards/ConfirmedCasesNumberCard.vue'
 import ConfirmedCasesAttributesCard from '@/components/cards/ConfirmedCasesAttributesCard.vue'
 import TestedNumberCard from '@/components/cards/TestedNumberCard.vue'
+import { convertDatetimeToISO8601Format } from '@/utils/formatDate'
 
 export default Vue.extend({
   components: {
@@ -75,8 +75,7 @@ export default Vue.extend({
   },
   computed: {
     updatedAt() {
-      return this.$data.Data.lastUpdate
-      // return convertDatetimeToISO8601Format(this.$data.Data.lastUpdate)
+      return convertDatetimeToISO8601Format(this.$data.Data.lastUpdate)
     }
   },
   head(): MetaInfo {

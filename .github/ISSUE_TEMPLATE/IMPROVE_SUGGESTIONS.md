@@ -1,7 +1,7 @@
 ---
 name: '改善提案 / Improvement Suggestions'
 about: '「這樣的話會更好」之類的提案這邊請。'
-labels: improve
+labels: improvement
 ---
 
 ## 改善詳細 / Details of Improvement

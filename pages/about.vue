@@ -106,7 +106,7 @@
               )
             "
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             {{ $t('Google Analytics利用規約') }}
           </a>
@@ -115,7 +115,7 @@
           <a
             :href="$t('https://policies.google.com/privacy?hl=ja')"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             {{ $t('Googleのプライバシーポリシー') }}
           </a>
@@ -126,7 +126,7 @@
               $t('https://support.google.com/analytics/answer/6004245?hl=ja')
             "
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             {{ $t('Google Analyticsに関する詳細情報') }}
           </a>
@@ -168,14 +168,15 @@
           )
         }}
         <i18n path="詳しくは、{githubRepo}をご確認ください。">
-          <a
-            href="https://github.com/pichuchen/covid19"
-            target="_blank"
-            rel="noopener"
-            place="githubRepo"
-          >
-            {{ $t('GitHub リポジトリ') }}
-          </a>
+          <template v-slot:githubRepo>
+            <a
+              href="https://github.com/pichuchen/covid19"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {{ $t('GitHub リポジトリ') }}
+            </a>
+          </template>
         </i18n>
       </p>
     </StaticCard>
