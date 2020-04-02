@@ -42,7 +42,7 @@ export default {
       this.$t('疑似新冠病毒感染送驗')
     ]
     const inspectionsLabels = Data.inspections_summary.labels
-    const inspectionsDataLabels = [this.$t('都内'), this.$t('その他.graph')]
+    const inspectionsDataLabels = inspectionsItems
 
     const data = {
       Data,
