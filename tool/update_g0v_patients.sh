@@ -5,10 +5,11 @@ curl 'https://raw.githubusercontent.com/kelvin2go/covid19-tw/master/latest.json'
 go run tw_g0v_google_sheet_json_to_pat_data.go > ../data/patients.json
 
 
-if [[ `git status --porcelain ../data/patients.json ../data/data.json` ]]; then
+DIFF_RESULT=`git diff --numstat ../data/patients.json | awk '{print $1}'`
+if [[ $DIFF_RESULT -gt 2 ]]; then
     # Changes
-    echo 'g0v parients data update Updated.'
-    git add '../data/patients.json' '../data/data.json';
+    echo 'g0v parients data has been updated.'
+    git add '../data/patients.json';
     git commit -S -m "Update patients.json in ${TS}";
     # git push;
 
