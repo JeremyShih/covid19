@@ -165,6 +165,12 @@ export default Vue.extend({
         },
         {
           icon: 'mdi-domain',
+          title: '臺北市防疫旅館相關FAQ',
+          link:
+            'https://www.gov.taipei/News_Content.aspx?n=EEC70A4186D4C828&sms=87415A8B9CE81B16&s=4D1A133CA1360666'
+        },
+        {
+          icon: 'mdi-domain',
           title: '疾管局網站',
           link: 'https://www.cdc.gov.tw/',
           divider: true
