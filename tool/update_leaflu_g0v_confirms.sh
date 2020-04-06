@@ -6,17 +6,17 @@ curl "https://sheets.googleapis.com/v4/spreadsheets/1qh20J-5rGVIEjLcGKJnfj7huAp-
 go run tw_leaflu_google_sheet_json_to_inspections_summary_data.go > ../data/inspections_summary.json
 
 
-# DIFF_RESULT=`git diff --numstat ../data/patients.json | awk '{print $1}'`
-# if [[ $DIFF_RESULT -gt 2 ]]; then
-#     # Changes
-#     echo 'g0v parients data has been updated.'
-#     git add '../data/patients.json';
-#     git commit -S -m "Update patients.json in ${TS}";
-#     # git push;
+DIFF_RESULT=`git diff --numstat ../data/inspections_summary.json | awk '{print $1}'`
+if [[ $DIFF_RESULT -gt 2 ]]; then
+    # Changes
+    echo 'LeafLu inspections summary data has been updated.'
+    git add '../data/inspections_summary.json';
+    git commit -S -m "Update inspections_summary.json in ${TS}";
+    # git push;
 
-# else
-# 	echo "There are no new patients data. ${TS}"
-# fi
+else
+	echo "There are no new inspections summary data. ${TS}"
+fi
 
 
 
