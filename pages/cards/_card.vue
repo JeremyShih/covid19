@@ -41,6 +41,7 @@
 
 <script>
 import Data from '@/data/data.json'
+import InspectionsSummary from '@/data/inspections_summary.json'
 import Patients from '@/data/patients.json'
 import MetroData from '@/data/metro.json'
 import agencyData from '@/data/agency.json'
@@ -73,7 +74,7 @@ export default {
     switch (this.$route.params.card) {
       case 'details-of-confirmed-cases':
         title = this.$t('検査陽性者の状況')
-        updatedAt = Data.inspections_summary.date
+        updatedAt = InspectionsSummary.date
         break
       case 'details-of-tested-cases':
         title = this.$t('検査実施状況')
@@ -89,7 +90,7 @@ export default {
         break
       case 'number-of-tested':
         title = this.$t('検査実施件数')
-        updatedAt = Data.inspections_summary.date
+        updatedAt = InspectionsSummary.date
         break
       case 'number-of-inspection-persons':
         title = this.$t('検査実施人数')

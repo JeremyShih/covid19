@@ -10,7 +10,6 @@
       :url="
         'https://docs.google.com/spreadsheets/d/1I9EXxe-pWLhcLosakg5TPt98ERY6tdpJn1KngIGY7oY/edit#gid=1441264486'
       "
-      :source="$t('オープンデータを入手')"
     />
   </v-col>
 </template>

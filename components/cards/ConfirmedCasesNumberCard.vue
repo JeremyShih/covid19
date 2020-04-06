@@ -10,6 +10,9 @@
       :labels="patientsLabels"
       :unit="$t('人')"
       :data-labels="patientsDataLabels"
+      :url="
+        'https://docs.google.com/spreadsheets/d/1I9EXxe-pWLhcLosakg5TPt98ERY6tdpJn1KngIGY7oY/edit#gid=1441264486'
+      "
     />
     <!-- 件.tested = 検査数 -->
   </v-col>

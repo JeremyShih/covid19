@@ -42,6 +42,9 @@
         :unit="displayInfo.unit"
       />
     </template>
+    <template v-slot:footer>
+      <open-data-link :url="url" />
+    </template>
   </data-view>
 </template>
 
@@ -52,6 +55,7 @@ import { TranslateResult } from 'vue-i18n'
 import DataView from '@/components/DataView.vue'
 import DataSelector from '@/components/DataSelector.vue'
 import DataViewBasicInfoPanel from '@/components/DataViewBasicInfoPanel.vue'
+import OpenDataLink from '@/components/OpenDataLink.vue'
 import { getGraphSeriesStyle } from '@/utils/colors'
 
 interface HTMLElementEvent<T extends HTMLElement> extends Event {
@@ -133,7 +137,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
   created() {
     this.canvas = process.browser
   },
-  components: { DataView, DataSelector, DataViewBasicInfoPanel },
+  components: { DataView, DataSelector, DataViewBasicInfoPanel, OpenDataLink },
   props: {
     title: {
       type: String,
@@ -171,6 +175,10 @@ const options: ThisTypedComponentOptionsWithRecordProps<
       default: () => []
     },
     unit: {
+      type: String,
+      default: ''
+    },
+    url: {
       type: String,
       default: ''
     }
