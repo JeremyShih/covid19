@@ -125,6 +125,7 @@ type Props = {
   labels: string[]
   dataLabels: string[] | TranslateResult[]
   unit: string
+  url: string
 }
 
 const options: ThisTypedComponentOptionsWithRecordProps<
