@@ -1,6 +1,21 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-07T13:51:00+08:00",
+            "text": "守住醫院！六大策略擴充醫療整備",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/dhGvIznwYoLuXXAkM98nxA?typeId=9"
+        },
+        {
+            "date": "2020-04-07T13:49:00+08:00",
+            "text": "國內累計376人確診，61人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/5xtwOQoWLWIZxHedDkLDbA?typeId=9"
+        },
+        {
+            "date": "2020-04-07T13:48:00+08:00",
+            "text": "新增3例確診，均為境外移入",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/BoQ1szWul2IK33whxIh7cA?typeId=9"
+        },
+        {
             "date": "2020-04-06T13:43:00+08:00",
             "text": "國內累計373例確診，57人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/M6TJj5JUthl13g1Pq-7YcQ?typeId=9"
@@ -34,21 +49,6 @@
             "date": "2020-04-04T12:55:00+08:00",
             "text": "國內累計355人確診，50人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/aIHNYjeaCzr65N7WD53rRg?typeId=9"
-        },
-        {
-            "date": "2020-04-04T12:53:00+08:00",
-            "text": "新增7例確診，6例境外移入1例本土",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/bhXHlZqnK7aQi1DfG35Ugg?typeId=9"
-        },
-        {
-            "date": "2020-04-04T11:55:00+08:00",
-            "text": "清明連假出遊請保持社交距離或配戴口罩  保護自己也保護他人",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/AfMkuBQA81TYDKSwMIPDDQ?typeId=9"
-        },
-        {
-            "date": "2020-04-03T14:14:00+08:00",
-            "text": "國內累計348人確診，50人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/-6nGhlSwLvLT_9RzNahBwg?typeId=9"
         }
     ]
 }
