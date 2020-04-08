@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-07T15:00:00+08:00",
+            "text": "腸病毒威脅莫輕忽！落實手部與環境衛生，留意嬰幼兒重症前兆病徵",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/tPu6HodYZmvX_yRLeUTDqw?typeId=9"
+        },
+        {
+            "date": "2020-04-07T15:00:00+08:00",
+            "text": "COVID-19(武漢肺炎)防疫期間，寶寶常規疫苗接種不能少",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/r_BbPgFigm9gPrkqrxjpwA?typeId=9"
+        },
+        {
             "date": "2020-04-07T13:51:00+08:00",
             "text": "守住醫院！六大策略擴充醫療整備",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/dhGvIznwYoLuXXAkM98nxA?typeId=9"
@@ -39,16 +49,6 @@
             "date": "2020-04-05T13:35:00+08:00",
             "text": "國內累計363人確診，54人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/RBX9PAzZ8dmfaajR0dIq9Q?typeId=9"
-        },
-        {
-            "date": "2020-04-05T13:33:00+08:00",
-            "text": "新增8例確診，均為境外移入",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/HbjzlJDa4OJzdsTfaapXLg?typeId=9"
-        },
-        {
-            "date": "2020-04-04T12:55:00+08:00",
-            "text": "國內累計355人確診，50人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/aIHNYjeaCzr65N7WD53rRg?typeId=9"
         }
     ]
 }
