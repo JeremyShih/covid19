@@ -1,6 +1,21 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-08T12:50:00+08:00",
+            "text": "科技防疫，再推「疫止神通」、「雙向簡訊」追蹤隔離檢疫",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/-7_x7Lq6ecIzxPyKAGcfyQ?typeId=9"
+        },
+        {
+            "date": "2020-04-08T12:48:00+08:00",
+            "text": "國內累計379人確診，67人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/liJTUDmOvR1ROPxeTs3TVg?typeId=9"
+        },
+        {
+            "date": "2020-04-08T12:47:00+08:00",
+            "text": "新增3例確診，2例境外移入1例本土",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/uy4lpgUxdhapxaJT4upIpQ?typeId=9"
+        },
+        {
             "date": "2020-04-07T15:00:00+08:00",
             "text": "腸病毒威脅莫輕忽！落實手部與環境衛生，留意嬰幼兒重症前兆病徵",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/tPu6HodYZmvX_yRLeUTDqw?typeId=9"
@@ -34,21 +49,6 @@
             "date": "2020-04-06T13:42:00+08:00",
             "text": "新增10例確診，9例境外移入1例本土",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/hzqKd_TUo7pkzioYq5DRAw?typeId=9"
-        },
-        {
-            "date": "2020-04-06T10:02:00+08:00",
-            "text": "連假曾至人潮擁擠場所，應自主健康管理14天",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/fnNZgkagq7iXG9ooTYRrxQ?typeId=9"
-        },
-        {
-            "date": "2020-04-05T13:35:00+08:00",
-            "text": "連假後應更小心！保持社交距離，避免出入擁擠場所",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/vfrSu-Ua9hxROl5fwBy4Aw?typeId=9"
-        },
-        {
-            "date": "2020-04-05T13:35:00+08:00",
-            "text": "國內累計363人確診，54人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/RBX9PAzZ8dmfaajR0dIq9Q?typeId=9"
         }
     ]
 }
