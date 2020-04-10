@@ -1,6 +1,21 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-10T13:08:00+08:00",
+            "text": "觀光景點、夜市及寺廟等，4月10日起人流管制",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/WQyStDBdch13zEESlgfivg?typeId=9"
+        },
+        {
+            "date": "2020-04-10T13:08:00+08:00",
+            "text": "國內累計382人確診，91人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/iZEuNqPALokd9Vsu4r433g?typeId=9"
+        },
+        {
+            "date": "2020-04-10T13:07:00+08:00",
+            "text": "新增2例境外移入，均於居家隔離期間確診",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/sie54l3hj9MPS_B95EGBiQ?typeId=9"
+        },
+        {
             "date": "2020-04-09T13:56:00+08:00",
             "text": "全國酒店和舞廳，自9日起停止營業",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/okBaT5_NvR9vqYIAHIPVBg?typeId=9"
@@ -34,21 +49,6 @@
             "date": "2020-04-07T15:00:00+08:00",
             "text": "腸病毒威脅莫輕忽！落實手部與環境衛生，留意嬰幼兒重症前兆病徵",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/tPu6HodYZmvX_yRLeUTDqw?typeId=9"
-        },
-        {
-            "date": "2020-04-07T15:00:00+08:00",
-            "text": "COVID-19(武漢肺炎)防疫期間，寶寶常規疫苗接種不能少",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/r_BbPgFigm9gPrkqrxjpwA?typeId=9"
-        },
-        {
-            "date": "2020-04-07T13:51:00+08:00",
-            "text": "守住醫院！六大策略擴充醫療整備",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/dhGvIznwYoLuXXAkM98nxA?typeId=9"
-        },
-        {
-            "date": "2020-04-07T13:49:00+08:00",
-            "text": "國內累計376人確診，61人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/5xtwOQoWLWIZxHedDkLDbA?typeId=9"
         }
     ]
 }
