@@ -301,19 +301,19 @@
             }
         ]
     },
-    "lastUpdate": "2020/04/05",
+    "lastUpdate": "2020/04/12",
     "main_summary": {
         "attr": "検査実施人数",
-        "value": 36304,
-        "datasource": "https://www.cdc.gov.tw/Bulletin/Detail/RBX9PAzZ8dmfaajR0dIq9Q?typeid=9",
+        "value": 46547,
+        "datasource": "http://at.cdc.tw/H59x55",
         "children": [
             {
                 "attr": "陽性患者数",
-                "value": 363,
+                "value": 388,
                 "children": [
                     {
                         "attr": "入院中",
-                        "value": 304,
+                        "value": 273,
                         "children": [
                             {
                                 "attr": "軽症・中等症",
@@ -327,11 +327,11 @@
                     },
                     {
                         "attr": "解除隔離",
-                        "value": 54
+                        "value": 109
                     },
                     {
                         "attr": "死亡",
-                        "value": 5
+                        "value": 6
                     }
                 ]
             }
