@@ -1,6 +1,21 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-14T13:40:00+08:00",
+            "text": "歐美2洲返國前先通報，家中有慢性病、長者、幼童者一律入住防疫旅館",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/DwvSspt9k1ayhfhKNHbcmA?typeId=9"
+        },
+        {
+            "date": "2020-04-14T13:38:00+08:00",
+            "text": "4月15日起 4至8歲小童立體口罩全面網購",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/lQZ4rxcQBGBRCQGifi3r_w?typeId=9"
+        },
+        {
+            "date": "2020-04-14T13:38:00+08:00",
+            "text": "今日無新增病例，累計124人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/K4cBFzkKOfCToecFA1tbUA?typeId=9"
+        },
+        {
             "date": "2020-04-13T12:58:00+08:00",
             "text": "國內累計393人確診，114人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/mYj-QlB3QknBtUuWIJXbRw?typeId=9"
@@ -34,21 +49,6 @@
             "date": "2020-04-11T13:43:00+08:00",
             "text": "國內累計385人確診，99人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/FS9LPi3eJRD0oaYqdd6JAg?typeId=9"
-        },
-        {
-            "date": "2020-04-11T13:42:00+08:00",
-            "text": "新增3例確診，均為境外移入",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/1rbAHWSsLF4D4iUBUPemZw?typeId=9"
-        },
-        {
-            "date": "2020-04-10T13:08:00+08:00",
-            "text": "觀光景點、夜市及寺廟等，4月10日起人流管制",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/WQyStDBdch13zEESlgfivg?typeId=9"
-        },
-        {
-            "date": "2020-04-10T13:08:00+08:00",
-            "text": "國內累計382人確診，91人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/iZEuNqPALokd9Vsu4r433g?typeId=9"
         }
     ]
 }
