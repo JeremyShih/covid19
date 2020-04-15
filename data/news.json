@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-15T12:34:00+08:00",
+            "text": "國內累計395人確診，137人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/-pn6tu_3sqpVMUSPTM5ECA?typeId=9"
+        },
+        {
+            "date": "2020-04-15T12:34:00+08:00",
+            "text": "新增2例確診，均為境外移入",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/aGkS661YKBXFjfq6FhH04A?typeId=9"
+        },
+        {
             "date": "2020-04-14T13:40:00+08:00",
             "text": "歐美2洲返國前先通報，家中有慢性病、長者、幼童者一律入住防疫旅館",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/DwvSspt9k1ayhfhKNHbcmA?typeId=9"
@@ -39,16 +49,6 @@
             "date": "2020-04-12T14:00:00+08:00",
             "text": "新增3例確診，2例境外移入、1例本土",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/gjIcdu1yz_SD0h4QMbJ4RA?typeId=9"
-        },
-        {
-            "date": "2020-04-11T13:43:00+08:00",
-            "text": "我國通報世界衛生組織(WHO)電郵內容事實陳述之聲明",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/tYbH45jTug67FTIh-iYv4A?typeId=9"
-        },
-        {
-            "date": "2020-04-11T13:43:00+08:00",
-            "text": "國內累計385人確診，99人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/FS9LPi3eJRD0oaYqdd6JAg?typeId=9"
         }
     ]
 }
