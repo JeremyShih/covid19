@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-16T12:24:00+08:00",
+            "text": "今日無確診病例，累計155人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/gVvIaN60w43fMELpIYaVJA?typeId=9"
+        },
+        {
             "date": "2020-04-15T12:34:00+08:00",
             "text": "國內累計395人確診，137人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/-pn6tu_3sqpVMUSPTM5ECA?typeId=9"
@@ -44,11 +49,6 @@
             "date": "2020-04-12T14:00:00+08:00",
             "text": "國內累計388人確診，109人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/srBHa7viqh-rkYyk-iBr_Q?typeId=9"
-        },
-        {
-            "date": "2020-04-12T14:00:00+08:00",
-            "text": "新增3例確診，2例境外移入、1例本土",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/gjIcdu1yz_SD0h4QMbJ4RA?typeId=9"
         }
     ]
 }
