@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-17T13:40:00+08:00",
+            "text": "藥局、衛生所喘息，4月19日起週日不賣口罩",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/stp66rlTEhXnLSjdrijDYQ?typeId=9"
+        },
+        {
+            "date": "2020-04-17T13:24:00+08:00",
+            "text": "今日無新增病例，累計166人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/nPoLHe5tkWT6nBDhvHKf7A?typeId=9"
+        },
+        {
             "date": "2020-04-16T12:24:00+08:00",
             "text": "今日無確診病例，累計155人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/gVvIaN60w43fMELpIYaVJA?typeId=9"
@@ -39,16 +49,6 @@
             "date": "2020-04-13T12:57:00+08:00",
             "text": "新增5例境外移入，4人為珊瑚公主號旅客",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/ZG9OHIR-DDpbDEIeONbIdQ?typeId=9"
-        },
-        {
-            "date": "2020-04-12T18:10:00+08:00",
-            "text": "行政院核定「防疫中心」興建計畫，預計2027年竣工",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/AVdVgsyZzcGmXBk5ij-tCQ?typeId=9"
-        },
-        {
-            "date": "2020-04-12T14:00:00+08:00",
-            "text": "國內累計388人確診，109人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/srBHa7viqh-rkYyk-iBr_Q?typeId=9"
         }
     ]
 }
