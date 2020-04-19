@@ -1,11 +1,17 @@
-# 東京都 新型冠狀病毒疫情中心
+# 台灣非官方 COVID-19 資料整理站 | 皮丘版
 
-![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/production%20deploy/badge.svg)
+![](https://github.com/PichuChen/covid19/workflows/pichu%20master%20deploy/badge.svg)
 
-[![東京都 新型冠狀病毒疫情中心](https://user-images.githubusercontent.com/1301149/75629392-1d19d900-5c25-11ea-843d-2d4376e3a560.png)](https://stopcovid19.metro.tokyo.lg.jp/)
+[![台灣非官方 COVID-19 資料整理站 | 皮丘版](https://stopcovid19.pichuchen.tw/ogp.png)](https://stopcovid19.pichuchen.tw/)
 
 ### [日本語](./../../README.md) | [English](./../en/README.md) | [Español](./../es/README.md) | [한국어](./../ko/README.md) | 繁體中文 | [简体中文](./../zh_CN/README.md) | [Tiếng Việt](./../vi/README.md) | [ภาษาไทย](./../th/README.md) | [Français](./../fr/README.md) | [Português](./../pt_BR/README.md)
 
+## 這個網站
+
+這個網站主要是從東京都新型冠狀肺炎對策網站分支出來的台灣版網站，工作語言以中文以及英文為主。
+原則上我個人鼓勵自己動手建立自己的版本，但是也很歡迎發送 PR 到這邊來改這個版本，或者是到 g0v 的 slack 上面討論可以新增什麼資料。
+
+目前已經有其他同類型的資料整理站或是平台了，因此這個站主要定位的功能會在於可用性（對不同平台、語系、IPv6、載入速度）。資料更新的部分採用手動更新的方式以降低對 API 提供者的負擔。
 
 ## 如何貢獻
 如果您能對 Issues 中做出各式各樣的修正協助，我們將不勝感激。
@@ -17,11 +23,11 @@
 詳情請洽[建立網站的行動原則](./CODE_OF_CONDUCT.md)。
 
 ## 授權
-本軟體採 [MIT 授權條款](./../../LICENSE.txt)釋出。
+本軟體採 [MIT 授權條款](./LICENSE.txt)釋出。
 
 ## 從這個網站衍生出來的東西
 
-請參考[此連結](./../../FORKED_SITES.md)
+請參考[此連結](./FORKED_SITES.md)
 
 ## 給翻譯者的資訊
 
@@ -42,20 +48,14 @@ $ yarn install
 $ yarn dev
 ```
 
+**取消可用性檢查（vue-axe）的方法**
 
-[PLEASE TRANSLATE ME]
-
-**アクセシビリティチェック（vue-axe）を無効にする方法**
-
-- 開発用ローカルサーバが重い場合、以下のようにアクセシビリティチェックを無効にして起動することができます。
+- 如果本機開發伺服器負擔重時，以下方法可在關閉可用性檢查的狀況下進行啟動。
 
 ```bash
 # serve with hot reload at localhost:3000
 $ yarn dev-no-axe
 ```
-
-[/PLEASE TRANSLATE ME]
-
 
 **使用 docker compose 的做法**
 ```bash
@@ -100,11 +100,7 @@ $ docker-compose run --rm app yarn install
 
 ### Deploy 到 Staging 環境以及正式環境的方法
 
-當 `master` 分支被更新時，HTML 檔案將會在 `production` 分支中被 build 起來，然後正式版網站 https://stopcovid19.metro.tokyo.lg.jp/ 會被更新。
-
-當 `staging` 分支被更新時，HTML 檔案將會在 `gh-pages` 分支中被 build 起來，然後 Staging 版網站 https://stg-covid19-tokyo.netlify.app/ 會被更新。
-
-當 `development` 分支被更新時，HTML 檔案將會在 `dev-pages` 分支中被 build 起來，然後開發版網站 https://dev-covid19-tokyo.netlify.app/ 會被更新。
+當 `pichu-master` 分支被更新時，HTML 檔案將會在 `pichu-master-pages` 分支中被 build 起來，然後正式版兼開發版網站 https://stopcovid19.pichuchen.tw/ 會被更新。
 
 ### 分支規則
 
@@ -117,13 +113,13 @@ Hotfix: hotfix/#{ISSUE_ID}-{branch_title_name}
 #### 基本分支
 | 目的 | 分支 | 預覽用 URL | 備註 |
 | ---- | -------- | ---- | ---- |
-| 開發 | development | https://dev-covid19-tokyo.netlify.app/ | 基本上請推送 Pull Request 到這裡 |
-| 緊急修復 | dev-hotfix | 無 | 對於正式版的緊急修復。 在管理員的要求下使用。 |
-| 正式版預覽 | staging | https://stg-covid19-tokyo.netlify.app/ | 對於正式版釋出前的最終確認，禁止管理員以外的人推送 Pull Request。 |
-| 正式版 | master | https://stopcovid19.metro.tokyo.lg.jp/ | 禁止管理員以外的人推送 Pull Request |
+| 開發=正式 | pichu-master | https://stopcovid19.pichuchen.tw/ | 基本上請推送 Pull Request 到這裡 |
+
 #### 系統所使用的分支
 | 目的 | 分支 | 預覽用 URL | 備註 |
 | ---- | -------- | ---- | ---- |
-| 正式網站 HTML | production | https://stopcovid19.metro.tokyo.lg.jp/ | 生成靜態網站 HTML 的位置 |
-| 正式版預覽 HTML | gh-pages | https://stg-covid19-tokyo.netlify.app/ | 生成靜態網站 HTML 的位置 |
+| 正式網站 HTML | pichu-master-pages | https://stopcovid19.pichuchen.tw/ | 生成靜態網站 HTML 的位置 |
 | OGP 工作用 | deploy / new_ogp | 無 | OGP 更新用 |
+
+#### 其他分支
+其他分支是從東京都版本 Merge 回來或者是發送 PR 給東京都版本時用的。

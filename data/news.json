@@ -1,19 +1,54 @@
 {
     "newsItems": [
         {
-            "date": "2020\/04\/18",
-            "url": "https:\/\/tokyodouga.jp\/t1ioo8F_eoY.html",
-            "text": " [最新情報動画] 知事から都民の皆様へ (4\/18)"
+            "date": "2020-04-18T13:27:00+08:00",
+            "text": "東南亞返國者先通報，家有長者幼童與慢性病患一律入住防疫旅館",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/Zc2ek3CFfFDNFQNX3wNFeQ?typeId=9"
         },
         {
-            "date": "2020\/04\/18",
-            "url": "https:\/\/www.kankyo.metro.tokyo.lg.jp\/resource\/500200a20200221162304660.files\/200327_chirashi.pdf",
-            "text": "新型コロナウイルスなどの感染症対策としてのご家庭でのマスク等の捨て方[PDF]"
+            "date": "2020-04-18T13:26:00+08:00",
+            "text": "國內累計398人確診，178人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/VNT5yumlWAFQo1i4digYdg?typeId=9"
         },
         {
-            "date": "2020\/04\/18",
-            "url": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/oshirase\/corona_0401.html",
-            "text": " 新型コロナウイルス感染症でこれから入院される方へ"
+            "date": "2020-04-18T13:25:00+08:00",
+            "text": "新增3境外移入確診，為軍艦實習生及軍人",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/yeX1Bl33EkxjvaXjdclUIQ?typeId=9"
+        },
+        {
+            "date": "2020-04-17T17:00:00+08:00",
+            "text": "「發熱伴血小板減少綜合症」自4月15日起列為第四類法定傳染病",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/dcihw09nexwRb_fmeNSttw?typeId=9"
+        },
+        {
+            "date": "2020-04-17T13:40:00+08:00",
+            "text": "藥局、衛生所喘息，4月19日起週日不賣口罩",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/stp66rlTEhXnLSjdrijDYQ?typeId=9"
+        },
+        {
+            "date": "2020-04-17T13:24:00+08:00",
+            "text": "今日無新增病例，累計166人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/nPoLHe5tkWT6nBDhvHKf7A?typeId=9"
+        },
+        {
+            "date": "2020-04-16T12:24:00+08:00",
+            "text": "今日無確診病例，累計155人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/gVvIaN60w43fMELpIYaVJA?typeId=9"
+        },
+        {
+            "date": "2020-04-15T12:34:00+08:00",
+            "text": "國內累計395人確診，137人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/-pn6tu_3sqpVMUSPTM5ECA?typeId=9"
+        },
+        {
+            "date": "2020-04-15T12:34:00+08:00",
+            "text": "新增2例確診，均為境外移入",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/aGkS661YKBXFjfq6FhH04A?typeId=9"
+        },
+        {
+            "date": "2020-04-14T13:40:00+08:00",
+            "text": "歐美2洲返國前先通報，家中有慢性病、長者、幼童者一律入住防疫旅館",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/DwvSspt9k1ayhfhKNHbcmA?typeId=9"
         }
     ]
 }

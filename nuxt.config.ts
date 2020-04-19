@@ -15,7 +15,7 @@ const config: Configuration = {
     htmlAttrs: {
       prefix: 'og: http://ogp.me/ns#'
     },
-    titleTemplate: '%s | 東京都 新型コロナウイルス感染症対策サイト',
+    titleTemplate: '%s | 台灣版 非官方 COVID-19 資料整理站 | 皮丘版',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -23,13 +23,14 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://stopcovid19.metro.tokyo.lg.jp'
+        content: 'https://stopcovid19.pichuchen.tw/'
       },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
         content: 'summary_large_image'
       },
+      /*
       {
         hid: 'twitter:site',
         name: 'twitter:site',
@@ -44,7 +45,7 @@ const config: Configuration = {
         hid: 'fb:app_id',
         property: 'fb:app_id',
         content: '2879625188795443'
-      },
+      }, */
       {
         hid: 'note:card',
         property: 'note:card',
@@ -155,7 +156,7 @@ const config: Configuration = {
     // hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
-    name: '東京都 新型コロナウイルス感染症対策サイト',
+    name: '台灣版 非官方 COVID-19 資料整理站 | 皮丘版',
     theme_color: '#00a040',
     background_color: '#ffffff',
     display: 'standalone',
@@ -166,7 +167,16 @@ const config: Configuration = {
   generate: {
     fallback: true,
     routes() {
-      const locales = ['ja', 'en', 'zh-cn', 'zh-tw', 'ko', 'ja-basic']
+      const locales = [
+        'ja',
+        'en',
+        'zh-cn',
+        'zh-tw',
+        'ko',
+        'vi',
+        'th',
+        'ja-basic'
+      ]
       const pages = [
         '/cards/details-of-confirmed-cases',
         '/cards/details-of-tested-cases',

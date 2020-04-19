@@ -1,46 +1,62 @@
 <template>
   <v-col cols="12" md="6" class="DataCard">
-    <time-bar-chart
+    <time-stacked-bar-chart
       :title="$t('陽性患者数')"
       :title-id="'number-of-confirmed-cases'"
       :chart-id="'time-bar-chart-patients'"
       :chart-data="patientsGraph"
-      :date="Data.patients.date"
+      :date="Patients.date"
+      :items="patientsItems"
+      :labels="patientsLabels"
       :unit="$t('人')"
-      :url="'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'"
-    >
-      <template v-slot:description>
-        <ul>
-          <li>
-            {{ $t('（注）医療機関が保険適用で行った検査も含む') }}
-          </li>
-          <li>
-            {{
-              $t('（注）チャーター機帰国者、クルーズ船乗客等は含まれていない')
-            }}
-          </li>
-        </ul>
-      </template>
-    </time-bar-chart>
+      :data-labels="patientsDataLabels"
+      :url="
+        'https://docs.google.com/spreadsheets/d/1I9EXxe-pWLhcLosakg5TPt98ERY6tdpJn1KngIGY7oY/edit#gid=1441264486'
+      "
+    />
   </v-col>
 </template>
 
 <script>
-import Data from '@/data/data.json'
-import formatGraph from '@/utils/formatGraph'
-import TimeBarChart from '@/components/TimeBarChart.vue'
+import Patients from '@/data/patients.json'
+import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
 
 export default {
   components: {
-    TimeBarChart
+    TimeStackedBarChart
   },
   data() {
-    // 感染者数グラフ
-    const patientsGraph = formatGraph(Data.patients_summary.data)
+    const patientsData = {
+      境外: {},
+      本土: {}
+    }
+    const patientsLabels = []
+
+    Patients.data.map(x => {
+      const dateString = x['リリース日'].substr(-5, 5).replace('-', '/')
+
+      if (typeof patientsData['境外'][dateString] === 'undefined') {
+        // init array for first time of this date.
+        patientsData['境外'][dateString] = 0
+        patientsData['本土'][dateString] = 0
+        patientsLabels.push(dateString)
+      }
+
+      patientsData[x.境外或本土][dateString] =
+        patientsData[x.境外或本土][dateString] + 1
+    })
+    const patientsItems = [this.$t('境外'), this.$t('本土')]
+    const patientsDataLabels = [this.$t('境外'), this.$t('本土')]
 
     const data = {
-      Data,
-      patientsGraph
+      Patients,
+      patientsGraph: [
+        Object.values(patientsData.境外),
+        Object.values(patientsData.本土)
+      ],
+      patientsItems,
+      patientsLabels,
+      patientsDataLabels
     }
     return data
   }

@@ -18,8 +18,10 @@
       <template v-slot:body="{ items }">
         <tbody>
           <tr v-for="item in items" :key="item.text">
+            <th class="text-start">{{ item['案例編號'] }}</th>
             <th class="text-start">{{ item['公表日'] }}</th>
-            <td class="text-start">{{ item['居住地'] }}</td>
+            <td class="text-start">{{ item['相關地點'] }}</td>
+            <td class="text-start">{{ item['境外或本土'] }}</td>
             <td class="text-start">{{ item['年代'] }}</td>
             <td class="text-start">{{ item['性別'] }}</td>
             <td class="text-center">{{ item['退院'] }}</td>
@@ -29,9 +31,6 @@
     </v-data-table>
     <div class="note">
       <ul>
-        <li>
-          {{ $t('※退院は、保健所から報告があり、確認ができているものを反映') }}
-        </li>
         <li>
           {{ $t('※死亡退院を含む') }}
         </li>

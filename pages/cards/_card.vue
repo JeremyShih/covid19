@@ -46,6 +46,8 @@
 
 <script>
 import Data from '@/data/data.json'
+import InspectionsSummary from '@/data/inspections_summary.json'
+import Patients from '@/data/patients.json'
 import MetroData from '@/data/metro.json'
 import agencyData from '@/data/agency.json'
 import patientData from '@/data/patient.json'
@@ -80,7 +82,7 @@ export default {
     switch (this.$route.params.card) {
       case 'details-of-confirmed-cases':
         title = this.$t('検査陽性者の状況')
-        updatedAt = Data.inspections_summary.date
+        updatedAt = InspectionsSummary.date
         break
       case 'details-of-tested-cases':
         title = this.$t('検査実施状況')
@@ -88,7 +90,7 @@ export default {
         break
       case 'number-of-confirmed-cases':
         title = this.$t('陽性患者数')
-        updatedAt = Data.patients.date
+        updatedAt = Patients.date
         break
       case 'number-of-confirmed-cases-by-municipalities':
         title = this.$t('陽性患者数（区市町村別）')
@@ -96,11 +98,11 @@ export default {
         break
       case 'attributes-of-confirmed-cases':
         title = this.$t('陽性患者の属性')
-        updatedAt = Data.patients.date
+        updatedAt = Patients.date
         break
       case 'number-of-tested':
         title = this.$t('検査実施件数')
-        updatedAt = Data.inspections_summary.date
+        updatedAt = InspectionsSummary.date
         break
       case 'number-of-inspection-persons':
         title = this.$t('検査実施人数')
@@ -131,15 +133,13 @@ export default {
     return data
   },
   head() {
-    const url = 'https://stopcovid19.metro.tokyo.lg.jp'
+    const url = 'https://stopcovid19.pichuchen.tw'
     const timestamp = new Date().getTime()
     const ogpImage =
       this.$i18n.locale === 'ja'
         ? `${url}/ogp/${this.$route.params.card}.png?t=${timestamp}`
         : `${url}/ogp/${this.$i18n.locale}/${this.$route.params.card}.png?t=${timestamp}`
-    const description = `${this.updatedAt} | ${this.$t(
-      '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
-    )}`
+    const description = `${this.updatedAt}`
 
     return {
       title: this.title,
@@ -155,10 +155,14 @@ export default {
           content:
             this.title +
             ' | ' +
-            this.$t('東京都') +
+            this.$t('台灣版') +
             ' ' +
-            this.$t('新型コロナウイルス感染症') +
-            this.$t('対策サイト')
+            this.$t('非官方') +
+            ' ' +
+            this.$t('COVID-19') +
+            this.$t('資料整理站') +
+            ' | ' +
+            this.$t('皮丘版')
         },
         {
           hid: 'description',

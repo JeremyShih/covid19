@@ -1,4 +1,10 @@
 {
+  "台灣目前感染趨勢": "台湾の最新感染動向",
+  "皮丘版": "皮丘版",
+  "資料整理站": "まとめサイト",
+  "COVID-19": "COVID-19",
+
+
   "新型コロナウイルス感染症が心配なときに": "新型コロナウイルス感染症が心配なときに",
   "かかりつけ医に相談することもできます。": "かかりつけ医に相談することもできます。",
   "詳しくはこちらをご参照ください。": "詳しくはこちらをご参照ください。",
@@ -254,7 +260,7 @@
   "※最新の情報はWebページをご覧ください": "※最新の情報はWebページをご覧ください",
   "〇": "〇",
   "ogp": {
-    "og:image": "https://stopcovid19.metro.tokyo.lg.jp/ogp.png"
+    "og:image": "https://stopcovid19.pichuchen.tw/ogp.png"
   },
   "https://marketingplatform.google.com/about/analytics/terms/jp/": "https://marketingplatform.google.com/about/analytics/terms/jp/",
   "https://policies.google.com/privacy?hl=ja": "https://policies.google.com/privacy?hl=ja",

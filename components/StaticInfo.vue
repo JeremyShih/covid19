@@ -37,7 +37,7 @@ export default Vue.extend({
         : { href: this.url, class: 'StaticInfo' }
     },
     isInternalLink(): boolean {
-      return !/^https?:\/\//.test(this.url)
+      return !/^(https?:\/\/|tel:)/.test(this.url)
     }
   }
 })

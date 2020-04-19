@@ -6,15 +6,22 @@ const options: NuxtVueI18n.Options.AllOptionsInterface = {
     useCookie: true,
     cookieKey: 'i18n_redirected'
   },
-  defaultLocale: 'ja',
+  defaultLocale: 'zh-tw',
   vueI18n: {
-    fallbackLocale: 'ja',
+    fallbackLocale: 'zh-tw',
     formatFallbackMessages: true
   },
   // vueI18nLoader: true,
   lazy: true,
   langDir: 'assets/locales/',
   locales: [
+    {
+      code: 'zh-tw',
+      name: '中文 (台灣)',
+      iso: 'zh-TW',
+      file: 'zh_TW.json',
+      description: 'Chinese (Taiwan)'
+    },
     {
       code: 'ja',
       name: '日本語',
@@ -37,13 +44,6 @@ const options: NuxtVueI18n.Options.AllOptionsInterface = {
       description: 'Simplified Chinese'
     },
     {
-      code: 'zh-tw',
-      name: '繁體中文',
-      iso: 'zh-TW',
-      file: 'zh_TW.json',
-      description: 'Traditional Chinese'
-    },
-    {
       code: 'ko',
       name: '한국어',
       iso: 'ko-KR',
@@ -59,6 +59,20 @@ const options: NuxtVueI18n.Options.AllOptionsInterface = {
     //   file: 'pt_BR.json',
     //   description: 'Portuguese'
     // },
+    {
+      code: 'vi',
+      name: 'Tiếng Việt',
+      iso: 'vi-VI',
+      file: 'vi.json',
+      description: 'Vietnamese'
+    },
+    {
+      code: 'th',
+      name: 'ไทย',
+      iso: 'th-TH',
+      file: 'th.json',
+      description: 'Thai'
+    },
     {
       code: 'ja-basic',
       name: 'やさしい にほんご',

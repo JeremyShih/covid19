@@ -1,29 +1,7 @@
 <template>
   <data-view :title="title" :title-id="titleId" :date="date">
     <template v-slot:button>
-      <ul :class="$style.GraphDesc">
-        <li>
-          {{
-            $t(
-              '（注）日々の速報値（医療機関が保険適用で行った検査は含まない）は、毎日更新'
-            )
-          }}
-        </li>
-        <li>
-          {{
-            $t(
-              '（注）医療機関が保険適用で行った検査件数を含む検査実施件数は、毎週金曜日に前週木曜日から当該週水曜日までの日々の保険適用分の件数を反映して更新'
-            )
-          }}
-        </li>
-        <li>
-          {{
-            $t(
-              '（注）医療機関が保険適用で行った検査については、４月１５日分までを計上'
-            )
-          }}
-        </li>
-      </ul>
+      <ul :class="$style.GraphDesc" />
       <data-selector
         v-model="dataKind"
         :target-id="chartId"
@@ -81,6 +59,7 @@
         :width="chartWidth"
       />
     </div>
+    <!--
     <template v-slot:dataTable>
       <v-data-table
         :headers="tableHeaders"
@@ -97,16 +76,14 @@
         <template v-slot:body="{ items }">
           <tbody>
             <tr v-for="item in items" :key="item.text">
-              <th>{{ item.text }}</th>
-              <td class="text-end">{{ item['0'] }}</td>
-              <td class="text-end">{{ item['1'] }}</td>
-              <td class="text-end">{{ item['2'] }}</td>
-              <td class="text-end">{{ item['3'] }}</td>
+              <th>{{ item.text }} {{item}} {{Object.keys(item).length - 1}} </th>
+              <td v-for="i in (Object.keys(item).length - 2)">{{i-1}}: {{ item[i-1] }}</td>
             </tr>
           </tbody>
         </template>
       </v-data-table>
     </template>
+    -->
     <slot name="additionalNotes" />
     <template v-slot:infoPanel>
       <data-view-basic-info-panel
@@ -114,6 +91,9 @@
         :s-text="displayInfo.sText"
         :unit="displayInfo.unit"
       />
+    </template>
+    <template v-slot:footer>
+      <open-data-link :url="url" />
     </template>
   </data-view>
 </template>
@@ -129,6 +109,7 @@ import DataSelector from '@/components/DataSelector.vue'
 import DataViewBasicInfoPanel from '@/components/DataViewBasicInfoPanel.vue'
 import { DisplayData, yAxesBgPlugin, scrollPlugin } from '@/plugins/vue-chart'
 import { getGraphSeriesStyle, SurfaceStyle } from '@/utils/colors'
+import OpenDataLink from '@/components/OpenDataLink.vue'
 
 interface HTMLElementEvent<T extends HTMLElement> extends MouseEvent {
   currentTarget: T
@@ -181,6 +162,7 @@ type Props = {
   unit: string
   scrollPlugin: Chart.PluginServiceRegistrationOptions[]
   yAxesBgPlugin: Chart.PluginServiceRegistrationOptions[]
+  url: string
 }
 
 const options: ThisTypedComponentOptionsWithRecordProps<
@@ -193,7 +175,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
   created() {
     this.canvas = process.browser
   },
-  components: { DataView, DataSelector, DataViewBasicInfoPanel },
+  components: { DataView, DataSelector, DataViewBasicInfoPanel, OpenDataLink },
   props: {
     title: {
       type: String,
@@ -241,12 +223,16 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     yAxesBgPlugin: {
       type: Array,
       default: () => yAxesBgPlugin
+    },
+    url: {
+      type: String,
+      default: ''
     }
   },
   data: () => ({
     dataKind: 'transition',
     displayLegends: [true, true],
-    colors: getGraphSeriesStyle(2),
+    colors: getGraphSeriesStyle(3),
     chartWidth: null,
     canvas: true
   }),
@@ -257,7 +243,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
           lText: this.sum(this.pickLastNumber(this.chartData)).toLocaleString(),
           sText: `${this.$t('{date}の合計', {
             date: this.labels[this.labels.length - 1]
-          })}（${this.$t('医療機関が保険適用で行った検査は含まれていない')}）`,
+          })}`,
           unit: this.unit
         }
       }
@@ -300,7 +286,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
     },
     tableHeaders() {
       return [
-        { text: this.$t('日付'), value: 'text' },
+        { text: this.$t('日付日xxx'), value: 'text' },
         ...(this.dataLabels as string[])
           .reduce((arr, text) => {
             arr.push(
@@ -321,7 +307,8 @@ const options: ThisTypedComponentOptionsWithRecordProps<
           return Object.assign(
             { text: label },
             ...this.tableHeaders.map((_, j) => {
-              const index = j < 2 ? 0 : 1
+              const index =
+                j < this.chartData.length ? j : this.chartData.length - 1
               const transition = this.chartData[index]
               const cumulative = this.cumulative(transition)
               return {

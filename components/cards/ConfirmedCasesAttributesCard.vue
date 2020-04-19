@@ -6,10 +6,10 @@
         :title-id="'attributes-of-confirmed-cases'"
         :chart-data="patientsTable"
         :chart-option="{}"
-        :date="Data.patients.date"
+        :date="Patients.date"
         :info="sumInfoOfPatients"
         :url="
-          'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'
+          'https://docs.google.com/spreadsheets/d/1I9EXxe-pWLhcLosakg5TPt98ERY6tdpJn1KngIGY7oY/edit#gid=1441264486'
         "
         :source="$t('オープンデータを入手')"
         :custom-sort="customSort"
@@ -19,8 +19,7 @@
 </template>
 
 <script>
-import Data from '@/data/data.json'
-import formatGraph from '@/utils/formatGraph'
+import Patients from '@/data/patients.json'
 import formatTable from '@/utils/formatTable'
 import DataTable from '@/components/DataTable.vue'
 
@@ -29,17 +28,13 @@ export default {
     DataTable
   },
   data() {
-    // 感染者数グラフ
-    const patientsGraph = formatGraph(Data.patients_summary.data)
     // 感染者数
-    const patientsTable = formatTable(Data.patients.data)
+    const patientsTable = formatTable(Patients.data)
 
     const sumInfoOfPatients = {
-      lText: patientsGraph[
-        patientsGraph.length - 1
-      ].cumulative.toLocaleString(),
+      lText: '' + Patients.data.length,
       sText: this.$t('{date}の累計', {
-        date: patientsGraph[patientsGraph.length - 1].label
+        date: Patients.date
       }),
       unit: this.$t('人')
     }
@@ -51,20 +46,23 @@ export default {
     }
     // 陽性患者の属性 中身の翻訳
     for (const row of patientsTable.datasets) {
+      row['案例編號'] = this.getTranslatedWording(row['案例編號'])
       row['居住地'] = this.getTranslatedWording(row['居住地'])
       row['性別'] = this.getTranslatedWording(row['性別'])
       row['退院'] = this.getTranslatedWording(row['退院'])
 
       if (row['年代'].substr(-1, 1) === '代') {
         const age = row['年代'].substring(0, 2)
-        row['年代'] = this.$t('{age}代', { age })
-      } else {
-        row['年代'] = this.$t(row['年代'])
+        if (age !== '') {
+          row['年代'] = this.$t('{age}代', { age })
+        } else {
+          row['年代'] = ''
+        }
       }
     }
 
     const data = {
-      Data,
+      Patients,
       patientsTable,
       sumInfoOfPatients
     }

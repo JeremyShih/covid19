@@ -5,37 +5,23 @@
       :title-id="'number-of-tested'"
       :chart-id="'time-stacked-bar-chart-inspections'"
       :chart-data="inspectionsGraph"
-      :date="Data.inspections_summary.date"
+      :date="InspectionsSummary.date"
       :items="inspectionsItems"
       :labels="inspectionsLabels"
       :unit="$t('件.tested')"
       :data-labels="inspectionsDataLabels"
+      :url="
+        'https://docs.google.com/spreadsheets/d/e/2PACX-1vRM7gTCUvuCqR3zdcLGccuGLv1s7dpDcQ-MeH_AZxnCXtW4iqVmEzUnDSKR7o8OiMLPMelEpxE7Pi4Q/pubhtml#'
+      "
     >
       <!-- 件.tested = 検査数 -->
-      <template v-if="$i18n.locale !== 'ja-basic'" v-slot:additionalNotes>
-        <ul :class="$style.GraphDesc">
-          <li>
-            {{ $t('（注）同一の対象者について複数の検体を検査する場合あり') }}
-          </li>
-          <li>
-            {{
-              $t(
-                '（注）速報値として公開するものであり、後日確定データとして修正される場合あり'
-              )
-            }}
-          </li>
-        </ul>
-        <ol :class="$style.GraphDesc">
-          <li>{{ $t('※1: 疑い例・接触者調査') }}</li>
-          <li>{{ $t('※2: チャーター便・クルーズ船') }}</li>
-        </ol>
-      </template>
+      <template v-if="$i18n.locale !== 'ja-basic'" v-slot:additionalNotes />
     </time-stacked-bar-chart>
   </v-col>
 </template>
 
 <script>
-import Data from '@/data/data.json'
+import InspectionsSummary from '@/data/inspections_summary.json'
 import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
 
 export default {
@@ -45,18 +31,20 @@ export default {
   data() {
     // 検査実施日別状況
     const inspectionsGraph = [
-      Data.inspections_summary.data['都内'],
-      Data.inspections_summary.data['その他']
+      InspectionsSummary.data['嚴重特殊傳染性肺炎通報'],
+      InspectionsSummary.data['居家檢疫送驗'],
+      InspectionsSummary.data['疑似新冠病毒感染送驗']
     ]
     const inspectionsItems = [
-      this.$t('都内発生（※1）'),
-      this.$t('その他（※2）')
+      this.$t('嚴重特殊傳染性肺炎通報'),
+      this.$t('居家檢疫送驗'),
+      this.$t('疑似新冠病毒感染送驗')
     ]
-    const inspectionsLabels = Data.inspections_summary.labels
-    const inspectionsDataLabels = [this.$t('都内発生'), this.$t('その他.graph')]
+    const inspectionsLabels = InspectionsSummary.labels
+    const inspectionsDataLabels = inspectionsItems
 
     const data = {
-      Data,
+      InspectionsSummary,
       inspectionsGraph,
       inspectionsItems,
       inspectionsLabels,

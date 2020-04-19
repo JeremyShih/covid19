@@ -4,19 +4,6 @@
       {{ $t('当サイトについて') }}
     </page-header>
     <static-card>
-      {{
-        $t(
-          '当サイトは新型コロナウイルス感染症 (COVID-19) に関する最新情報を提供するために、東京都が開設したものです。'
-        )
-      }}<br />
-      <br />
-      {{
-        $t(
-          '東京都による公式情報と客観的な数値をわかりやすく伝えることで、東京都にお住まいの方や、東京都内に拠点を持つ企業の方、東京都を訪れる方が、現状を把握して適切な対策を取れるようにすることを目的としています。'
-        )
-      }}
-    </static-card>
-    <static-card>
       <h3>{{ $t('ブラウザ環境について') }}</h3>
       <p>
         {{ $t('当サイトは以下の環境でご覧いただくことを推奨いたします。') }}
@@ -164,6 +151,7 @@
     </static-card>
     <static-card>
       <h3>{{ $t('免責事項') }}</h3>
+      <!--
       <p>
         {{
           $t(
@@ -171,6 +159,7 @@
           )
         }}
       </p>
+    -->
       <p>
         {{
           $t(
@@ -187,22 +176,6 @@
       </p>
     </static-card>
     <static-card>
-      <h3>{{ $t('データについて') }}</h3>
-      <i18n
-        tag="p"
-        path="本サイトで公表しているデータは、{catalogWebsite}より誰でも自由にダウンロードが可能です。（データは順次追加予定です）"
-      >
-        <template v-slot:catalogWebsite>
-          <external-link
-            url="https://portal.data.metro.tokyo.lg.jp/"
-            :icon-size="16"
-          >
-            {{ $t('東京都オープンデータカタログサイト') }}
-          </external-link>
-        </template>
-      </i18n>
-    </static-card>
-    <static-card>
       <h3>{{ $t('ソースコードについて') }}</h3>
       <p>
         {{
@@ -213,7 +186,7 @@
         <i18n path="詳しくは、{githubRepo}をご確認ください。">
           <template v-slot:githubRepo>
             <external-link
-              url="https://github.com/tokyo-metropolitan-gov/covid19"
+              url="https://github.com/pichuchen/covid19"
               :icon-size="16"
             >
               {{ $t('GitHub リポジトリ') }}

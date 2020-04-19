@@ -1,5 +1,12 @@
 {
-  "新型コロナウイルス感染症が心配なときに": "若您擔心是否感染了新型冠狀病毒時",
+  "台灣目前感染趨勢": "台灣目前感染趨勢",
+  "皮丘版": "皮丘版",
+  "台灣非官方": "台灣非官方",
+  "資料整理站": "資料整理站",
+  "COVID-19": "COVID-19",
+
+
+  "新型コロナウイルス感染症が心配なときに": "若您擔心遭受感染",
   "かかりつけ医に相談することもできます。": "也可以向家庭醫生尋求諮詢。",
   "詳しくはこちらをご参照ください。": "詳細請參考這裡。",
   "詳細を見る（東京都福祉保健局）": "更多資訊（東京都福祉保健局）",
@@ -253,7 +260,7 @@
   "※最新の情報はWebページをご覧ください": "※最新資訊請參閱網頁",
   "〇": "〇",
   "ogp": {
-    "og:image": "https://stopcovid19.metro.tokyo.lg.jp/ogp/zh-tw/ogp-image.png"
+    "og:image": "https://stopcovid19.pichuchen.tw/ogp.png"
   },
   "https://marketingplatform.google.com/about/analytics/terms/jp/": "https://marketingplatform.google.com/about/analytics/terms/tw/",
   "https://policies.google.com/privacy?hl=ja": "https://policies.google.com/privacy?hl=zh-TW",

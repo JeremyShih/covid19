@@ -13,12 +13,11 @@
           <img
             class="SideNavigation-HeaderLogo"
             src="/logo.svg"
-            :alt="$t('東京都')"
+            :alt="$t('台灣版')"
           />
           <div class="SideNavigation-HeaderText">
-            {{ $t('menu/新型コロナウイルス感染症') }}<br />{{
-              $t('menu/対策サイト')
-            }}
+            {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('資料整理站') }} |
+            {{ $t('皮丘版') }}
           </div>
         </nuxt-link>
       </h1>
@@ -51,18 +50,7 @@
       <footer class="SideNavigation-Footer">
         <div class="SideNavigation-Social">
           <a
-            href="https://line.me/R/ti/p/%40822sysfc"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="SideNavigation-SocialLink"
-          >
-            <picture>
-              <source srcset="/line.webp" type="image/webp" />
-              <img src="/line.png" alt="LINE" />
-            </picture>
-          </a>
-          <a
-            href="https://twitter.com/tokyo_bousai"
+            href="https://twitter.com/pichuchen"
             target="_blank"
             rel="noopener noreferrer"
             class="SideNavigation-SocialLink"
@@ -73,7 +61,7 @@
             </picture>
           </a>
           <a
-            href="https://www.facebook.com/tochokoho"
+            href="https://www.facebook.com/pichu.chen"
             target="_blank"
             rel="noopener noreferrer"
             class="SideNavigation-SocialLink"
@@ -84,7 +72,7 @@
             </picture>
           </a>
           <a
-            href="https://github.com/tokyo-metropolitan-gov/covid19"
+            href="https://github.com/pichuchen/covid19"
             target="_blank"
             rel="noopener noreferrer"
             class="SideNavigation-SocialLink"
@@ -107,7 +95,7 @@
           </a>
           {{ $t('の下に提供されています。') }}
           <br />
-          2020 Tokyo Metropolitan Government
+          2020 Pichu Chen
         </small>
       </footer>
     </div>
@@ -143,62 +131,80 @@ export default Vue.extend({
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('都内の最新感染動向'),
-          link: this.localePath('/')
-        },
-        {
-          icon: 'CovidIcon',
-          title: this.$t('新型コロナウイルス感染症が心配なときに'),
-          link: this.localePath('/flow'),
+          title: this.$t('最新感染趨勢'),
+          link: this.localePath('/'),
           divider: true
         },
+        // {
+        //  icon: 'covid',
+        //  title: this.$t('新型コロナウイルス感染症が心配なときに'),
+        //  link: this.localePath('/flow'),
+        //  divider: true
+        // },
+        // {
+        //   icon: 'parent',
+        //   title: this.$t('お子様をお持ちの皆様へ'),
+        //   link: this.localePath('/parent')
+        // },
+        // {
+        //   icon: 'mdi-account-multiple',
+        //   title: this.$t('都民の皆様へ'),
+        //   link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html'
+        // },
+        // {
+        //   icon: 'mdi-domain',
+        //   title: this.$t('企業の皆様・はたらく皆様へ'),
+        //   link: this.localePath('/worker'),
+        //   divider: true
+        // },
         {
-          icon: 'ParentIcon',
-          title: this.$t('お子様をお持ちの皆様へ'),
-          link: this.localePath('/parent')
-        },
-        {
-          icon: 'mdi-account-multiple',
-          title: this.$t('都民の皆様へ'),
-          link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html'
+          icon: 'mdi-domain',
+          title: '疾管局 COVID19 影片列表 (華語)',
+          link:
+            'https://www.youtube.com/playlist?list=PLSHckwvN6OpL9lmcr4zszaR8ju64rlYTM'
         },
         {
           icon: 'mdi-domain',
-          title: this.$t('企業の皆様・はたらく皆様へ'),
-          link: this.localePath('/worker'),
+          title: '臺北市防疫旅館相關FAQ',
+          link:
+            'https://www.gov.taipei/News_Content.aspx?n=EEC70A4186D4C828&sms=87415A8B9CE81B16&s=4D1A133CA1360666'
+        },
+        {
+          icon: 'mdi-domain',
+          title: '疾管局網站',
+          link: 'https://www.cdc.gov.tw/',
           divider: true
         },
         {
-          title: this.$t('東京都新型コロナウイルス感染症対策本部報'),
-          link:
-            'https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/index.html'
+          icon: 'mdi-domain',
+          title: 'PTT nCoV2019 版',
+          link: 'https://www.ptt.cc/bbs/nCoV2019/index.html'
         },
         {
-          title: this.$t('新型コロナウイルス感染症に関する東京都の支援策'),
+          icon: 'mdi-account-multiple',
+          title: '各國邊境管控',
           link:
-            'https://www.seisakukikaku.metro.tokyo.lg.jp/information/corona-support.html'
+            'https://blog.code4.hk/covid19-border-controls/?path=/story/countrytabs--data-loading-country-tabs'
         },
         {
-          title: this.$t('東京都主催等 中止又は延期するイベント等'),
-          link:
-            'https://www.seisakukikaku.metro.tokyo.lg.jp/information/event00.html'
+          icon: 'mdi-domain',
+          title: '武漢肺炎台灣病例即時戰情儀表版',
+          link: 'https://arcg.is/0uTyiP'
         },
         {
-          title: this.$t('知事からのメッセージ'),
-          link:
-            'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html'
+          icon: 'mdi-domain',
+          title: '武漢肺炎全球病例即時戰情儀表版',
+          link: 'https://reurl.cc/qDEm3g',
+          divider: true
         },
         {
           title: this.$t('当サイトについて'),
           link: this.localePath('/about')
-        },
-        {
-          title: this.$t('お問い合わせ先一覧'),
-          link: this.localePath('/contacts')
-        },
-        {
-          title: this.$t('東京都公式ホームページ'),
-          link: 'https://www.metro.tokyo.lg.jp/'
+          // },
+          // {
+          //   title: this.$t('東京都公式ホームページ'),
+          //   link: 'https://www.metro.tokyo.lg.jp/',
+          //   divider: true
         }
       ]
     }
