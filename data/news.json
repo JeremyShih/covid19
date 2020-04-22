@@ -1,6 +1,21 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-21T14:21:00+08:00",
+            "text": "新增3例確診，均為敦睦艦隊實習生及軍人",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/sbCyPHdZ_8nMFYR5x2eNpw?typeId=9"
+        },
+        {
+            "date": "2020-04-21T13:54:00+08:00",
+            "text": "協助企業度過疫情，指揮中心發布營運示範影片",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/dm5kVTctMz7zCz73qA06NQ?typeId=9"
+        },
+        {
+            "date": "2020-04-21T13:54:00+08:00",
+            "text": "國內累計425人確診，217人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/viX135bBd8iNeHbokCiFEw?typeId=9"
+        },
+        {
             "date": "2020-04-20T13:41:00+08:00",
             "text": "國內累計422人確診，203人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/gegIX3ce3Qieldz3ONjgnA?typeId=9"
@@ -34,21 +49,6 @@
             "date": "2020-04-18T13:25:00+08:00",
             "text": "新增3境外移入確診，為軍艦實習生及軍人",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/yeX1Bl33EkxjvaXjdclUIQ?typeId=9"
-        },
-        {
-            "date": "2020-04-17T17:00:00+08:00",
-            "text": "「發熱伴血小板減少綜合症」自4月15日起列為第四類法定傳染病",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/dcihw09nexwRb_fmeNSttw?typeId=9"
-        },
-        {
-            "date": "2020-04-17T13:40:00+08:00",
-            "text": "藥局、衛生所喘息，4月19日起週日不賣口罩",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/stp66rlTEhXnLSjdrijDYQ?typeId=9"
-        },
-        {
-            "date": "2020-04-17T13:24:00+08:00",
-            "text": "今日無新增病例，累計166人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/nPoLHe5tkWT6nBDhvHKf7A?typeId=9"
         }
     ]
 }
