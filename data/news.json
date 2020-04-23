@@ -1,6 +1,21 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-23T13:26:00+08:00",
+            "text": "延長2禁令！「兩岸直航航線」及「旅客來台轉機」繼續禁",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/-YIH5gMIZFCuHDWQEo_o5Q?typeId=9"
+        },
+        {
+            "date": "2020-04-23T13:25:00+08:00",
+            "text": "國內累計427人確診，253人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/BiNWtP4jlBspD4gemWrqCg?typeId=9"
+        },
+        {
+            "date": "2020-04-23T13:24:00+08:00",
+            "text": "新增1例確診，為敦睦艦隊軍人",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/IW_ErHrEuLHMiGRHc5C8vg?typeId=9"
+        },
+        {
             "date": "2020-04-22T13:45:00+08:00",
             "text": "國內累計426人確診，236人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/gjRjZ8FpAm0kqdQZbPwshQ?typeId=9"
@@ -34,21 +49,6 @@
             "date": "2020-04-20T13:31:00+08:00",
             "text": "新增2境外移入，均為旅外就學",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/x-KnHzHMsEDWt8KjDvWVVg?typeId=9"
-        },
-        {
-            "date": "2020-04-19T14:29:00+08:00",
-            "text": "國內累計420人確診，189人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/kqRUi55ZvE6x-e5He889dA?typeId=9"
-        },
-        {
-            "date": "2020-04-19T14:28:00+08:00",
-            "text": "新增敦睦遠訓支隊21例確診，1例境外移入確診",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/KhUvbPOgGj6kcpHd4ONypA?typeId=9"
-        },
-        {
-            "date": "2020-04-18T13:27:00+08:00",
-            "text": "東南亞返國者先通報，家有長者幼童與慢性病患一律入住防疫旅館",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/Zc2ek3CFfFDNFQNX3wNFeQ?typeId=9"
         }
     ]
 }
