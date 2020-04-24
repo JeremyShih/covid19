@@ -1,6 +1,21 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-24T12:54:00+08:00",
+            "text": "指揮中心建置技術支援平台，加強國內研發量能",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/e_Aw168YbnmdN35b7sX6hg?typeId=9"
+        },
+        {
+            "date": "2020-04-24T12:53:00+08:00",
+            "text": "國內累計428人確診，264人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/MfunOk4MFTvopd2_XPdxtA?typeId=9"
+        },
+        {
+            "date": "2020-04-24T12:52:00+08:00",
+            "text": "新增1例確診，為敦睦艦隊磐石艦軍人",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/x-CG9wkWikM1YCrA-Ormng?typeId=9"
+        },
+        {
             "date": "2020-04-23T13:26:00+08:00",
             "text": "延長2禁令！「兩岸直航航線」及「旅客來台轉機」繼續禁",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/-YIH5gMIZFCuHDWQEo_o5Q?typeId=9"
@@ -34,21 +49,6 @@
             "date": "2020-04-21T13:54:00+08:00",
             "text": "協助企業度過疫情，指揮中心發布營運示範影片",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/dm5kVTctMz7zCz73qA06NQ?typeId=9"
-        },
-        {
-            "date": "2020-04-21T13:54:00+08:00",
-            "text": "國內累計425人確診，217人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/viX135bBd8iNeHbokCiFEw?typeId=9"
-        },
-        {
-            "date": "2020-04-20T13:41:00+08:00",
-            "text": "國內累計422人確診，203人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/gegIX3ce3Qieldz3ONjgnA?typeId=9"
-        },
-        {
-            "date": "2020-04-20T13:31:00+08:00",
-            "text": "新增2境外移入，均為旅外就學",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/x-KnHzHMsEDWt8KjDvWVVg?typeId=9"
         }
     ]
 }
