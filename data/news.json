@@ -1,6 +1,26 @@
 {
     "newsItems": [
         {
+            "date": "2020-04-26T14:00:00+08:00",
+            "text": "今日無新增病例，累計281人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/rr6EFmDuIf_-IUNcGJ9YEA?typeId=9"
+        },
+        {
+            "date": "2020-04-25T14:15:00+08:00",
+            "text": "為奔喪或探視，居家隔離/檢疫者可有條件外出",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/pS-KX-eca2TcOUuMjjrvRg?typeId=9"
+        },
+        {
+            "date": "2020-04-25T14:14:00+08:00",
+            "text": "國內累計429人確診，275人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/CfCXRBmzc9874UvJpJObYw?typeId=9"
+        },
+        {
+            "date": "2020-04-25T14:13:00+08:00",
+            "text": "新增1例確診，為敦睦艦隊磐石艦實習生",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/6q-9BQ7MNJFRADWSuw3E5w?typeId=9"
+        },
+        {
             "date": "2020-04-24T12:54:00+08:00",
             "text": "指揮中心建置技術支援平台，加強國內研發量能",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/e_Aw168YbnmdN35b7sX6hg?typeId=9"
@@ -29,26 +49,6 @@
             "date": "2020-04-23T13:24:00+08:00",
             "text": "新增1例確診，為敦睦艦隊軍人",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/IW_ErHrEuLHMiGRHc5C8vg?typeId=9"
-        },
-        {
-            "date": "2020-04-22T13:45:00+08:00",
-            "text": "國內累計426人確診，236人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/gjRjZ8FpAm0kqdQZbPwshQ?typeId=9"
-        },
-        {
-            "date": "2020-04-22T13:44:00+08:00",
-            "text": "新增1例確診，為敦睦艦隊實習生",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/Hg_jMIh-5QW2Fq1VWizYMg?typeId=9"
-        },
-        {
-            "date": "2020-04-21T14:21:00+08:00",
-            "text": "新增3例確診，均為敦睦艦隊實習生及軍人",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/sbCyPHdZ_8nMFYR5x2eNpw?typeId=9"
-        },
-        {
-            "date": "2020-04-21T13:54:00+08:00",
-            "text": "協助企業度過疫情，指揮中心發布營運示範影片",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/dm5kVTctMz7zCz73qA06NQ?typeId=9"
         }
     ]
 }
