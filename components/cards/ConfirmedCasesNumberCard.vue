@@ -36,14 +36,14 @@ export default {
     const firstDateString = firstPatient['リリース日']
       .substr(-5, 5)
       .replace('-', '/')
-    const today = new Date()
+    const today = new Date(Patients.date)
     const todayDateString = '' + (today.getMonth() + 1) + '/' + today.getDate()
 
     const firstDate = new Date(firstDateString)
     const todayDate = new Date(todayDateString)
 
-    for (firstDate; ; firstDate.setDate(firstDate.getDate() + 1)) {
-      if (firstDate <= todayDate) {
+    for (firstDate; ; ) {
+      if (firstDate > todayDate) {
         break
       }
       const dateString =
@@ -52,6 +52,8 @@ export default {
       patientsData['本土'][dateString] = 0
       patientsData['敦睦遠訓支隊'][dateString] = 0
       patientsLabels.push(dateString)
+
+      firstDate.setDate(firstDate.getDate() + 1)
     }
 
     Patients.data.map(x => {
@@ -59,13 +61,13 @@ export default {
       const date = new Date(oriDateString)
       const dateString = '' + (date.getMonth() + 1) + '/' + date.getDate()
 
-      if (typeof patientsData['境外'][dateString] === 'undefined') {
-        // init array for first time of this date.
-        patientsData['境外'][dateString] = 0
-        patientsData['本土'][dateString] = 0
-        patientsData['敦睦遠訓支隊'][dateString] = 0
-        patientsLabels.push(dateString)
-      }
+      // if (typeof patientsData['境外'][dateString] === 'undefined') {
+      //   // init array for first time of this date.
+      //   patientsData['境外'][dateString] = 0
+      //   patientsData['本土'][dateString] = 0
+      //   patientsData['敦睦遠訓支隊'][dateString] = 0
+      //   patientsLabels.push(dateString)
+      // }
 
       patientsData[x.境外或本土][dateString] =
         patientsData[x.境外或本土][dateString] + 1
