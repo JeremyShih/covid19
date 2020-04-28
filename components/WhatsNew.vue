@@ -11,11 +11,13 @@
         <v-icon size="20" class="WhatsNew-link-to-emergency-page-icon">
           mdi-bullhorn
         </v-icon>
+        <!-- 
         <external-link
           url="https://www.bousai.metro.tokyo.lg.jp/1007617/index.html"
         >
           {{ $t('東京都緊急事態措置について') }}
-        </external-link>
+        </external-link> 
+      -->
       </span>
     </div>
     <ul class="WhatsNew-list">
@@ -50,7 +52,6 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import ExternalLink from '@/components/ExternalLink.vue'
 
 import {
   convertDateByCountryPreferTimeFormat,
@@ -58,7 +59,7 @@ import {
 } from '@/utils/formatDate'
 
 export default Vue.extend({
-  components: { ExternalLink },
+  components: {},
   props: {
     items: {
       type: Array,
