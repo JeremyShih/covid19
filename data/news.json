@@ -1,6 +1,21 @@
 {
     "newsItems": [
         {
+            "date": "2020-05-01T09:55:00+08:00",
+            "text": "「109年在家愛滋自我篩檢計畫」開跑！定期篩檢好安心",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/P7tQd645gMwWVa8jCDkJ_Q?typeId=9"
+        },
+        {
+            "date": "2020-04-30T14:01:00+08:00",
+            "text": "防疫樂活新態度，指揮中心啟動「防疫新生活運動」，請多多響應",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/Y-jkL9pmVziAppZgUiON9w?typeId=9"
+        },
+        {
+            "date": "2020-04-30T13:08:00+08:00",
+            "text": "今日無新增病例，累計322人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/gu4Xy8NSvNN8jtDBCjtmpw?typeId=9"
+        },
+        {
             "date": "2020-04-29T12:26:00+08:00",
             "text": "今日無新增病例，累計311人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/l4frSPhB3__zcRYtVaL7Iw?typeId=9"
@@ -34,21 +49,6 @@
             "date": "2020-04-25T14:15:00+08:00",
             "text": "為奔喪或探視，居家隔離/檢疫者可有條件外出",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/pS-KX-eca2TcOUuMjjrvRg?typeId=9"
-        },
-        {
-            "date": "2020-04-25T14:14:00+08:00",
-            "text": "國內累計429人確診，275人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/CfCXRBmzc9874UvJpJObYw?typeId=9"
-        },
-        {
-            "date": "2020-04-25T14:13:00+08:00",
-            "text": "新增1例確診，為敦睦艦隊磐石艦實習生",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/6q-9BQ7MNJFRADWSuw3E5w?typeId=9"
-        },
-        {
-            "date": "2020-04-24T12:54:00+08:00",
-            "text": "指揮中心建置技術支援平台，加強國內研發量能",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/e_Aw168YbnmdN35b7sX6hg?typeId=9"
         }
     ]
 }
