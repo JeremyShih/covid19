@@ -1,6 +1,41 @@
 {
     "newsItems": [
         {
+            "date": "2020-05-02T13:47:00+08:00",
+            "text": "「發病一週內病毒傳播力最高」 台灣登上《美國醫學會內科醫學期刊》",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/nSPmxHFx7RvJ1uAyGXY_LA?typeId=9"
+        },
+        {
+            "date": "2020-05-02T13:46:00+08:00",
+            "text": "海外返國者先通報，家有長者幼童與慢性病患一律入住防疫旅館",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/jSUGY1mOzK1rHeBi4yzuKA?typeId=9"
+        },
+        {
+            "date": "2020-05-02T13:45:00+08:00",
+            "text": "出遊人多戴口罩，連假防疫不鬆懈",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/aLiYV4ezYATP0_ztGfcR-A?typeId=9"
+        },
+        {
+            "date": "2020-05-02T13:44:00+08:00",
+            "text": "國內累計432人確診，324人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/bJVsQHE6lCY1CMTi1gMcpQ?typeId=9"
+        },
+        {
+            "date": "2020-05-02T13:43:00+08:00",
+            "text": "新增3例確診，均為境外移入",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/HWi23wYDOSGVgmGIiBZFjg?typeId=9"
+        },
+        {
+            "date": "2020-05-01T13:41:00+08:00",
+            "text": "有條件開放長照機構，採實名制預約訪視",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/-W166DPeQi9IwyjbO8O2qg?typeId=9"
+        },
+        {
+            "date": "2020-05-01T13:40:00+08:00",
+            "text": "今日無新增病例，累計324人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/Xu8MOuQTDD1uAXvY9riyRw?typeId=9"
+        },
+        {
             "date": "2020-05-01T09:55:00+08:00",
             "text": "「109年在家愛滋自我篩檢計畫」開跑！定期篩檢好安心",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/P7tQd645gMwWVa8jCDkJ_Q?typeId=9"
@@ -14,41 +49,6 @@
             "date": "2020-04-30T13:08:00+08:00",
             "text": "今日無新增病例，累計322人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/gu4Xy8NSvNN8jtDBCjtmpw?typeId=9"
-        },
-        {
-            "date": "2020-04-29T12:26:00+08:00",
-            "text": "今日無新增病例，累計311人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/l4frSPhB3__zcRYtVaL7Iw?typeId=9"
-        },
-        {
-            "date": "2020-04-29T10:31:00+08:00",
-            "text": "有關駭客入侵竊取公務信箱帳密一事，經查非直接從疾管署系統中外洩",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/86s-TTbLXU4toqaOqZR1BA?typeId=9"
-        },
-        {
-            "date": "2020-04-28T13:31:00+08:00",
-            "text": "指揮中心成立100天：攜手團結合作，維護全民健康",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/sZvLK9A0JW6fEQe1uUYzjg?typeId=9"
-        },
-        {
-            "date": "2020-04-28T13:30:00+08:00",
-            "text": "今日無新增病例，累計307人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/b3DXJvk3FzKKA2vaMSuRGg?typeId=9"
-        },
-        {
-            "date": "2020-04-27T13:26:00+08:00",
-            "text": "今日無新增病例，累計290人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/_J3etjloskIxHngWaXmdfw?typeId=9"
-        },
-        {
-            "date": "2020-04-26T14:00:00+08:00",
-            "text": "今日無新增病例，累計281人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/rr6EFmDuIf_-IUNcGJ9YEA?typeId=9"
-        },
-        {
-            "date": "2020-04-25T14:15:00+08:00",
-            "text": "為奔喪或探視，居家隔離/檢疫者可有條件外出",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/pS-KX-eca2TcOUuMjjrvRg?typeId=9"
         }
     ]
 }
