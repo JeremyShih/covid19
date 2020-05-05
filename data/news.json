@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "2020-05-05T13:22:00+08:00",
+            "text": "5月5日世界手部衛生日，指揮中心教導正確洗手",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/WAyM39BF9OlaBUO6J4_yog?typeId=9"
+        },
+        {
+            "date": "2020-05-05T13:22:00+08:00",
+            "text": "今日無新增病例，累計334人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/gPjOPovdWU2ucOFvPAkN9Q?typeId=9"
+        },
+        {
             "date": "2020-05-04T18:00:00+08:00",
             "text": "敦睦艦隊新增1人確診，其餘今晚可返家",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/d-4jLlO03OdgqAUjm8PFzA?typeId=9"
@@ -39,16 +49,6 @@
             "date": "2020-05-03T14:00:00+08:00",
             "text": "今日無新增病例，累計332人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/aAUzPjvwik0ZcghByRkokA?typeId=9"
-        },
-        {
-            "date": "2020-05-02T13:47:00+08:00",
-            "text": "「發病一週內病毒傳播力最高」 台灣登上《美國醫學會內科醫學期刊》",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/nSPmxHFx7RvJ1uAyGXY_LA?typeId=9"
-        },
-        {
-            "date": "2020-05-02T13:46:00+08:00",
-            "text": "海外返國者先通報，家有長者幼童與慢性病患一律入住防疫旅館",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/jSUGY1mOzK1rHeBi4yzuKA?typeId=9"
         }
     ]
 }
