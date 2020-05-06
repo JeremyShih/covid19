@@ -1,6 +1,21 @@
 {
     "newsItems": [
         {
+            "date": "2020-05-06T14:30:00+08:00",
+            "text": "國內疫情趨於穩定，指揮中心逐步放寬防疫措施",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/Dj_Tfwu1oThBSlEm_-qqrw?typeId=9"
+        },
+        {
+            "date": "2020-05-06T13:23:00+08:00",
+            "text": "國內累計439人確診，339人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/DZSBM654J3t3R35Rsh8KJA?typeId=9"
+        },
+        {
+            "date": "2020-05-06T13:22:00+08:00",
+            "text": "新增1境外移入病例，為旅外工作者",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/OiXsLj26126ic6xACPtQ_A?typeId=9"
+        },
+        {
             "date": "2020-05-05T18:00:00+08:00",
             "text": "國內新增1例漢他病毒出血熱病例，提醒注意防鼠措施",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/8d5WLOWzpjbThEw91KSy2g?typeId=9"
@@ -34,21 +49,6 @@
             "date": "2020-05-04T13:40:00+08:00",
             "text": "國內累計437人確診，334人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/j67ZbD8CoBNDk4Sv7Qt07A?typeId=9"
-        },
-        {
-            "date": "2020-05-04T13:39:00+08:00",
-            "text": "新增1例確診，為境外移入",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/IA4p4XuAcGtn50j9agzfEQ?typeId=9"
-        },
-        {
-            "date": "2020-05-03T20:00:00+08:00",
-            "text": "敦睦艦隊4人檢驗陽性，將於明日再度採檢",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/detYWfvKjmvE7piDZQ9BwA?typeId=9"
-        },
-        {
-            "date": "2020-05-03T14:00:00+08:00",
-            "text": "敦睦艦隊713人隔離期滿，全員採陰即解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/yUw1Gap0wSVi9g6W5FGL3Q?typeId=9"
         }
     ]
 }
