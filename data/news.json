@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "2020-05-05T18:00:00+08:00",
+            "text": "國內新增1例漢他病毒出血熱病例，提醒注意防鼠措施",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/8d5WLOWzpjbThEw91KSy2g?typeId=9"
+        },
+        {
             "date": "2020-05-05T13:22:00+08:00",
             "text": "5月5日世界手部衛生日，指揮中心教導正確洗手",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/WAyM39BF9OlaBUO6J4_yog?typeId=9"
@@ -44,11 +49,6 @@
             "date": "2020-05-03T14:00:00+08:00",
             "text": "敦睦艦隊713人隔離期滿，全員採陰即解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/yUw1Gap0wSVi9g6W5FGL3Q?typeId=9"
-        },
-        {
-            "date": "2020-05-03T14:00:00+08:00",
-            "text": "今日無新增病例，累計332人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/aAUzPjvwik0ZcghByRkokA?typeId=9"
         }
     ]
 }
