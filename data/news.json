@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "2020-05-07T19:02:00+08:00",
+            "text": "網傳「全國明天舞廳酒店都可復業」是假訊息！指揮中心：勿轉傳以免觸法",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/tr5yHb8eYwYuCtX-thG2cg?typeId=9"
+        },
+        {
             "date": "2020-05-07T13:01:00+08:00",
             "text": "國內累計440人確診，347人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/w_CiiqPzUBAldMNyRYhu0Q?typeId=9"
@@ -44,11 +49,6 @@
             "date": "2020-05-04T18:00:00+08:00",
             "text": "敦睦艦隊新增1人確診，其餘今晚可返家",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/d-4jLlO03OdgqAUjm8PFzA?typeId=9"
-        },
-        {
-            "date": "2020-05-04T13:43:00+08:00",
-            "text": "防詐騙！指揮中心從未發「最終通知」，接獲不明郵件勿開啟",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/Ko48tvqjiVCxBp1-ZgtmUA?typeId=9"
         }
     ]
 }
