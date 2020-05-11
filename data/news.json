@@ -1,6 +1,11 @@
 {
     "newsItems": [
         {
+            "date": "2020-05-11T13:28:00+08:00",
+            "text": "今日無新增病例，累計368人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/n2NjXLcCQXiQ171p7L7nhg?typeId=9"
+        },
+        {
             "date": "2020-05-10T14:00:00+08:00",
             "text": "今日無新增病例，累計366人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/EKvIxtZ0OwCUzeHXum1VBA?typeId=9"
@@ -44,11 +49,6 @@
             "date": "2020-05-07T13:01:00+08:00",
             "text": "國內累計440人確診，347人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/w_CiiqPzUBAldMNyRYhu0Q?typeId=9"
-        },
-        {
-            "date": "2020-05-07T13:00:00+08:00",
-            "text": "新增1境外移入病例，女赴卡達工作染疫",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/AbYfh7E5bqWZoJbjlRCDSA?typeId=9"
         }
     ]
 }
