@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "2020-05-12T13:00:00+08:00",
+            "text": "今日無新增病例，累計372人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/jTbxMFGoCtXzAWcjhfQtaA?typeId=9"
+        },
+        {
+            "date": "2020-05-12T10:30:00+08:00",
+            "text": "即日起愛滋篩檢試劑開放網路訂購，超商取貨好便利",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/fnjJFv2cOoYeHqCqWUiDFA?typeId=9"
+        },
+        {
             "date": "2020-05-11T13:28:00+08:00",
             "text": "今日無新增病例，累計368人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/n2NjXLcCQXiQ171p7L7nhg?typeId=9"
@@ -39,16 +49,6 @@
             "date": "2020-05-08T13:23:00+08:00",
             "text": "今日無新增病例，累計355人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/KxbDDNIQs2ZzZcFaecfm7g?typeId=9"
-        },
-        {
-            "date": "2020-05-07T19:02:00+08:00",
-            "text": "網傳「全國明天舞廳酒店都可復業」是假訊息！指揮中心：勿轉傳以免觸法",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/tr5yHb8eYwYuCtX-thG2cg?typeId=9"
-        },
-        {
-            "date": "2020-05-07T13:01:00+08:00",
-            "text": "國內累計440人確診，347人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/w_CiiqPzUBAldMNyRYhu0Q?typeId=9"
         }
     ]
 }
