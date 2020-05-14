@@ -1,6 +1,26 @@
 {
     "newsItems": [
         {
+            "date": "2020-05-14T12:12:00+08:00",
+            "text": "上路月餘，「疫止神通」LINE Bot獲高度肯定",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/1IF91NxQlghWi4_OcX6sBQ?typeId=9"
+        },
+        {
+            "date": "2020-05-14T12:11:00+08:00",
+            "text": "今日無新增病例，累計383人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/OvDC54yxv84UUOCVHJsS7A?typeId=9"
+        },
+        {
+            "date": "2020-05-13T20:10:00+08:00",
+            "text": "國內疫情風險低，做好防疫就可恢復正常生活",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/zX8MpqpJoy-T9U5XVYdrSg?typeId=9"
+        },
+        {
+            "date": "2020-05-13T13:35:00+08:00",
+            "text": "今日無新增病例，累計375人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/0UypX2dd85pt9YlHilCb1w?typeId=9"
+        },
+        {
             "date": "2020-05-12T13:00:00+08:00",
             "text": "今日無新增病例，累計372人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/jTbxMFGoCtXzAWcjhfQtaA?typeId=9"
@@ -29,26 +49,6 @@
             "date": "2020-05-09T14:18:00+08:00",
             "text": "食藥署快速審查，成就醫材防疫國家隊",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/1ZrE0ryykmptpJY1ovAeUA?typeId=9"
-        },
-        {
-            "date": "2020-05-09T13:33:00+08:00",
-            "text": "今日無新增病例，累計361人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/DANAwp83OKJbz1oNu_iUxQ?typeId=9"
-        },
-        {
-            "date": "2020-05-08T15:30:00+08:00",
-            "text": "國內再增1例漢他病毒出血熱病例，提醒民眾加強防鼠措施",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/_exKFZV_DgwNujLVk3Azcw?typeId=9"
-        },
-        {
-            "date": "2020-05-08T13:24:00+08:00",
-            "text": "享受生活促進經濟，業者、民眾齊響應「防疫新生活運動」",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/nXiK59FxJZacIsYn0B-Y-g?typeId=9"
-        },
-        {
-            "date": "2020-05-08T13:23:00+08:00",
-            "text": "今日無新增病例，累計355人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/KxbDDNIQs2ZzZcFaecfm7g?typeId=9"
         }
     ]
 }
