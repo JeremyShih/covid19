@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "2020-05-16T13:43:00+08:00",
+            "text": "今日無新增病例，累計389人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/3afBq9x3b5v-P9zj1FMx-w?typeId=9"
+        },
+        {
+            "date": "2020-05-15T13:13:00+08:00",
+            "text": "今日無新增病例，累計387人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/ilwWaQOJ-t_yFm1MHGq5tg?typeId=9"
+        },
+        {
             "date": "2020-05-14T12:12:00+08:00",
             "text": "上路月餘，「疫止神通」LINE Bot獲高度肯定",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/1IF91NxQlghWi4_OcX6sBQ?typeId=9"
@@ -39,16 +49,6 @@
             "date": "2020-05-10T14:00:00+08:00",
             "text": "今日無新增病例，累計366人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/EKvIxtZ0OwCUzeHXum1VBA?typeId=9"
-        },
-        {
-            "date": "2020-05-09T14:19:00+08:00",
-            "text": "感謝急診醫護！列入武漢肺炎津貼及獎勵對象",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/qGeV6k12QbAaiXK6ECdomA?typeId=9"
-        },
-        {
-            "date": "2020-05-09T14:18:00+08:00",
-            "text": "食藥署快速審查，成就醫材防疫國家隊",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/1ZrE0ryykmptpJY1ovAeUA?typeId=9"
         }
     ]
 }
