@@ -1,6 +1,41 @@
 {
     "newsItems": [
         {
+            "date": "2020-05-21T13:27:00+08:00",
+            "text": "民眾外食安心使用可重複清洗餐具",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/_x680V5SAyZEZhom72K9sQ?typeId=9"
+        },
+        {
+            "date": "2020-05-21T13:26:00+08:00",
+            "text": "國內累計441人確診，407人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/Exol44qH7JgKBdH0VvZfSA?typeId=9"
+        },
+        {
+            "date": "2020-05-21T13:20:00+08:00",
+            "text": "新增1例境外移入，於墨西哥工作染疫",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/MzF1vDeq4RzQ1TnTzRZR6g?typeId=9"
+        },
+        {
+            "date": "2020-05-20T13:07:00+08:00",
+            "text": "今日無新增病例，累計402人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/EhkjYaEtGkRUo_mQC0WhPQ?typeId=9"
+        },
+        {
+            "date": "2020-05-19T13:09:00+08:00",
+            "text": "今日無新增病例，累計401人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/c4rwvT--ae8c0wKIWPyTjQ?typeId=9"
+        },
+        {
+            "date": "2020-05-18T13:16:00+08:00",
+            "text": "今日無新增病例，累計398人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/SXUKk3KipAb5AEMNSwR12w?typeId=9"
+        },
+        {
+            "date": "2020-05-17T14:00:00+08:00",
+            "text": "今日無新增病例，累計395人解除隔離",
+            "url": "https://www.cdc.gov.tw/Bulletin/Detail/IB31UZlkcuHXfUqGy2ddIw?typeId=9"
+        },
+        {
             "date": "2020-05-16T13:43:00+08:00",
             "text": "今日無新增病例，累計389人解除隔離",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/3afBq9x3b5v-P9zj1FMx-w?typeId=9"
@@ -14,41 +49,6 @@
             "date": "2020-05-14T12:12:00+08:00",
             "text": "上路月餘，「疫止神通」LINE Bot獲高度肯定",
             "url": "https://www.cdc.gov.tw/Bulletin/Detail/1IF91NxQlghWi4_OcX6sBQ?typeId=9"
-        },
-        {
-            "date": "2020-05-14T12:11:00+08:00",
-            "text": "今日無新增病例，累計383人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/OvDC54yxv84UUOCVHJsS7A?typeId=9"
-        },
-        {
-            "date": "2020-05-13T20:10:00+08:00",
-            "text": "國內疫情風險低，做好防疫就可恢復正常生活",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/zX8MpqpJoy-T9U5XVYdrSg?typeId=9"
-        },
-        {
-            "date": "2020-05-13T13:35:00+08:00",
-            "text": "今日無新增病例，累計375人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/0UypX2dd85pt9YlHilCb1w?typeId=9"
-        },
-        {
-            "date": "2020-05-12T13:00:00+08:00",
-            "text": "今日無新增病例，累計372人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/jTbxMFGoCtXzAWcjhfQtaA?typeId=9"
-        },
-        {
-            "date": "2020-05-12T10:30:00+08:00",
-            "text": "即日起愛滋篩檢試劑開放網路訂購，超商取貨好便利",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/fnjJFv2cOoYeHqCqWUiDFA?typeId=9"
-        },
-        {
-            "date": "2020-05-11T13:28:00+08:00",
-            "text": "今日無新增病例，累計368人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/n2NjXLcCQXiQ171p7L7nhg?typeId=9"
-        },
-        {
-            "date": "2020-05-10T14:00:00+08:00",
-            "text": "今日無新增病例，累計366人解除隔離",
-            "url": "https://www.cdc.gov.tw/Bulletin/Detail/EKvIxtZ0OwCUzeHXum1VBA?typeId=9"
         }
     ]
 }
